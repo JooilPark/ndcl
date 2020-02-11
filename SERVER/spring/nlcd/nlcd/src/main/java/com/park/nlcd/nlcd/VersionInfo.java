@@ -1,7 +1,0 @@
-
-
-
-@RestController
-class VersionInfo{
-
-}
