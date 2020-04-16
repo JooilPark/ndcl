@@ -21,6 +21,9 @@ public class versions {
 	public String getfilename() {
 		return filename;
 	}
+	public Date getDate() {
+		return updatetime;
+	}
 	public versions(Date updatetime , boolean result , String filename) {
 		this.filename = filename;
 		this.result = result;

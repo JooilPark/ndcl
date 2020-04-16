@@ -12,4 +12,6 @@
 		INSERT INTO versions (updatetime, result, filename) 
 		VALUES(#{updatetime} , #{result}, #{filename})
 	</insert>
+	
+
 </mapper>

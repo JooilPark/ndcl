@@ -1,0 +1,986 @@
+GwangyeogSi, 0, 0, 부산광역시
+GichoSi, 0, 0, 중구
+EupMyeun, 0, 0, 영주동
+RoadName, 0, 0, 초량상로
+RoadName, 1, 0, 초량중로
+RoadName, 2, 0, 동영로
+RoadName, 3, 0, 영주로
+RoadName, 4, 0, 중구로
+RoadName, 5, 0, 대영로
+RoadName, 6, 0, 망양로
+RoadName, 7, 0, 중앙공원로
+RoadName, 8, 0, 배수지길
+RoadName, 9, 0, 영초길
+RoadName, 10, 0, 중동길
+RoadName, 11, 0, 동광길
+RoadName, 12, 0, 민주공원길
+RoadName, 13, 0, 임소길
+RoadName, 14, 0, 중앙대로
+EupMyeun, 1, 0, 대창동1가
+RoadName, 15, 1, 해관로
+EupMyeun, 2, 0, 대창동2가
+EupMyeun, 3, 0, 중앙동1가
+RoadName, 16, 3, 대청로
+EupMyeun, 4, 0, 중앙동2가
+EupMyeun, 5, 0, 중앙동3가
+RoadName, 17, 5, 40계단길
+EupMyeun, 6, 0, 중앙동4가
+RoadName, 18, 6, 충장대로
+RoadName, 19, 6, 대교로
+EupMyeun, 7, 0, 중앙동5가
+EupMyeun, 8, 0, 중앙동6가
+EupMyeun, 9, 0, 중앙동7가
+EupMyeun, 10, 0, 동광동1가
+RoadName, 20, 10, 광복로
+EupMyeun, 11, 0, 동광동2가
+RoadName, 21, 11, 용두산길
+EupMyeun, 12, 0, 동광동3가
+RoadName, 22, 12, 백산길
+EupMyeun, 13, 0, 동광동4가
+EupMyeun, 14, 0, 동광동5가
+RoadName, 23, 14, 샘길
+EupMyeun, 15, 0, 대청동1가
+RoadName, 24, 15, 복병산길
+EupMyeun, 16, 0, 대청동2가
+RoadName, 25, 16, 광복중앙로
+EupMyeun, 17, 0, 대청동3가
+RoadName, 26, 17, 국제시장2길
+EupMyeun, 18, 0, 대청동4가
+RoadName, 27, 18, 고가길
+RoadName, 28, 18, 대청북길
+RoadName, 29, 18, 대청북길16번안길
+EupMyeun, 19, 0, 보수동1가
+RoadName, 30, 19, 보수대로
+RoadName, 31, 19, 흑교로
+RoadName, 32, 19, 법수길
+RoadName, 33, 19, 법수길24번안길
+RoadName, 34, 19, 보동길
+RoadName, 35, 19, 보수북길
+RoadName, 36, 19, 책방골목길
+EupMyeun, 20, 0, 보수동2가
+EupMyeun, 21, 0, 보수동3가
+EupMyeun, 22, 0, 부평동1가
+RoadName, 37, 22, 비프광장로
+RoadName, 38, 22, 부평2길
+RoadName, 39, 22, 부평3길
+EupMyeun, 23, 0, 부평동2가
+RoadName, 40, 23, 부평1길
+EupMyeun, 24, 0, 부평동3가
+EupMyeun, 25, 0, 부평동4가
+EupMyeun, 26, 0, 신창동1가
+EupMyeun, 27, 0, 신창동2가
+EupMyeun, 28, 0, 신창동3가
+EupMyeun, 29, 0, 신창동4가
+EupMyeun, 30, 0, 창선동1가
+RoadName, 41, 30, 구덕로
+EupMyeun, 31, 0, 창선동2가
+EupMyeun, 32, 0, 광복동1가
+EupMyeun, 33, 0, 광복동2가
+EupMyeun, 34, 0, 광복동3가
+EupMyeun, 35, 0, 남포동1가
+RoadName, 42, 35, 태종로
+RoadName, 43, 35, 용미길
+EupMyeun, 36, 0, 남포동2가
+RoadName, 44, 36, 자갈치해안로
+RoadName, 45, 36, 남포길
+EupMyeun, 37, 0, 남포동3가
+EupMyeun, 38, 0, 남포동4가
+RoadName, 46, 38, 자갈치로
+EupMyeun, 39, 0, 남포동5가
+EupMyeun, 40, 0, 남포동6가
+GichoSi, 1, 0, 서구
+EupMyeun, 41, 1, 동대신동1가
+EupMyeun, 42, 1, 동대신동2가
+EupMyeun, 43, 1, 동대신동3가
+RoadName, 47, 43, 대신공원로
+RoadName, 48, 43, 동대로
+EupMyeun, 44, 1, 서대신동1가
+RoadName, 49, 44, 까치고개로
+RoadName, 50, 44, 고운들로
+RoadName, 51, 44, 부용로
+RoadName, 52, 44, 해돋이로
+EupMyeun, 45, 1, 서대신동2가
+RoadName, 53, 45, 낙동대로
+RoadName, 54, 45, 대티로
+RoadName, 55, 45, 시약로
+EupMyeun, 46, 1, 서대신동3가
+RoadName, 56, 46, 꽃마을로
+RoadName, 57, 46, 대신로
+RoadName, 58, 46, 엄광산로
+EupMyeun, 47, 1, 부용동1가
+EupMyeun, 48, 1, 부용동2가
+EupMyeun, 49, 1, 부민동1가
+EupMyeun, 50, 1, 부민동2가
+RoadName, 59, 50, 임시수도기념로
+EupMyeun, 51, 1, 부민동3가
+EupMyeun, 52, 1, 토성동1가
+EupMyeun, 53, 1, 토성동2가
+EupMyeun, 54, 1, 토성동3가
+EupMyeun, 55, 1, 아미동1가
+EupMyeun, 56, 1, 아미동2가
+RoadName, 60, 56, 옥천로
+RoadName, 61, 56, 아미로
+RoadName, 62, 56, 아미초장로
+RoadName, 63, 56, 천마산로
+EupMyeun, 57, 1, 토성동4가
+RoadName, 64, 57, 천마로
+EupMyeun, 58, 1, 토성동5가
+RoadName, 65, 58, 초장로
+EupMyeun, 59, 1, 초장동
+EupMyeun, 60, 1, 충무동1가
+RoadName, 66, 60, 충무대로
+RoadName, 67, 60, 새벽시장길
+RoadName, 68, 60, 충무시장길
+RoadName, 69, 60, 해안새벽시장길
+EupMyeun, 61, 1, 충무동2가
+EupMyeun, 62, 1, 충무동3가
+EupMyeun, 63, 1, 남부민동
+RoadName, 70, 63, 남부민로
+RoadName, 71, 63, 등대로
+RoadName, 72, 63, 천해로
+RoadName, 73, 63, 해양로
+EupMyeun, 64, 1, 암남동
+RoadName, 74, 64, 감천로
+RoadName, 75, 64, 암남공원로
+RoadName, 76, 64, 원양로
+RoadName, 77, 64, 송도해변로
+RoadName, 78, 64, 암남로
+RoadName, 79, 64, 장군산로
+RoadName, 80, 64, 천해남로
+RoadName, 81, 64, 성산길
+GichoSi, 2, 0, 동구
+EupMyeun, 65, 2, 초량동
+RoadName, 82, 65, 고관로
+RoadName, 83, 65, 구봉로
+RoadName, 84, 65, 초량남로
+RoadName, 85, 65, 초량로
+RoadName, 86, 65, 초량북로
+RoadName, 87, 65, 홍곡남로
+RoadName, 88, 65, 홍곡로
+RoadName, 89, 65, 구봉남길
+RoadName, 90, 65, 구봉북길
+RoadName, 91, 65, 구봉중길
+RoadName, 92, 65, 구봉중길5번가길
+RoadName, 93, 65, 구봉중길5번나길
+RoadName, 94, 65, 구봉중길6번가길
+RoadName, 95, 65, 영초길211번가길
+RoadName, 96, 65, 영초길247번가길
+RoadName, 97, 65, 영초길247번나길
+RoadName, 98, 65, 영초윗길
+EupMyeun, 66, 2, 수정동
+RoadName, 99, 66, 구청로
+RoadName, 100, 66, 수성남로
+RoadName, 101, 66, 수성로
+RoadName, 102, 66, 수정공원남로
+RoadName, 103, 66, 수정공원로
+RoadName, 104, 66, 수정공원북로
+RoadName, 105, 66, 수정공원상로
+RoadName, 106, 66, 수정공원중로
+RoadName, 107, 66, 수정남로
+RoadName, 108, 66, 수정동로
+RoadName, 109, 66, 수정로
+RoadName, 110, 66, 수정북로
+RoadName, 111, 66, 수정서로
+RoadName, 112, 66, 수정외솔로
+RoadName, 113, 66, 수정중로
+RoadName, 114, 66, 증산로
+RoadName, 115, 66, 진성로
+RoadName, 116, 66, 홍곡중로
+RoadName, 117, 66, 구봉북길4번가길
+RoadName, 118, 66, 구봉북길4번나길
+EupMyeun, 67, 2, 좌천동
+RoadName, 119, 67, 성남로
+RoadName, 120, 67, 성남이로
+RoadName, 121, 67, 성남일로
+RoadName, 122, 67, 성북로
+RoadName, 123, 67, 정공단로
+RoadName, 124, 67, 좌천남로
+RoadName, 125, 67, 좌천동로
+RoadName, 126, 67, 좌천로
+RoadName, 127, 67, 좌천서로
+RoadName, 128, 67, 증산동로
+RoadName, 129, 67, 증산서로
+RoadName, 130, 67, 자성로
+RoadName, 131, 67, 능풍길
+RoadName, 132, 67, 성남오길
+RoadName, 133, 67, 성남육길
+RoadName, 134, 67, 성남칠길
+EupMyeun, 68, 2, 범일동
+RoadName, 135, 68, 자유평화로
+RoadName, 136, 68, 범곡남로
+RoadName, 137, 68, 범곡로
+RoadName, 138, 68, 범곡북로
+RoadName, 139, 68, 범곡서로
+RoadName, 140, 68, 범내남로
+RoadName, 141, 68, 범내로
+RoadName, 142, 68, 범상로
+RoadName, 143, 68, 성남삼로
+RoadName, 144, 68, 안창로
+RoadName, 145, 68, 자성공원로
+RoadName, 146, 68, 조방로
+RoadName, 147, 68, 증산북로
+RoadName, 148, 68, 진시장로
+RoadName, 149, 68, 범일로
+RoadName, 150, 68, 범일이길
+RoadName, 151, 68, 범일일길
+RoadName, 152, 68, 범일일길11번가길
+GichoSi, 3, 0, 영도구
+EupMyeun, 69, 3, 대교동1가
+RoadName, 153, 69, 남항서로
+RoadName, 154, 69, 대평북로
+RoadName, 155, 69, 봉래나루로
+RoadName, 156, 69, 절영로
+RoadName, 157, 69, 남항로
+RoadName, 158, 69, 대평로
+EupMyeun, 70, 3, 대교동2가
+EupMyeun, 71, 3, 대평동1가
+RoadName, 159, 71, 대평남로
+EupMyeun, 72, 3, 대평동2가
+EupMyeun, 73, 3, 남항동1가
+EupMyeun, 74, 3, 남항동2가
+RoadName, 160, 74, 남항남로
+EupMyeun, 75, 3, 남항동3가
+RoadName, 161, 75, 영선대로
+RoadName, 162, 75, 해안산책길
+EupMyeun, 76, 3, 영선동1가
+RoadName, 163, 76, 꿈나무길
+RoadName, 164, 76, 새천년길
+RoadName, 165, 76, 영도새싹길
+RoadName, 166, 76, 영봉길
+RoadName, 167, 76, 한결길
+RoadName, 168, 76, 한사랑길
+EupMyeun, 77, 3, 영선동2가
+RoadName, 169, 77, 개나리길
+RoadName, 170, 77, 나눔길
+RoadName, 171, 77, 남항시장길
+RoadName, 172, 77, 영일길
+EupMyeun, 78, 3, 영선동3가
+RoadName, 173, 78, 남항새싹1길
+RoadName, 174, 78, 남항새싹길
+RoadName, 175, 78, 해님1길
+RoadName, 176, 78, 해님2길
+RoadName, 177, 78, 향촌길
+EupMyeun, 79, 3, 영선동4가
+RoadName, 178, 79, 남항새싹2길
+RoadName, 179, 79, 남항새싹3길
+RoadName, 180, 79, 남항새싹4길
+RoadName, 181, 79, 남항새싹5길
+RoadName, 182, 79, 남항새싹6길
+RoadName, 183, 79, 남항새싹7길
+RoadName, 184, 79, 복지관길
+RoadName, 185, 79, 신선중뒷길
+RoadName, 186, 79, 에움길
+RoadName, 187, 79, 작은시장1길
+RoadName, 188, 79, 작은시장2길
+RoadName, 189, 79, 하나길
+RoadName, 190, 79, 향토길
+RoadName, 191, 79, 흰여울길
+EupMyeun, 80, 3, 신선동1가
+RoadName, 192, 80, 다복솔길
+RoadName, 193, 80, 번영1길
+RoadName, 194, 80, 번영길
+RoadName, 195, 80, 봉래길
+RoadName, 196, 80, 상수도길
+RoadName, 197, 80, 새롬길
+RoadName, 198, 80, 세갈래길
+RoadName, 199, 80, 아리랑4길
+RoadName, 200, 80, 아리랑길
+RoadName, 201, 80, 중복3길
+RoadName, 202, 80, 중복4길
+RoadName, 203, 80, 중복길
+RoadName, 204, 80, 진달래길
+RoadName, 205, 80, 참샘길
+RoadName, 206, 80, 참우물길
+EupMyeun, 81, 3, 신선동2가
+RoadName, 207, 81, 금잔디길
+RoadName, 208, 81, 남도여중길
+RoadName, 209, 81, 도래샘길
+RoadName, 210, 81, 비나리길
+RoadName, 211, 81, 산제당길
+RoadName, 212, 81, 샛별길
+RoadName, 213, 81, 신선초롱길
+RoadName, 214, 81, 영상고뒷길
+RoadName, 215, 81, 중복1길
+RoadName, 216, 81, 중복2길
+RoadName, 217, 81, 초롱꽃길
+RoadName, 218, 81, 함박꽃길
+EupMyeun, 82, 3, 신선동3가
+RoadName, 219, 82, 놀이터길
+RoadName, 220, 82, 배꽃길
+RoadName, 221, 82, 벚꽃길
+RoadName, 222, 82, 산정길
+RoadName, 223, 82, 상록수길
+RoadName, 224, 82, 수정길
+RoadName, 225, 82, 영마루1길
+RoadName, 226, 82, 영마루2길
+RoadName, 227, 82, 영마루3길
+RoadName, 228, 82, 영마루길
+RoadName, 229, 82, 영상길
+RoadName, 230, 82, 재능길
+RoadName, 231, 82, 해오름1길
+RoadName, 232, 82, 해오름2길
+RoadName, 233, 82, 해오름3길
+EupMyeun, 83, 3, 봉래동1가
+EupMyeun, 84, 3, 봉래동2가
+EupMyeun, 85, 3, 봉래동3가
+EupMyeun, 86, 3, 봉래동4가
+RoadName, 234, 86, 개량1길
+RoadName, 235, 86, 개량2길
+RoadName, 236, 86, 동백꽃길
+RoadName, 237, 86, 무궁화길
+RoadName, 238, 86, 봉래언덕길
+RoadName, 239, 86, 산유화길
+EupMyeun, 87, 3, 봉래동5가
+RoadName, 240, 87, 나팔꽃길
+RoadName, 241, 87, 목련길
+RoadName, 242, 87, 방울꽃길
+RoadName, 243, 87, 봉래쉼터길
+RoadName, 244, 87, 봉숭아길
+RoadName, 245, 87, 사택길
+RoadName, 246, 87, 오동꽃길
+RoadName, 247, 87, 외나무길
+RoadName, 248, 87, 우정길
+RoadName, 249, 87, 장미계단길
+RoadName, 250, 87, 찬새미길
+RoadName, 251, 87, 청명길
+RoadName, 252, 87, 해돋이1길
+EupMyeun, 88, 3, 청학동
+RoadName, 253, 88, 산업로
+RoadName, 254, 88, 와치로
+RoadName, 255, 88, 일산봉로
+RoadName, 256, 88, 조내기로
+RoadName, 257, 88, 청학남로
+RoadName, 258, 88, 청학동로
+RoadName, 259, 88, 청학로
+RoadName, 260, 88, 청학북로
+RoadName, 261, 88, 청학서로
+RoadName, 262, 88, 광암길
+RoadName, 263, 88, 까치길
+RoadName, 264, 88, 맛자랑길
+RoadName, 265, 88, 봉학새싹길
+RoadName, 266, 88, 솔안길
+RoadName, 267, 88, 청학북서길
+RoadName, 268, 88, 해돋이2길
+RoadName, 269, 88, 해돋이3길
+RoadName, 270, 88, 형제길
+EupMyeun, 89, 3, 동삼동
+RoadName, 271, 89, 동삼남로
+RoadName, 272, 89, 동삼동로
+RoadName, 273, 89, 동삼로
+RoadName, 274, 89, 동삼북로
+RoadName, 275, 89, 동삼서로
+RoadName, 276, 89, 본산로
+RoadName, 277, 89, 상리로
+RoadName, 278, 89, 웃서발로
+RoadName, 279, 89, 전망로
+RoadName, 280, 89, 중리남로
+RoadName, 281, 89, 중리로
+RoadName, 282, 89, 중리북로
+RoadName, 283, 89, 함지로
+RoadName, 284, 89, 감지길
+RoadName, 285, 89, 감지해변길
+RoadName, 286, 89, 근면1길
+RoadName, 287, 89, 근면2길
+RoadName, 288, 89, 근면길
+RoadName, 289, 89, 본산남길
+RoadName, 290, 89, 상리해안1길
+RoadName, 291, 89, 상리해안3길
+RoadName, 292, 89, 상리해안5길
+RoadName, 293, 89, 상리해안7길
+RoadName, 294, 89, 선덤산길
+RoadName, 295, 89, 아랫서발길
+RoadName, 296, 89, 은빛길
+RoadName, 297, 89, 장수3길
+RoadName, 298, 89, 장수4길
+RoadName, 299, 89, 장수5길
+RoadName, 300, 89, 하리길
+RoadName, 301, 89, 하리동길
+RoadName, 302, 89, 하리서길
+RoadName, 303, 89, 하리해안길
+GichoSi, 4, 0, 부산진구
+EupMyeun, 90, 4, 양정동
+RoadName, 304, 90, 거제대로
+RoadName, 305, 90, 해맞이로
+RoadName, 306, 90, 거제천로
+RoadName, 307, 90, 진연로
+RoadName, 308, 90, 동평로
+RoadName, 309, 90, 범양로
+RoadName, 310, 90, 양성로
+RoadName, 311, 90, 양정로
+RoadName, 312, 90, 양지로
+RoadName, 313, 90, 양연로
+RoadName, 314, 90, 연수로
+RoadName, 315, 90, 진남로
+RoadName, 316, 90, 화지로
+RoadName, 317, 90, 연제로
+RoadName, 318, 90, 경마장로
+RoadName, 319, 90, 황령산로
+EupMyeun, 91, 4, 전포동
+RoadName, 320, 91, 전포대로
+RoadName, 321, 91, 황령대로
+RoadName, 322, 91, 신천대로
+RoadName, 323, 91, 동성로
+RoadName, 324, 91, 동천로
+RoadName, 325, 91, 봉수로
+RoadName, 326, 91, 서전로
+EupMyeun, 92, 4, 부전동
+RoadName, 327, 92, 가야대로
+RoadName, 328, 92, 범전로
+RoadName, 329, 92, 부전로
+RoadName, 330, 92, 새싹로
+RoadName, 331, 92, 서면로
+RoadName, 332, 92, 서면문화로
+EupMyeun, 93, 4, 범천동
+RoadName, 333, 93, 엄광로
+RoadName, 334, 93, 만리산로
+RoadName, 335, 93, 범천로
+RoadName, 336, 93, 신암로
+RoadName, 337, 93, 중앙번영로
+RoadName, 338, 93, 골드테마길
+EupMyeun, 94, 4, 범전동
+RoadName, 339, 94, 시민공원로
+EupMyeun, 95, 4, 연지동
+RoadName, 340, 95, 국악로
+RoadName, 341, 95, 성지로
+RoadName, 342, 95, 연지로
+RoadName, 343, 95, 초연로
+EupMyeun, 96, 4, 초읍동
+RoadName, 344, 96, 성지곡로
+RoadName, 345, 96, 초읍천로
+RoadName, 346, 96, 월드컵대로
+EupMyeun, 97, 4, 부암동
+RoadName, 347, 97, 백양대로
+RoadName, 348, 97, 당감로
+RoadName, 349, 97, 당감서로
+RoadName, 350, 97, 백양산로
+RoadName, 351, 97, 백양순환로
+RoadName, 352, 97, 부암당산로
+RoadName, 353, 97, 용사촌로
+EupMyeun, 98, 4, 당감동
+RoadName, 354, 98, 마철로
+RoadName, 355, 98, 백양관문로
+EupMyeun, 99, 4, 가야동
+RoadName, 356, 99, 가야공원로
+RoadName, 357, 99, 대학로
+RoadName, 358, 99, 냉정로
+RoadName, 359, 99, 복지로
+EupMyeun, 100, 4, 개금동
+RoadName, 360, 100, 개금본동로
+RoadName, 361, 100, 개금온정로
+RoadName, 362, 100, 진사로
+RoadName, 363, 100, 주감로
+GichoSi, 5, 0, 동래구
+EupMyeun, 101, 5, 명장동
+RoadName, 364, 101, 명안로
+RoadName, 365, 101, 명장로
+RoadName, 366, 101, 복천로
+RoadName, 367, 101, 충렬사로
+RoadName, 368, 101, 명서로
+RoadName, 369, 101, 반송로
+RoadName, 370, 101, 서동중심로
+RoadName, 371, 101, 시실로
+RoadName, 372, 101, 안락로
+RoadName, 373, 101, 옥봉로
+EupMyeun, 102, 5, 안락동
+RoadName, 374, 102, 충렬대로
+RoadName, 375, 102, 삼어로
+RoadName, 376, 102, 동래로
+RoadName, 377, 102, 안남로
+RoadName, 378, 102, 온천천로
+RoadName, 379, 102, 안연로
+RoadName, 380, 102, 연안로
+RoadName, 381, 102, 온천천남로
+RoadName, 382, 102, 명륜로
+RoadName, 383, 102, 호현길
+RoadName, 384, 102, 화현길
+EupMyeun, 103, 5, 칠산동
+RoadName, 385, 103, 칠산로
+EupMyeun, 104, 5, 낙민동
+RoadName, 386, 104, 낙민로
+RoadName, 387, 104, 수안로
+EupMyeun, 105, 5, 복천동
+RoadName, 388, 105, 동래시장길
+RoadName, 389, 105, 동래역사관길
+EupMyeun, 106, 5, 수안동
+EupMyeun, 107, 5, 명륜동
+RoadName, 390, 107, 문화로
+RoadName, 391, 107, 삼성대길
+RoadName, 392, 107, 부곡로
+EupMyeun, 108, 5, 온천동
+RoadName, 393, 108, 아시아드대로
+RoadName, 394, 108, 우장춘로
+RoadName, 395, 108, 구만덕로
+RoadName, 396, 108, 금강공원로
+RoadName, 397, 108, 금정마을로
+RoadName, 398, 108, 석사북로
+RoadName, 399, 108, 쇠미로
+RoadName, 400, 108, 여고북로
+RoadName, 401, 108, 차밭골로
+RoadName, 402, 108, 금강로
+RoadName, 403, 108, 미남로
+RoadName, 404, 108, 온천장로
+RoadName, 405, 108, 금샘로
+RoadName, 406, 108, 만덕고개길
+RoadName, 407, 108, 사직북로
+EupMyeun, 109, 5, 사직동
+RoadName, 408, 109, 사직로
+RoadName, 409, 109, 석사로
+RoadName, 410, 109, 여고로
+RoadName, 411, 109, 종합운동장로
+RoadName, 412, 109, 체육공원로
+RoadName, 413, 109, 법원북로
+RoadName, 414, 109, 봉단1길
+RoadName, 415, 109, 봉단길
+GichoSi, 6, 0, 남구
+EupMyeun, 110, 6, 대연동
+RoadName, 416, 110, 동제당로
+RoadName, 417, 110, 못골로
+RoadName, 418, 110, 못골번영로
+RoadName, 419, 110, 석포로
+RoadName, 420, 110, 신선로
+RoadName, 421, 110, 신정번영로
+RoadName, 422, 110, 용소로
+RoadName, 423, 110, 유엔로
+RoadName, 424, 110, 유엔평화로
+RoadName, 425, 110, 조각공원로
+RoadName, 426, 110, 천제등로
+RoadName, 427, 110, 수영로
+RoadName, 428, 110, 전선등로
+EupMyeun, 111, 6, 용호동
+RoadName, 429, 111, 동명로
+RoadName, 430, 111, 백운포로
+RoadName, 431, 111, 분포로
+RoadName, 432, 111, 신선대산복로
+RoadName, 433, 111, 오륙도로
+RoadName, 434, 111, 용주로
+RoadName, 435, 111, 용호로
+RoadName, 436, 111, 이기대공원로
+RoadName, 437, 111, 섶자리길
+EupMyeun, 112, 6, 용당동
+RoadName, 438, 112, 북항로
+EupMyeun, 113, 6, 문현동
+RoadName, 439, 113, 고동골로
+RoadName, 440, 113, 남동천로
+RoadName, 441, 113, 문현금융로
+RoadName, 442, 113, 문현로
+RoadName, 443, 113, 우암로
+RoadName, 444, 113, 장고개로
+RoadName, 445, 113, 지게골로
+RoadName, 446, 113, 돌산1길
+RoadName, 447, 113, 돌산2길
+RoadName, 448, 113, 돌산3길
+RoadName, 449, 113, 돌산4길
+RoadName, 450, 113, 돌산길
+RoadName, 451, 113, 동항로
+EupMyeun, 114, 6, 우암동
+RoadName, 452, 114, 당산로
+RoadName, 453, 114, 솔밭로
+RoadName, 454, 114, 우암번영로
+RoadName, 455, 114, 우암양달로
+EupMyeun, 115, 6, 감만동
+RoadName, 456, 115, 8부두로
+RoadName, 457, 115, 무민사로
+RoadName, 458, 115, 양지골로
+GichoSi, 7, 0, 북구
+EupMyeun, 116, 7, 금곡동
+RoadName, 459, 116, 금곡대로
+RoadName, 460, 116, 학사로
+RoadName, 461, 116, 효열로
+RoadName, 462, 116, 화명신도시로
+EupMyeun, 117, 7, 화명동
+RoadName, 463, 117, 화명대로
+RoadName, 464, 117, 산성로
+RoadName, 465, 117, 양달로
+RoadName, 466, 117, 와석장터로
+RoadName, 467, 117, 용당로
+RoadName, 468, 117, 의성로
+RoadName, 469, 117, 대천안길
+RoadName, 470, 117, 대천천길
+RoadName, 471, 117, 공해4길
+EupMyeun, 118, 7, 만덕동
+RoadName, 472, 118, 만덕대로
+RoadName, 473, 118, 기찰로
+RoadName, 474, 118, 덕천로
+RoadName, 475, 118, 만덕1로
+RoadName, 476, 118, 만덕2로
+RoadName, 477, 118, 만덕3로
+RoadName, 478, 118, 상학로
+RoadName, 479, 118, 은행나무로
+RoadName, 480, 118, 함박봉로
+RoadName, 481, 118, 남문길
+RoadName, 482, 118, 상학산복길
+EupMyeun, 119, 7, 덕천동
+RoadName, 483, 119, 강변대로
+RoadName, 484, 119, 팽나무로
+RoadName, 485, 119, 모분재로
+RoadName, 486, 119, 덕천2길
+RoadName, 487, 119, 덕천1길
+RoadName, 488, 119, 시랑로
+EupMyeun, 120, 7, 구포동
+RoadName, 489, 120, 낙동북로
+RoadName, 490, 120, 가람로
+RoadName, 491, 120, 구남로
+RoadName, 492, 120, 구남언덕로
+RoadName, 493, 120, 사상로
+RoadName, 494, 120, 구포만세길
+RoadName, 495, 120, 구포시장1길
+RoadName, 496, 120, 구포시장2길
+RoadName, 497, 120, 구포시장3길
+RoadName, 498, 120, 구포시장4길
+RoadName, 499, 120, 구포시장5길
+RoadName, 500, 120, 구포시장6길
+RoadName, 501, 120, 구포시장7길
+RoadName, 502, 120, 구포시장8길
+RoadName, 503, 120, 구포시장길
+RoadName, 504, 120, 시장갓길
+RoadName, 505, 120, 시장샛길
+RoadName, 506, 120, 약초골목길
+GichoSi, 8, 0, 해운대구
+EupMyeun, 121, 8, 반송동
+RoadName, 507, 121, 반송순환로
+RoadName, 508, 121, 석대천로
+RoadName, 509, 121, 신반송로
+RoadName, 510, 121, 아랫반송로
+RoadName, 511, 121, 윗반송로
+RoadName, 512, 121, 운봉길
+EupMyeun, 122, 8, 석대동
+RoadName, 513, 122, 선수촌로
+RoadName, 514, 122, 석대로
+EupMyeun, 123, 8, 반여동
+RoadName, 515, 123, 해운대로
+RoadName, 516, 123, 수영강변대로
+RoadName, 517, 123, 반여로
+RoadName, 518, 123, 재반로
+RoadName, 519, 123, 재송2로
+EupMyeun, 124, 8, 재송동
+RoadName, 520, 124, 센텀북대로
+RoadName, 521, 124, 센텀동로
+RoadName, 522, 124, 센텀중앙로
+RoadName, 523, 124, 재송1로
+EupMyeun, 125, 8, 우동
+RoadName, 524, 125, 센텀남대로
+RoadName, 525, 125, 동백로
+RoadName, 526, 125, 마린시티1로
+RoadName, 527, 125, 마린시티2로
+RoadName, 528, 125, 마린시티3로
+RoadName, 529, 125, 센텀1로
+RoadName, 530, 125, 센텀2로
+RoadName, 531, 125, 센텀3로
+RoadName, 532, 125, 센텀5로
+RoadName, 533, 125, 센텀6로
+RoadName, 534, 125, 센텀7로
+RoadName, 535, 125, 센텀서로
+RoadName, 536, 125, 우동1로
+RoadName, 537, 125, 우동2로
+RoadName, 538, 125, 우동3로
+RoadName, 539, 125, 장산로
+RoadName, 540, 125, 중동1로
+RoadName, 541, 125, 해운대해변로
+RoadName, 542, 125, APEC로
+RoadName, 543, 125, 센텀4로
+RoadName, 544, 125, 좌동순환로
+EupMyeun, 126, 8, 중동
+RoadName, 545, 126, 대천로
+RoadName, 546, 126, 좌동로
+RoadName, 547, 126, 중동2로
+RoadName, 548, 126, 청사포로
+RoadName, 549, 126, 달맞이길
+RoadName, 550, 126, 달맞이길117번가길
+RoadName, 551, 126, 달맞이길117번나길
+RoadName, 552, 126, 달맞이길117번다길
+RoadName, 553, 126, 달맞이길117번라길
+RoadName, 554, 126, 달맞이길62번가길
+RoadName, 555, 126, 양운로
+EupMyeun, 127, 8, 좌동
+RoadName, 556, 127, 세실로
+EupMyeun, 128, 8, 송정동
+RoadName, 557, 128, 송정1로
+RoadName, 558, 128, 송정2로
+RoadName, 559, 128, 송정강변로
+RoadName, 560, 128, 송정광어골로
+RoadName, 561, 128, 송정중앙로
+RoadName, 562, 128, 송정해변로
+RoadName, 563, 128, 송정구덕포길
+RoadName, 564, 128, 백동길
+GichoSi, 9, 0, 사하구
+EupMyeun, 129, 9, 괴정동
+RoadName, 565, 129, 괴정로
+RoadName, 566, 129, 다대로
+RoadName, 567, 129, 마하로
+RoadName, 568, 129, 사리로
+RoadName, 569, 129, 사하로
+RoadName, 570, 129, 승학로
+RoadName, 571, 129, 오작로
+RoadName, 572, 129, 장평로
+RoadName, 573, 129, 동주대학로
+RoadName, 574, 129, 회화나무길
+EupMyeun, 130, 9, 당리동
+RoadName, 575, 130, 동매로
+RoadName, 576, 130, 제석로
+RoadName, 577, 130, 당리길
+EupMyeun, 131, 9, 하단동
+RoadName, 578, 131, 낙동남로
+RoadName, 579, 131, 비봉로
+RoadName, 580, 131, 하신중앙로
+RoadName, 581, 131, 하신번영로
+EupMyeun, 132, 9, 신평동
+RoadName, 582, 132, 을숙도대로
+RoadName, 583, 132, 신산로
+RoadName, 584, 132, 신산북로
+EupMyeun, 133, 9, 장림동
+RoadName, 585, 133, 다산로
+RoadName, 586, 133, 두송로
+RoadName, 587, 133, 장림로
+RoadName, 588, 133, 장림번영로
+RoadName, 589, 133, 보덕포1길
+RoadName, 590, 133, 보덕포2길
+RoadName, 591, 133, 장림시장10길
+RoadName, 592, 133, 장림시장11길
+RoadName, 593, 133, 장림시장1길
+RoadName, 594, 133, 장림시장2길
+RoadName, 595, 133, 장림시장3길
+RoadName, 596, 133, 장림시장4길
+RoadName, 597, 133, 장림시장5길
+RoadName, 598, 133, 장림시장6길
+RoadName, 599, 133, 장림시장7길
+RoadName, 600, 133, 장림시장8길
+RoadName, 601, 133, 장림시장9길
+EupMyeun, 134, 9, 다대동
+RoadName, 602, 134, 감천항로
+RoadName, 603, 134, 다대동로
+RoadName, 604, 134, 다송로
+RoadName, 605, 134, 윤공단로
+RoadName, 606, 134, 홍티로
+RoadName, 607, 134, 다대낙조1길
+RoadName, 608, 134, 다대낙조2길
+RoadName, 609, 134, 몰운대1길
+RoadName, 610, 134, 몰운대2길
+EupMyeun, 135, 9, 구평동
+RoadName, 611, 135, 구평로
+RoadName, 612, 135, 서포로
+EupMyeun, 136, 9, 감천동
+RoadName, 613, 136, 감내1로
+RoadName, 614, 136, 감내2로
+GichoSi, 10, 0, 금정구
+EupMyeun, 137, 10, 두구동
+RoadName, 615, 137, 영천로
+RoadName, 616, 137, 철마로
+RoadName, 617, 137, 고분로
+RoadName, 618, 137, 금정도서관로
+RoadName, 619, 137, 대두로
+RoadName, 620, 137, 두구로
+RoadName, 621, 137, 두구중리1길
+RoadName, 622, 137, 두구중리2길
+RoadName, 623, 137, 석지못길
+RoadName, 624, 137, 수내1길
+RoadName, 625, 137, 수내2길
+RoadName, 626, 137, 수내3길
+RoadName, 627, 137, 신천로
+RoadName, 628, 137, 임석1길
+RoadName, 629, 137, 임석2길
+RoadName, 630, 137, 임석3길
+RoadName, 631, 137, 조리1길
+RoadName, 632, 137, 조리2길
+RoadName, 633, 137, 두구죽전1길
+RoadName, 634, 137, 두구죽전2길
+RoadName, 635, 137, 조리3길
+EupMyeun, 138, 10, 노포동
+RoadName, 636, 138, 노포사송로
+RoadName, 637, 138, 범어사로
+RoadName, 638, 138, 노포마을1길
+RoadName, 639, 138, 노포마을2길
+RoadName, 640, 138, 대룡1길
+RoadName, 641, 138, 대룡2길
+RoadName, 642, 138, 대룡3길
+RoadName, 643, 138, 작장1길
+RoadName, 644, 138, 작장2길
+RoadName, 645, 138, 작장3길
+EupMyeun, 139, 10, 청룡동
+RoadName, 646, 139, 놀이마당로
+RoadName, 647, 139, 청룡로
+RoadName, 648, 139, 청룡예전로
+RoadName, 649, 139, 팔송로
+RoadName, 650, 139, 남산냇길
+RoadName, 651, 139, 상마1길
+RoadName, 652, 139, 상마2길
+RoadName, 653, 139, 하마1길
+RoadName, 654, 139, 하마2길
+EupMyeun, 140, 10, 남산동
+RoadName, 655, 140, 금단로
+RoadName, 656, 140, 남산로
+RoadName, 657, 140, 두실로
+RoadName, 658, 140, 벅구산로
+RoadName, 659, 140, 범어천로
+RoadName, 660, 140, 학산로
+EupMyeun, 141, 10, 선동
+RoadName, 661, 141, 상현로
+RoadName, 662, 141, 하정로
+EupMyeun, 142, 10, 오륜동
+RoadName, 663, 142, 오륜대로
+EupMyeun, 143, 10, 구서동
+RoadName, 664, 143, 금정로
+RoadName, 665, 143, 구서로
+RoadName, 666, 143, 구서온천천로
+RoadName, 667, 143, 구서중앙로
+RoadName, 668, 143, 부곡온천천로
+RoadName, 669, 143, 안뜰로
+RoadName, 670, 143, 수림로
+EupMyeun, 144, 10, 장전동
+RoadName, 671, 144, 남문로
+RoadName, 672, 144, 부산대학로
+RoadName, 673, 144, 소정로
+RoadName, 674, 144, 식물원로
+RoadName, 675, 144, 장전로
+RoadName, 676, 144, 장전온천천로
+EupMyeun, 145, 10, 부곡동
+RoadName, 677, 145, 가마실로
+RoadName, 678, 145, 동부곡로
+RoadName, 679, 145, 동현로
+RoadName, 680, 145, 무학송로
+RoadName, 681, 145, 삼차로
+RoadName, 682, 145, 서동로
+RoadName, 683, 145, 서부곡로
+RoadName, 684, 145, 서부로
+RoadName, 685, 145, 오시게로
+RoadName, 686, 145, 윤산로
+EupMyeun, 146, 10, 서동
+RoadName, 687, 146, 금사로
+RoadName, 688, 146, 서곡로
+RoadName, 689, 146, 서금로
+RoadName, 690, 146, 서명로
+RoadName, 691, 146, 중군진로
+RoadName, 692, 146, 개좌로
+RoadName, 693, 146, 서동시장길
+RoadName, 694, 146, 서동시장뒷길
+EupMyeun, 147, 10, 금사동
+RoadName, 695, 147, 공단동로
+RoadName, 696, 147, 공단로
+RoadName, 697, 147, 공단서로
+RoadName, 698, 147, 사천로
+RoadName, 699, 147, 회천로
+EupMyeun, 148, 10, 회동동
+RoadName, 700, 148, 수원지로
+RoadName, 701, 148, 정관산업로
+EupMyeun, 149, 10, 금성동
+RoadName, 702, 149, 동문로
+RoadName, 703, 149, 북문로
+RoadName, 704, 149, 공해1길
+RoadName, 705, 149, 공해2길
+RoadName, 706, 149, 공해3길
+RoadName, 707, 149, 공해5길
+RoadName, 708, 149, 땅곡길
+RoadName, 709, 149, 죽전1길
+RoadName, 710, 149, 죽전2길
+RoadName, 711, 149, 중리1길
+RoadName, 712, 149, 중리2길
+RoadName, 713, 149, 중리3길
+GichoSi, 11, 0, 강서구
+EupMyeun, 150, 11, 대저1동
+RoadName, 714, 150, 경전철로
+RoadName, 715, 150, 공항로
+RoadName, 716, 150, 대저동서로
+RoadName, 717, 150, 대저로
+RoadName, 718, 150, 대저중앙로
+RoadName, 719, 150, 평강로
+RoadName, 720, 150, 강동신덕1길
+RoadName, 721, 150, 강동신덕2길
+RoadName, 722, 150, 대저들길
+RoadName, 723, 150, 대저들길17번가길
+RoadName, 724, 150, 신덕길
+RoadName, 725, 150, 동남로
+EupMyeun, 151, 11, 대저2동
+RoadName, 726, 151, 남해2지선고속도로
+RoadName, 727, 151, 공항진입로
+RoadName, 728, 151, 신노전로
+RoadName, 729, 151, 울만로
+RoadName, 730, 151, 제도로
+RoadName, 731, 151, 테크센터로
+RoadName, 732, 151, 유통단지1로
+RoadName, 733, 151, 유통단지2로
+RoadName, 734, 151, 공항앞길
+RoadName, 735, 151, 군라1길
+RoadName, 736, 151, 군라2길
+RoadName, 737, 151, 금호순서길
+RoadName, 738, 151, 금호순서길282번가길
+RoadName, 739, 151, 금호순서길282번나길
+RoadName, 740, 151, 금호순서길89번가길
+RoadName, 741, 151, 도도본리길
+RoadName, 742, 151, 맥도강변길
+RoadName, 743, 151, 맥도길
+RoadName, 744, 151, 상납청길
+RoadName, 745, 151, 설만길
+RoadName, 746, 151, 설만신평길
+RoadName, 747, 151, 송동길
+RoadName, 748, 151, 신노전1길
+RoadName, 749, 151, 신노전2길
+RoadName, 750, 151, 신노전3길
+RoadName, 751, 151, 신노전4길
+RoadName, 752, 151, 신노전5길
+RoadName, 753, 151, 입소길
+RoadName, 754, 151, 입소신평길
+RoadName, 755, 151, 입소정관길
+RoadName, 756, 151, 정관길
+RoadName, 757, 151, 중앙새싹1길
+RoadName, 758, 151, 중앙새싹2길
+RoadName, 759, 151, 월상길
+EupMyeun, 152, 11, 강동동
+RoadName, 760, 152, 남해고속도로
+RoadName, 761, 152, 상덕로
+RoadName, 762, 152, 강동송백1길
+RoadName, 763, 152, 강동송백2길
+RoadName, 764, 152, 강동송백3길
+RoadName, 765, 152, 강동송백4길
+RoadName, 766, 152, 강동송백5길
+RoadName, 767, 152, 강동송백6길
+RoadName, 768, 152, 강동신덕3길
+RoadName, 769, 152, 강동중곡1길
+RoadName, 770, 152, 강동중곡2길
+RoadName, 771, 152, 강동중곡3길
+RoadName, 772, 152, 공작길
+RoadName, 773, 152, 기러기길
+RoadName, 774, 152, 대부길
+RoadName, 775, 152, 덕포길
+RoadName, 776, 152, 득천1길
+RoadName, 777, 152, 득천2길
+RoadName, 778, 152, 메뚜기길
+RoadName, 779, 152, 수봉1길
+RoadName, 780, 152, 수봉2길
+RoadName, 781, 152, 수봉3길
+RoadName, 782, 152, 수봉4길
+RoadName, 783, 152, 원앙길
+RoadName, 784, 152, 전양1길
+RoadName, 785, 152, 전양2길
+RoadName, 786, 152, 전양3길
+RoadName, 787, 152, 조정경기장길
+RoadName, 788, 152, 천자1길
+RoadName, 789, 152, 천자2길
+RoadName, 790, 152, 천자3길
+RoadName, 791, 152, 천자강변길
+EupMyeun, 153, 11, 명지동
+RoadName, 792, 153, 르노삼성대로
+RoadName, 793, 153, 명지오션시티10로
+RoadName, 794, 153, 명지오션시티11로
+RoadName, 795, 153, 명지오션시티13로
+RoadName, 796, 153, 명지오션시티1로
+RoadName, 797, 153, 명지오션시티2로
+RoadName, 798, 153, 명지오션시티3로
+RoadName, 799, 153, 명지오션시티4로
+RoadName, 800, 153, 명지오션시티5로
+RoadName, 801, 153, 명지오션시티6로
+RoadName, 802, 153, 명지오션시티7로
+RoadName, 803, 153, 명지오션시티8로
+RoadName, 804, 153, 명지오션시티9로
+RoadName, 805, 153, 명지오션시티12로
+RoadName, 806, 153, 명지국제1로
+RoadName, 807, 153, 명지국제2로
+RoadName, 808, 153, 명지국제3로
+RoadName, 809, 153, 명지국제4로
+RoadName, 810, 153, 명지국제5로
+RoadName, 811, 153, 명지국제6로
+RoadName, 812, 153, 명지국제7로
+RoadName, 813, 153, 명지국제8로
+RoadName, 814, 153, 명지국제9로
+RoadName, 815, 153, 명지국제11로
+RoadName, 816, 153, 명지국제12로
+RoadName, 817, 153, 명지국제13로
+

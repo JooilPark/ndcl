@@ -1,0 +1,1840 @@
+GwangyeogSi, 0, 0, 부산광역시
+GwangyeogSi, 0, 0, 영주동
+GwangyeogSi, 0, 0, 
+GwangyeogSi, 0, 0, 초량상
+GwangyeogSi, 1, 0, 초량중
+GwangyeogSi, 2, 0, 동영
+GwangyeogSi, 3, 0, 영주
+GwangyeogSi, 4, 0, 중구
+GwangyeogSi, 5, 0, 대영
+GwangyeogSi, 6, 0, 망양
+GwangyeogSi, 7, 0, 중앙공원
+GwangyeogSi, 8, 0, 배수지
+GwangyeogSi, 9, 0, 영초
+GwangyeogSi, 10, 0, 중동
+GwangyeogSi, 11, 0, 동광
+GwangyeogSi, 12, 0, 동광길165번
+GwangyeogSi, 13, 0, 민주공원
+GwangyeogSi, 14, 0, 영초길14번
+GwangyeogSi, 15, 0, 임소
+GwangyeogSi, 16, 0, 임소길15번
+GwangyeogSi, 17, 0, 임소길16번
+GwangyeogSi, 18, 0, 임소길18번
+GwangyeogSi, 19, 0, 임소길7번
+GwangyeogSi, 20, 0, 중앙대
+GwangyeogSi, 1, 0, 대창동1가
+GwangyeogSi, 21, 0, 해관
+GwangyeogSi, 2, 0, 대창동2가
+GwangyeogSi, 3, 0, 중앙동1가
+GwangyeogSi, 22, 0, 대청
+GwangyeogSi, 4, 0, 중앙동2가
+GwangyeogSi, 5, 0, 중앙동3가
+GwangyeogSi, 23, 0, 40계단
+GwangyeogSi, 6, 0, 중앙동4가
+GwangyeogSi, 24, 0, 충장대
+GwangyeogSi, 25, 0, 대교
+GwangyeogSi, 7, 0, 중앙동5가
+GwangyeogSi, 8, 0, 중앙동6가
+GwangyeogSi, 9, 0, 중앙동7가
+GwangyeogSi, 10, 0, 동광동1가
+GwangyeogSi, 26, 0, 광복
+GwangyeogSi, 11, 0, 동광동2가
+GwangyeogSi, 27, 0, 용두산
+GwangyeogSi, 12, 0, 동광동3가
+GwangyeogSi, 28, 0, 백산
+GwangyeogSi, 13, 0, 동광동4가
+GwangyeogSi, 14, 0, 동광동5가
+GwangyeogSi, 29, 0, 동광길111번
+GwangyeogSi, 30, 0, 동광길69번
+GwangyeogSi, 31, 0, 동광길91번
+GwangyeogSi, 32, 0, 동광길93번
+GwangyeogSi, 33, 0, 동광길95번
+GwangyeogSi, 34, 0, 동광길99번
+GwangyeogSi, 35, 0, 샘
+GwangyeogSi, 36, 0, 샘길30번
+GwangyeogSi, 37, 0, 샘길44번
+GwangyeogSi, 15, 0, 대청동1가
+GwangyeogSi, 38, 0, 동광길21번
+GwangyeogSi, 39, 0, 복병산
+GwangyeogSi, 40, 0, 복병산길32번
+GwangyeogSi, 41, 0, 복병산길6번
+GwangyeogSi, 42, 0, 복병산길7번
+GwangyeogSi, 16, 0, 대청동2가
+GwangyeogSi, 43, 0, 광복중앙
+GwangyeogSi, 44, 0, 복병산길3번
+GwangyeogSi, 17, 0, 대청동3가
+GwangyeogSi, 45, 0, 국제시장2
+GwangyeogSi, 18, 0, 대청동4가
+GwangyeogSi, 46, 0, 고가
+GwangyeogSi, 47, 0, 고가길68번
+GwangyeogSi, 48, 0, 대청북
+GwangyeogSi, 49, 0, 대청북길16번
+GwangyeogSi, 50, 0, 대청북길16번안
+GwangyeogSi, 51, 0, 대청북길17번
+GwangyeogSi, 52, 0, 대청북길25번
+GwangyeogSi, 53, 0, 대청북길26번
+GwangyeogSi, 54, 0, 대청북길33번
+GwangyeogSi, 55, 0, 대청북길34번
+GwangyeogSi, 56, 0, 대청북길39번
+GwangyeogSi, 19, 0, 보수동1가
+GwangyeogSi, 57, 0, 보수대
+GwangyeogSi, 58, 0, 흑교
+GwangyeogSi, 59, 0, 고가길7번
+GwangyeogSi, 60, 0, 법수
+GwangyeogSi, 61, 0, 법수길24번
+GwangyeogSi, 62, 0, 법수길24번안
+GwangyeogSi, 63, 0, 법수길38번
+GwangyeogSi, 64, 0, 법수길50번
+GwangyeogSi, 65, 0, 법수길63번
+GwangyeogSi, 66, 0, 법수길76번
+GwangyeogSi, 67, 0, 보동
+GwangyeogSi, 68, 0, 보동길112번
+GwangyeogSi, 69, 0, 보동길20번
+GwangyeogSi, 70, 0, 보동길26번
+GwangyeogSi, 71, 0, 보동길32번
+GwangyeogSi, 72, 0, 보동길44번
+GwangyeogSi, 73, 0, 보동길82번
+GwangyeogSi, 74, 0, 보동길84번
+GwangyeogSi, 75, 0, 보수북
+GwangyeogSi, 76, 0, 보수북길27번
+GwangyeogSi, 77, 0, 보수북길31번
+GwangyeogSi, 78, 0, 보수북길59번
+GwangyeogSi, 79, 0, 책방골목
+GwangyeogSi, 20, 0, 보수동2가
+GwangyeogSi, 21, 0, 보수동3가
+GwangyeogSi, 22, 0, 부평동1가
+GwangyeogSi, 80, 0, 비프광장
+GwangyeogSi, 81, 0, 부평2
+GwangyeogSi, 82, 0, 부평3
+GwangyeogSi, 23, 0, 부평동2가
+GwangyeogSi, 83, 0, 부평1
+GwangyeogSi, 24, 0, 부평동3가
+GwangyeogSi, 25, 0, 부평동4가
+GwangyeogSi, 26, 0, 신창동1가
+GwangyeogSi, 27, 0, 신창동2가
+GwangyeogSi, 28, 0, 신창동3가
+GwangyeogSi, 29, 0, 신창동4가
+GwangyeogSi, 30, 0, 창선동1가
+GwangyeogSi, 84, 0, 구덕
+GwangyeogSi, 31, 0, 창선동2가
+GwangyeogSi, 32, 0, 광복동1가
+GwangyeogSi, 33, 0, 광복동2가
+GwangyeogSi, 34, 0, 광복동3가
+GwangyeogSi, 35, 0, 남포동1가
+GwangyeogSi, 85, 0, 태종
+GwangyeogSi, 86, 0, 용미
+GwangyeogSi, 87, 0, 용미길10번
+GwangyeogSi, 88, 0, 용미길7번
+GwangyeogSi, 89, 0, 용미길8번
+GwangyeogSi, 90, 0, 용미길9번
+GwangyeogSi, 36, 0, 남포동2가
+GwangyeogSi, 91, 0, 자갈치해안
+GwangyeogSi, 92, 0, 남포
+GwangyeogSi, 37, 0, 남포동3가
+GwangyeogSi, 38, 0, 남포동4가
+GwangyeogSi, 93, 0, 자갈치
+GwangyeogSi, 39, 0, 남포동5가
+GwangyeogSi, 40, 0, 남포동6가
+GwangyeogSi, 41, 0, 동대신동1가
+GwangyeogSi, 94, 0, 보동길159번
+GwangyeogSi, 95, 0, 보동길185번
+GwangyeogSi, 96, 0, 보동길201번
+GwangyeogSi, 97, 0, 보동길209번
+GwangyeogSi, 98, 0, 보동길223번
+GwangyeogSi, 42, 0, 동대신동2가
+GwangyeogSi, 99, 0, 보동길275번
+GwangyeogSi, 100, 0, 보동길278번
+GwangyeogSi, 101, 0, 보동길287번
+GwangyeogSi, 102, 0, 보동길311번
+GwangyeogSi, 103, 0, 보동길327번
+GwangyeogSi, 104, 0, 보동길337번
+GwangyeogSi, 43, 0, 동대신동3가
+GwangyeogSi, 105, 0, 대신공원
+GwangyeogSi, 106, 0, 동대
+GwangyeogSi, 107, 0, 보동길347번
+GwangyeogSi, 44, 0, 서대신동1가
+GwangyeogSi, 108, 0, 까치고개
+GwangyeogSi, 109, 0, 고운들
+GwangyeogSi, 110, 0, 부용
+GwangyeogSi, 111, 0, 해돋이
+GwangyeogSi, 45, 0, 서대신동2가
+GwangyeogSi, 112, 0, 낙동대
+GwangyeogSi, 113, 0, 대티
+GwangyeogSi, 114, 0, 시약
+GwangyeogSi, 46, 0, 서대신동3가
+GwangyeogSi, 115, 0, 꽃마을
+GwangyeogSi, 116, 0, 대신
+GwangyeogSi, 117, 0, 엄광산
+GwangyeogSi, 47, 0, 부용동1가
+GwangyeogSi, 48, 0, 부용동2가
+GwangyeogSi, 49, 0, 부민동1가
+GwangyeogSi, 50, 0, 부민동2가
+GwangyeogSi, 118, 0, 임시수도기념
+GwangyeogSi, 51, 0, 부민동3가
+GwangyeogSi, 52, 0, 토성동1가
+GwangyeogSi, 53, 0, 토성동2가
+GwangyeogSi, 54, 0, 토성동3가
+GwangyeogSi, 55, 0, 아미동1가
+GwangyeogSi, 56, 0, 아미동2가
+GwangyeogSi, 119, 0, 옥천
+GwangyeogSi, 120, 0, 아미
+GwangyeogSi, 121, 0, 아미초장
+GwangyeogSi, 122, 0, 천마산
+GwangyeogSi, 57, 0, 토성동4가
+GwangyeogSi, 123, 0, 천마
+GwangyeogSi, 58, 0, 토성동5가
+GwangyeogSi, 124, 0, 초장
+GwangyeogSi, 59, 0, 초장동
+GwangyeogSi, 60, 0, 충무동1가
+GwangyeogSi, 125, 0, 충무대
+GwangyeogSi, 126, 0, 새벽시장
+GwangyeogSi, 127, 0, 충무시장
+GwangyeogSi, 128, 0, 해안새벽시장
+GwangyeogSi, 61, 0, 충무동2가
+GwangyeogSi, 62, 0, 충무동3가
+GwangyeogSi, 63, 0, 남부민동
+GwangyeogSi, 129, 0, 남부민
+GwangyeogSi, 130, 0, 등대
+GwangyeogSi, 131, 0, 천해
+GwangyeogSi, 132, 0, 해양
+GwangyeogSi, 64, 0, 암남동
+GwangyeogSi, 133, 0, 감천
+GwangyeogSi, 134, 0, 암남공원
+GwangyeogSi, 135, 0, 원양
+GwangyeogSi, 136, 0, 송도해변
+GwangyeogSi, 137, 0, 암남
+GwangyeogSi, 138, 0, 장군산
+GwangyeogSi, 139, 0, 천해남
+GwangyeogSi, 140, 0, 성산
+GwangyeogSi, 65, 0, 초량동
+GwangyeogSi, 141, 0, 고관
+GwangyeogSi, 142, 0, 구봉
+GwangyeogSi, 143, 0, 초량남
+GwangyeogSi, 144, 0, 초량
+GwangyeogSi, 145, 0, 초량북
+GwangyeogSi, 146, 0, 홍곡남
+GwangyeogSi, 147, 0, 홍곡
+GwangyeogSi, 148, 0, 구봉남
+GwangyeogSi, 149, 0, 구봉남길10번
+GwangyeogSi, 150, 0, 구봉남길14번
+GwangyeogSi, 151, 0, 구봉북
+GwangyeogSi, 152, 0, 구봉북길9번
+GwangyeogSi, 153, 0, 구봉중
+GwangyeogSi, 154, 0, 구봉중길12번
+GwangyeogSi, 155, 0, 구봉중길5번가
+GwangyeogSi, 156, 0, 구봉중길5번
+GwangyeogSi, 157, 0, 구봉중길5번나
+GwangyeogSi, 158, 0, 구봉중길6번가
+GwangyeogSi, 159, 0, 구봉중길6번
+GwangyeogSi, 160, 0, 영초길148번
+GwangyeogSi, 161, 0, 영초길191번
+GwangyeogSi, 162, 0, 영초길193번
+GwangyeogSi, 163, 0, 영초길197번
+GwangyeogSi, 164, 0, 영초길211번가
+GwangyeogSi, 165, 0, 영초길211번
+GwangyeogSi, 166, 0, 영초길212번
+GwangyeogSi, 167, 0, 영초길216번
+GwangyeogSi, 168, 0, 영초길232번
+GwangyeogSi, 169, 0, 영초길237번
+GwangyeogSi, 170, 0, 영초길247번가
+GwangyeogSi, 171, 0, 영초길247번
+GwangyeogSi, 172, 0, 영초길247번나
+GwangyeogSi, 173, 0, 영초길252번
+GwangyeogSi, 174, 0, 영초윗
+GwangyeogSi, 175, 0, 영초윗길26번
+GwangyeogSi, 176, 0, 영초윗길38번
+GwangyeogSi, 177, 0, 영초윗길42번
+GwangyeogSi, 178, 0, 영초윗길46번
+GwangyeogSi, 179, 0, 영초윗길48번
+GwangyeogSi, 180, 0, 영초윗길62번
+GwangyeogSi, 181, 0, 중동길1번
+GwangyeogSi, 182, 0, 중동길3번
+GwangyeogSi, 66, 0, 수정동
+GwangyeogSi, 183, 0, 구청
+GwangyeogSi, 184, 0, 수성남
+GwangyeogSi, 185, 0, 수성
+GwangyeogSi, 186, 0, 수정공원남
+GwangyeogSi, 187, 0, 수정공원
+GwangyeogSi, 188, 0, 수정공원북
+GwangyeogSi, 189, 0, 수정공원상
+GwangyeogSi, 190, 0, 수정공원중
+GwangyeogSi, 191, 0, 수정남
+GwangyeogSi, 192, 0, 수정동
+GwangyeogSi, 193, 0, 수정
+GwangyeogSi, 194, 0, 수정북
+GwangyeogSi, 195, 0, 수정서
+GwangyeogSi, 196, 0, 수정외솔
+GwangyeogSi, 197, 0, 수정중
+GwangyeogSi, 198, 0, 증산
+GwangyeogSi, 199, 0, 진성
+GwangyeogSi, 200, 0, 홍곡중
+GwangyeogSi, 201, 0, 구봉북길4번가
+GwangyeogSi, 202, 0, 구봉북길4번
+GwangyeogSi, 203, 0, 구봉북길4번나
+GwangyeogSi, 204, 0, 구봉북길6번
+GwangyeogSi, 67, 0, 좌천동
+GwangyeogSi, 205, 0, 성남
+GwangyeogSi, 206, 0, 성남이
+GwangyeogSi, 207, 0, 성남일
+GwangyeogSi, 208, 0, 성북
+GwangyeogSi, 209, 0, 정공단
+GwangyeogSi, 210, 0, 좌천남
+GwangyeogSi, 211, 0, 좌천동
+GwangyeogSi, 212, 0, 좌천
+GwangyeogSi, 213, 0, 좌천서
+GwangyeogSi, 214, 0, 증산동
+GwangyeogSi, 215, 0, 증산서
+GwangyeogSi, 216, 0, 자성
+GwangyeogSi, 217, 0, 능풍
+GwangyeogSi, 218, 0, 능풍길5번
+GwangyeogSi, 219, 0, 능풍길7번
+GwangyeogSi, 220, 0, 성남오
+GwangyeogSi, 221, 0, 성남오길11번
+GwangyeogSi, 222, 0, 성남오길17번
+GwangyeogSi, 223, 0, 성남오길23번
+GwangyeogSi, 224, 0, 성남오길7번
+GwangyeogSi, 225, 0, 성남육
+GwangyeogSi, 226, 0, 성남육길7번
+GwangyeogSi, 227, 0, 성남칠
+GwangyeogSi, 68, 0, 범일동
+GwangyeogSi, 228, 0, 자유평화
+GwangyeogSi, 229, 0, 범곡남
+GwangyeogSi, 230, 0, 범곡
+GwangyeogSi, 231, 0, 범곡북
+GwangyeogSi, 232, 0, 범곡서
+GwangyeogSi, 233, 0, 범내남
+GwangyeogSi, 234, 0, 범내
+GwangyeogSi, 235, 0, 범상
+GwangyeogSi, 236, 0, 성남삼
+GwangyeogSi, 237, 0, 안창
+GwangyeogSi, 238, 0, 자성공원
+GwangyeogSi, 239, 0, 조방
+GwangyeogSi, 240, 0, 증산북
+GwangyeogSi, 241, 0, 진시장
+GwangyeogSi, 242, 0, 범일
+GwangyeogSi, 243, 0, 범일이
+GwangyeogSi, 244, 0, 범일이길20번
+GwangyeogSi, 245, 0, 범일일
+GwangyeogSi, 246, 0, 범일일길11번가
+GwangyeogSi, 247, 0, 범일일길11번
+GwangyeogSi, 248, 0, 범일일길25번
+GwangyeogSi, 249, 0, 범일일길35번
+GwangyeogSi, 250, 0, 범일일길37번
+GwangyeogSi, 69, 0, 대교동1가
+GwangyeogSi, 251, 0, 남항서
+GwangyeogSi, 252, 0, 대평북
+GwangyeogSi, 253, 0, 봉래나루
+GwangyeogSi, 254, 0, 절영
+GwangyeogSi, 255, 0, 남항
+GwangyeogSi, 256, 0, 대평
+GwangyeogSi, 70, 0, 대교동2가
+GwangyeogSi, 71, 0, 대평동1가
+GwangyeogSi, 257, 0, 대평남
+GwangyeogSi, 72, 0, 대평동2가
+GwangyeogSi, 73, 0, 남항동1가
+GwangyeogSi, 74, 0, 남항동2가
+GwangyeogSi, 258, 0, 남항남
+GwangyeogSi, 75, 0, 남항동3가
+GwangyeogSi, 259, 0, 영선대
+GwangyeogSi, 260, 0, 해안산책
+GwangyeogSi, 76, 0, 영선동1가
+GwangyeogSi, 261, 0, 꿈나무
+GwangyeogSi, 262, 0, 새천년
+GwangyeogSi, 263, 0, 영도새싹
+GwangyeogSi, 264, 0, 영봉
+GwangyeogSi, 265, 0, 한결
+GwangyeogSi, 266, 0, 한사랑
+GwangyeogSi, 77, 0, 영선동2가
+GwangyeogSi, 267, 0, 개나리
+GwangyeogSi, 268, 0, 나눔
+GwangyeogSi, 269, 0, 남항시장
+GwangyeogSi, 270, 0, 영일
+GwangyeogSi, 78, 0, 영선동3가
+GwangyeogSi, 271, 0, 남항새싹1
+GwangyeogSi, 272, 0, 남항새싹
+GwangyeogSi, 273, 0, 해님1
+GwangyeogSi, 274, 0, 해님2
+GwangyeogSi, 275, 0, 향촌
+GwangyeogSi, 79, 0, 영선동4가
+GwangyeogSi, 276, 0, 남항새싹2
+GwangyeogSi, 277, 0, 남항새싹3
+GwangyeogSi, 278, 0, 남항새싹4
+GwangyeogSi, 279, 0, 남항새싹5
+GwangyeogSi, 280, 0, 남항새싹6
+GwangyeogSi, 281, 0, 남항새싹7
+GwangyeogSi, 282, 0, 복지관
+GwangyeogSi, 283, 0, 신선중뒷
+GwangyeogSi, 284, 0, 에움
+GwangyeogSi, 285, 0, 작은시장1
+GwangyeogSi, 286, 0, 작은시장2
+GwangyeogSi, 287, 0, 하나
+GwangyeogSi, 288, 0, 향토
+GwangyeogSi, 289, 0, 흰여울
+GwangyeogSi, 80, 0, 신선동1가
+GwangyeogSi, 290, 0, 다복솔
+GwangyeogSi, 291, 0, 번영1
+GwangyeogSi, 292, 0, 번영
+GwangyeogSi, 293, 0, 봉래
+GwangyeogSi, 294, 0, 상수도
+GwangyeogSi, 295, 0, 새롬
+GwangyeogSi, 296, 0, 세갈래
+GwangyeogSi, 297, 0, 아리랑4
+GwangyeogSi, 298, 0, 아리랑
+GwangyeogSi, 299, 0, 중복3
+GwangyeogSi, 300, 0, 중복4
+GwangyeogSi, 301, 0, 중복
+GwangyeogSi, 302, 0, 진달래
+GwangyeogSi, 303, 0, 참샘
+GwangyeogSi, 304, 0, 참우물
+GwangyeogSi, 81, 0, 신선동2가
+GwangyeogSi, 305, 0, 금잔디
+GwangyeogSi, 306, 0, 남도여중
+GwangyeogSi, 307, 0, 도래샘
+GwangyeogSi, 308, 0, 비나리
+GwangyeogSi, 309, 0, 산제당
+GwangyeogSi, 310, 0, 샛별
+GwangyeogSi, 311, 0, 신선초롱
+GwangyeogSi, 312, 0, 영상고뒷
+GwangyeogSi, 313, 0, 중복1
+GwangyeogSi, 314, 0, 중복2
+GwangyeogSi, 315, 0, 초롱꽃
+GwangyeogSi, 316, 0, 함박꽃
+GwangyeogSi, 82, 0, 신선동3가
+GwangyeogSi, 317, 0, 놀이터
+GwangyeogSi, 318, 0, 배꽃
+GwangyeogSi, 319, 0, 벚꽃
+GwangyeogSi, 320, 0, 산정
+GwangyeogSi, 321, 0, 상록수
+GwangyeogSi, 322, 0, 영마루1
+GwangyeogSi, 323, 0, 영마루2
+GwangyeogSi, 324, 0, 영마루3
+GwangyeogSi, 325, 0, 영마루
+GwangyeogSi, 326, 0, 영상
+GwangyeogSi, 327, 0, 재능
+GwangyeogSi, 328, 0, 해오름1
+GwangyeogSi, 329, 0, 해오름2
+GwangyeogSi, 330, 0, 해오름3
+GwangyeogSi, 83, 0, 봉래동1가
+GwangyeogSi, 84, 0, 봉래동2가
+GwangyeogSi, 85, 0, 봉래동3가
+GwangyeogSi, 86, 0, 봉래동4가
+GwangyeogSi, 331, 0, 개량1
+GwangyeogSi, 332, 0, 개량2
+GwangyeogSi, 333, 0, 동백꽃
+GwangyeogSi, 334, 0, 무궁화
+GwangyeogSi, 335, 0, 봉래언덕
+GwangyeogSi, 336, 0, 산유화
+GwangyeogSi, 87, 0, 봉래동5가
+GwangyeogSi, 337, 0, 나팔꽃
+GwangyeogSi, 338, 0, 목련
+GwangyeogSi, 339, 0, 방울꽃
+GwangyeogSi, 340, 0, 봉래쉼터
+GwangyeogSi, 341, 0, 봉숭아
+GwangyeogSi, 342, 0, 사택
+GwangyeogSi, 343, 0, 오동꽃
+GwangyeogSi, 344, 0, 외나무
+GwangyeogSi, 345, 0, 우정
+GwangyeogSi, 346, 0, 장미계단
+GwangyeogSi, 347, 0, 찬새미
+GwangyeogSi, 348, 0, 청명
+GwangyeogSi, 349, 0, 해돋이1
+GwangyeogSi, 88, 0, 청학동
+GwangyeogSi, 350, 0, 산업
+GwangyeogSi, 351, 0, 와치
+GwangyeogSi, 352, 0, 일산봉
+GwangyeogSi, 353, 0, 조내기
+GwangyeogSi, 354, 0, 청학남
+GwangyeogSi, 355, 0, 청학동
+GwangyeogSi, 356, 0, 청학
+GwangyeogSi, 357, 0, 청학북
+GwangyeogSi, 358, 0, 청학서
+GwangyeogSi, 359, 0, 광암
+GwangyeogSi, 360, 0, 광암길20번
+GwangyeogSi, 361, 0, 광암길7번
+GwangyeogSi, 362, 0, 까치
+GwangyeogSi, 363, 0, 맛자랑
+GwangyeogSi, 364, 0, 벚꽃길1번
+GwangyeogSi, 365, 0, 벚꽃길5번
+GwangyeogSi, 366, 0, 봉학새싹
+GwangyeogSi, 367, 0, 솔안
+GwangyeogSi, 368, 0, 청학북서
+GwangyeogSi, 369, 0, 청학북서길12번
+GwangyeogSi, 370, 0, 청학북서길23번
+GwangyeogSi, 371, 0, 해돋이2
+GwangyeogSi, 372, 0, 해돋이3
+GwangyeogSi, 373, 0, 형제
+GwangyeogSi, 89, 0, 동삼동
+GwangyeogSi, 374, 0, 동삼남
+GwangyeogSi, 375, 0, 동삼동
+GwangyeogSi, 376, 0, 동삼
+GwangyeogSi, 377, 0, 동삼북
+GwangyeogSi, 378, 0, 동삼서
+GwangyeogSi, 379, 0, 본산
+GwangyeogSi, 380, 0, 상리
+GwangyeogSi, 381, 0, 웃서발
+GwangyeogSi, 382, 0, 전망
+GwangyeogSi, 383, 0, 중리남
+GwangyeogSi, 384, 0, 중리
+GwangyeogSi, 385, 0, 중리북
+GwangyeogSi, 386, 0, 함지
+GwangyeogSi, 387, 0, 감지
+GwangyeogSi, 388, 0, 감지길87번
+GwangyeogSi, 389, 0, 감지길91번
+GwangyeogSi, 390, 0, 감지해변
+GwangyeogSi, 391, 0, 근면1
+GwangyeogSi, 392, 0, 근면2
+GwangyeogSi, 393, 0, 근면
+GwangyeogSi, 394, 0, 본산남
+GwangyeogSi, 395, 0, 본산남길22번
+GwangyeogSi, 396, 0, 본산남길25번
+GwangyeogSi, 397, 0, 본산남길32번
+GwangyeogSi, 398, 0, 상리해안1
+GwangyeogSi, 399, 0, 상리해안3
+GwangyeogSi, 400, 0, 상리해안5
+GwangyeogSi, 401, 0, 상리해안7
+GwangyeogSi, 402, 0, 선덤산
+GwangyeogSi, 403, 0, 아랫서발
+GwangyeogSi, 404, 0, 아랫서발길21번
+GwangyeogSi, 405, 0, 아랫서발길37번
+GwangyeogSi, 406, 0, 은빛
+GwangyeogSi, 407, 0, 장수3
+GwangyeogSi, 408, 0, 장수4
+GwangyeogSi, 409, 0, 장수5
+GwangyeogSi, 410, 0, 하리
+GwangyeogSi, 411, 0, 하리동
+GwangyeogSi, 412, 0, 하리서
+GwangyeogSi, 413, 0, 하리해안
+GwangyeogSi, 90, 0, 양정동
+GwangyeogSi, 414, 0, 거제대
+GwangyeogSi, 415, 0, 해맞이
+GwangyeogSi, 416, 0, 거제천
+GwangyeogSi, 417, 0, 진연
+GwangyeogSi, 418, 0, 동평
+GwangyeogSi, 419, 0, 범양
+GwangyeogSi, 420, 0, 양성
+GwangyeogSi, 421, 0, 양정
+GwangyeogSi, 422, 0, 양지
+GwangyeogSi, 423, 0, 양연
+GwangyeogSi, 424, 0, 연수
+GwangyeogSi, 425, 0, 진남
+GwangyeogSi, 426, 0, 화지
+GwangyeogSi, 427, 0, 연제
+GwangyeogSi, 428, 0, 경마장
+GwangyeogSi, 429, 0, 황령산
+GwangyeogSi, 91, 0, 전포동
+GwangyeogSi, 430, 0, 전포대
+GwangyeogSi, 431, 0, 황령대
+GwangyeogSi, 432, 0, 신천대
+GwangyeogSi, 433, 0, 동성
+GwangyeogSi, 434, 0, 동천
+GwangyeogSi, 435, 0, 봉수
+GwangyeogSi, 436, 0, 서전
+GwangyeogSi, 92, 0, 부전동
+GwangyeogSi, 437, 0, 가야대
+GwangyeogSi, 438, 0, 범전
+GwangyeogSi, 439, 0, 부전
+GwangyeogSi, 440, 0, 새싹
+GwangyeogSi, 441, 0, 서면
+GwangyeogSi, 442, 0, 서면문화
+GwangyeogSi, 93, 0, 범천동
+GwangyeogSi, 443, 0, 엄광
+GwangyeogSi, 444, 0, 만리산
+GwangyeogSi, 445, 0, 범천
+GwangyeogSi, 446, 0, 신암
+GwangyeogSi, 447, 0, 중앙번영
+GwangyeogSi, 448, 0, 골드테마
+GwangyeogSi, 94, 0, 범전동
+GwangyeogSi, 449, 0, 시민공원
+GwangyeogSi, 95, 0, 연지동
+GwangyeogSi, 450, 0, 국악
+GwangyeogSi, 451, 0, 성지
+GwangyeogSi, 452, 0, 연지
+GwangyeogSi, 453, 0, 초연
+GwangyeogSi, 96, 0, 초읍동
+GwangyeogSi, 454, 0, 성지곡
+GwangyeogSi, 455, 0, 초읍천
+GwangyeogSi, 456, 0, 월드컵대
+GwangyeogSi, 97, 0, 부암동
+GwangyeogSi, 457, 0, 백양대
+GwangyeogSi, 458, 0, 당감
+GwangyeogSi, 459, 0, 당감서
+GwangyeogSi, 460, 0, 백양산
+GwangyeogSi, 461, 0, 백양순환
+GwangyeogSi, 462, 0, 부암당산
+GwangyeogSi, 463, 0, 용사촌
+GwangyeogSi, 98, 0, 당감동
+GwangyeogSi, 464, 0, 마철
+GwangyeogSi, 465, 0, 백양관문
+GwangyeogSi, 99, 0, 가야동
+GwangyeogSi, 466, 0, 가야공원
+GwangyeogSi, 467, 0, 대학
+GwangyeogSi, 468, 0, 냉정
+GwangyeogSi, 469, 0, 복지
+GwangyeogSi, 100, 0, 개금동
+GwangyeogSi, 470, 0, 개금본동
+GwangyeogSi, 471, 0, 개금온정
+GwangyeogSi, 472, 0, 진사
+GwangyeogSi, 473, 0, 주감
+GwangyeogSi, 101, 0, 명장동
+GwangyeogSi, 474, 0, 명안
+GwangyeogSi, 475, 0, 명장
+GwangyeogSi, 476, 0, 복천
+GwangyeogSi, 477, 0, 충렬사
+GwangyeogSi, 478, 0, 명서
+GwangyeogSi, 479, 0, 반송
+GwangyeogSi, 480, 0, 서동중심
+GwangyeogSi, 481, 0, 시실
+GwangyeogSi, 482, 0, 안락
+GwangyeogSi, 483, 0, 옥봉
+GwangyeogSi, 102, 0, 안락동
+GwangyeogSi, 484, 0, 충렬대
+GwangyeogSi, 485, 0, 삼어
+GwangyeogSi, 486, 0, 동래
+GwangyeogSi, 487, 0, 안남
+GwangyeogSi, 488, 0, 온천천
+GwangyeogSi, 489, 0, 안연
+GwangyeogSi, 490, 0, 연안
+GwangyeogSi, 491, 0, 온천천남
+GwangyeogSi, 492, 0, 명륜
+GwangyeogSi, 493, 0, 호현
+GwangyeogSi, 494, 0, 화현
+GwangyeogSi, 103, 0, 칠산동
+GwangyeogSi, 495, 0, 칠산
+GwangyeogSi, 104, 0, 낙민동
+GwangyeogSi, 496, 0, 낙민
+GwangyeogSi, 497, 0, 수안
+GwangyeogSi, 105, 0, 복천동
+GwangyeogSi, 498, 0, 동래시장
+GwangyeogSi, 499, 0, 동래역사관
+GwangyeogSi, 106, 0, 수안동
+GwangyeogSi, 107, 0, 명륜동
+GwangyeogSi, 500, 0, 문화
+GwangyeogSi, 501, 0, 삼성대
+GwangyeogSi, 502, 0, 부곡
+GwangyeogSi, 108, 0, 온천동
+GwangyeogSi, 503, 0, 아시아드대
+GwangyeogSi, 504, 0, 우장춘
+GwangyeogSi, 505, 0, 구만덕
+GwangyeogSi, 506, 0, 금강공원
+GwangyeogSi, 507, 0, 금정마을
+GwangyeogSi, 508, 0, 석사북
+GwangyeogSi, 509, 0, 쇠미
+GwangyeogSi, 510, 0, 여고북
+GwangyeogSi, 511, 0, 차밭골
+GwangyeogSi, 512, 0, 금강
+GwangyeogSi, 513, 0, 미남
+GwangyeogSi, 514, 0, 온천장
+GwangyeogSi, 515, 0, 금샘
+GwangyeogSi, 516, 0, 만덕고개
+GwangyeogSi, 517, 0, 사직북
+GwangyeogSi, 109, 0, 사직동
+GwangyeogSi, 518, 0, 사직
+GwangyeogSi, 519, 0, 석사
+GwangyeogSi, 520, 0, 여고
+GwangyeogSi, 521, 0, 종합운동장
+GwangyeogSi, 522, 0, 체육공원
+GwangyeogSi, 523, 0, 법원북
+GwangyeogSi, 524, 0, 봉단1
+GwangyeogSi, 525, 0, 봉단
+GwangyeogSi, 110, 0, 대연동
+GwangyeogSi, 526, 0, 동제당
+GwangyeogSi, 527, 0, 못골
+GwangyeogSi, 528, 0, 못골번영
+GwangyeogSi, 529, 0, 석포
+GwangyeogSi, 530, 0, 신선
+GwangyeogSi, 531, 0, 신정번영
+GwangyeogSi, 532, 0, 용소
+GwangyeogSi, 533, 0, 유엔
+GwangyeogSi, 534, 0, 유엔평화
+GwangyeogSi, 535, 0, 조각공원
+GwangyeogSi, 536, 0, 천제등
+GwangyeogSi, 537, 0, 수영
+GwangyeogSi, 538, 0, 전선등
+GwangyeogSi, 111, 0, 용호동
+GwangyeogSi, 539, 0, 동명
+GwangyeogSi, 540, 0, 백운포
+GwangyeogSi, 541, 0, 분포
+GwangyeogSi, 542, 0, 신선대산복
+GwangyeogSi, 543, 0, 오륙도
+GwangyeogSi, 544, 0, 용주
+GwangyeogSi, 545, 0, 용호
+GwangyeogSi, 546, 0, 이기대공원
+GwangyeogSi, 547, 0, 섶자리
+GwangyeogSi, 112, 0, 용당동
+GwangyeogSi, 548, 0, 북항
+GwangyeogSi, 113, 0, 문현동
+GwangyeogSi, 549, 0, 고동골
+GwangyeogSi, 550, 0, 남동천
+GwangyeogSi, 551, 0, 문현금융
+GwangyeogSi, 552, 0, 문현
+GwangyeogSi, 553, 0, 우암
+GwangyeogSi, 554, 0, 장고개
+GwangyeogSi, 555, 0, 지게골
+GwangyeogSi, 556, 0, 돌산1
+GwangyeogSi, 557, 0, 돌산2
+GwangyeogSi, 558, 0, 돌산3
+GwangyeogSi, 559, 0, 돌산4
+GwangyeogSi, 560, 0, 돌산
+GwangyeogSi, 561, 0, 동항
+GwangyeogSi, 114, 0, 우암동
+GwangyeogSi, 562, 0, 당산
+GwangyeogSi, 563, 0, 솔밭
+GwangyeogSi, 564, 0, 우암번영
+GwangyeogSi, 565, 0, 우암양달
+GwangyeogSi, 115, 0, 감만동
+GwangyeogSi, 566, 0, 8부두
+GwangyeogSi, 567, 0, 무민사
+GwangyeogSi, 568, 0, 양지골
+GwangyeogSi, 116, 0, 금곡동
+GwangyeogSi, 569, 0, 금곡대
+GwangyeogSi, 570, 0, 학사
+GwangyeogSi, 571, 0, 효열
+GwangyeogSi, 572, 0, 화명신도시
+GwangyeogSi, 117, 0, 화명동
+GwangyeogSi, 573, 0, 화명대
+GwangyeogSi, 574, 0, 산성
+GwangyeogSi, 575, 0, 양달
+GwangyeogSi, 576, 0, 와석장터
+GwangyeogSi, 577, 0, 용당
+GwangyeogSi, 578, 0, 의성
+GwangyeogSi, 579, 0, 대천안
+GwangyeogSi, 580, 0, 대천천
+GwangyeogSi, 581, 0, 공해4
+GwangyeogSi, 118, 0, 만덕동
+GwangyeogSi, 582, 0, 만덕대
+GwangyeogSi, 583, 0, 기찰
+GwangyeogSi, 584, 0, 덕천
+GwangyeogSi, 585, 0, 만덕1
+GwangyeogSi, 586, 0, 만덕2
+GwangyeogSi, 587, 0, 만덕3
+GwangyeogSi, 588, 0, 상학
+GwangyeogSi, 589, 0, 은행나무
+GwangyeogSi, 590, 0, 함박봉
+GwangyeogSi, 591, 0, 남문
+GwangyeogSi, 592, 0, 상학산복
+GwangyeogSi, 119, 0, 덕천동
+GwangyeogSi, 593, 0, 강변대
+GwangyeogSi, 594, 0, 팽나무
+GwangyeogSi, 595, 0, 모분재
+GwangyeogSi, 596, 0, 덕천2
+GwangyeogSi, 597, 0, 덕천1
+GwangyeogSi, 598, 0, 시랑
+GwangyeogSi, 120, 0, 구포동
+GwangyeogSi, 599, 0, 낙동북
+GwangyeogSi, 600, 0, 가람
+GwangyeogSi, 601, 0, 구남
+GwangyeogSi, 602, 0, 구남언덕
+GwangyeogSi, 603, 0, 사상
+GwangyeogSi, 604, 0, 구포만세
+GwangyeogSi, 605, 0, 구포시장1
+GwangyeogSi, 606, 0, 구포시장2
+GwangyeogSi, 607, 0, 구포시장3
+GwangyeogSi, 608, 0, 구포시장4
+GwangyeogSi, 609, 0, 구포시장5
+GwangyeogSi, 610, 0, 구포시장6
+GwangyeogSi, 611, 0, 구포시장7
+GwangyeogSi, 612, 0, 구포시장8
+GwangyeogSi, 613, 0, 구포시장
+GwangyeogSi, 614, 0, 시장갓
+GwangyeogSi, 615, 0, 시장샛
+GwangyeogSi, 616, 0, 약초골목
+GwangyeogSi, 121, 0, 반송동
+GwangyeogSi, 617, 0, 반송순환
+GwangyeogSi, 618, 0, 석대천
+GwangyeogSi, 619, 0, 신반송
+GwangyeogSi, 620, 0, 아랫반송
+GwangyeogSi, 621, 0, 윗반송
+GwangyeogSi, 622, 0, 운봉
+GwangyeogSi, 623, 0, 운봉길186번
+GwangyeogSi, 122, 0, 석대동
+GwangyeogSi, 624, 0, 선수촌
+GwangyeogSi, 625, 0, 석대
+GwangyeogSi, 123, 0, 반여동
+GwangyeogSi, 626, 0, 해운대
+GwangyeogSi, 627, 0, 수영강변대
+GwangyeogSi, 628, 0, 반여
+GwangyeogSi, 629, 0, 재반
+GwangyeogSi, 630, 0, 재송2
+GwangyeogSi, 124, 0, 재송동
+GwangyeogSi, 631, 0, 센텀북대
+GwangyeogSi, 632, 0, 센텀동
+GwangyeogSi, 633, 0, 센텀중앙
+GwangyeogSi, 634, 0, 재송1
+GwangyeogSi, 125, 0, 우동
+GwangyeogSi, 635, 0, 센텀남대
+GwangyeogSi, 636, 0, 동백
+GwangyeogSi, 637, 0, 마린시티1
+GwangyeogSi, 638, 0, 마린시티2
+GwangyeogSi, 639, 0, 마린시티3
+GwangyeogSi, 640, 0, 센텀1
+GwangyeogSi, 641, 0, 센텀2
+GwangyeogSi, 642, 0, 센텀3
+GwangyeogSi, 643, 0, 센텀5
+GwangyeogSi, 644, 0, 센텀6
+GwangyeogSi, 645, 0, 센텀7
+GwangyeogSi, 646, 0, 센텀서
+GwangyeogSi, 647, 0, 우동1
+GwangyeogSi, 648, 0, 우동2
+GwangyeogSi, 649, 0, 우동3
+GwangyeogSi, 650, 0, 장산
+GwangyeogSi, 651, 0, 중동1
+GwangyeogSi, 652, 0, 해운대해변
+GwangyeogSi, 653, 0, APEC
+GwangyeogSi, 654, 0, 센텀4
+GwangyeogSi, 655, 0, 좌동순환
+GwangyeogSi, 126, 0, 중동
+GwangyeogSi, 656, 0, 대천
+GwangyeogSi, 657, 0, 좌동
+GwangyeogSi, 658, 0, 중동2
+GwangyeogSi, 659, 0, 청사포
+GwangyeogSi, 660, 0, 달맞이
+GwangyeogSi, 661, 0, 달맞이길104번
+GwangyeogSi, 662, 0, 달맞이길117번가
+GwangyeogSi, 663, 0, 달맞이길117번
+GwangyeogSi, 664, 0, 달맞이길117번나
+GwangyeogSi, 665, 0, 달맞이길117번다
+GwangyeogSi, 666, 0, 달맞이길117번라
+GwangyeogSi, 667, 0, 달맞이길50번
+GwangyeogSi, 668, 0, 달맞이길62번가
+GwangyeogSi, 669, 0, 달맞이길62번
+GwangyeogSi, 670, 0, 달맞이길65번
+GwangyeogSi, 671, 0, 양운
+GwangyeogSi, 127, 0, 좌동
+GwangyeogSi, 672, 0, 세실
+GwangyeogSi, 128, 0, 송정동
+GwangyeogSi, 673, 0, 송정1
+GwangyeogSi, 674, 0, 송정2
+GwangyeogSi, 675, 0, 송정강변
+GwangyeogSi, 676, 0, 송정광어골
+GwangyeogSi, 677, 0, 송정중앙
+GwangyeogSi, 678, 0, 송정해변
+GwangyeogSi, 679, 0, 송정구덕포
+GwangyeogSi, 680, 0, 백동
+GwangyeogSi, 129, 0, 괴정동
+GwangyeogSi, 681, 0, 괴정
+GwangyeogSi, 682, 0, 다대
+GwangyeogSi, 683, 0, 마하
+GwangyeogSi, 684, 0, 사리
+GwangyeogSi, 685, 0, 사하
+GwangyeogSi, 686, 0, 승학
+GwangyeogSi, 687, 0, 오작
+GwangyeogSi, 688, 0, 장평
+GwangyeogSi, 689, 0, 동주대학
+GwangyeogSi, 690, 0, 회화나무
+GwangyeogSi, 130, 0, 당리동
+GwangyeogSi, 691, 0, 동매
+GwangyeogSi, 692, 0, 제석
+GwangyeogSi, 693, 0, 당리
+GwangyeogSi, 131, 0, 하단동
+GwangyeogSi, 694, 0, 낙동남
+GwangyeogSi, 695, 0, 비봉
+GwangyeogSi, 696, 0, 하신중앙
+GwangyeogSi, 697, 0, 하신번영
+GwangyeogSi, 132, 0, 신평동
+GwangyeogSi, 698, 0, 을숙도대
+GwangyeogSi, 699, 0, 신산
+GwangyeogSi, 700, 0, 신산북
+GwangyeogSi, 133, 0, 장림동
+GwangyeogSi, 701, 0, 다산
+GwangyeogSi, 702, 0, 두송
+GwangyeogSi, 703, 0, 장림
+GwangyeogSi, 704, 0, 장림번영
+GwangyeogSi, 705, 0, 보덕포1
+GwangyeogSi, 706, 0, 보덕포2
+GwangyeogSi, 707, 0, 장림시장10
+GwangyeogSi, 708, 0, 장림시장11
+GwangyeogSi, 709, 0, 장림시장1
+GwangyeogSi, 710, 0, 장림시장2
+GwangyeogSi, 711, 0, 장림시장3
+GwangyeogSi, 712, 0, 장림시장4
+GwangyeogSi, 713, 0, 장림시장5
+GwangyeogSi, 714, 0, 장림시장6
+GwangyeogSi, 715, 0, 장림시장7
+GwangyeogSi, 716, 0, 장림시장8
+GwangyeogSi, 717, 0, 장림시장9
+GwangyeogSi, 134, 0, 다대동
+GwangyeogSi, 718, 0, 감천항
+GwangyeogSi, 719, 0, 다대동
+GwangyeogSi, 720, 0, 다송
+GwangyeogSi, 721, 0, 윤공단
+GwangyeogSi, 722, 0, 홍티
+GwangyeogSi, 723, 0, 다대낙조1
+GwangyeogSi, 724, 0, 다대낙조2
+GwangyeogSi, 725, 0, 몰운대1
+GwangyeogSi, 726, 0, 몰운대2
+GwangyeogSi, 135, 0, 구평동
+GwangyeogSi, 727, 0, 구평
+GwangyeogSi, 728, 0, 서포
+GwangyeogSi, 136, 0, 감천동
+GwangyeogSi, 729, 0, 감내1
+GwangyeogSi, 730, 0, 감내2
+GwangyeogSi, 137, 0, 두구동
+GwangyeogSi, 731, 0, 영천
+GwangyeogSi, 732, 0, 철마
+GwangyeogSi, 733, 0, 고분
+GwangyeogSi, 734, 0, 금정도서관
+GwangyeogSi, 735, 0, 대두
+GwangyeogSi, 736, 0, 두구
+GwangyeogSi, 737, 0, 두구중리1
+GwangyeogSi, 738, 0, 두구중리2
+GwangyeogSi, 739, 0, 석지못
+GwangyeogSi, 740, 0, 수내1
+GwangyeogSi, 741, 0, 수내1길23번
+GwangyeogSi, 742, 0, 수내2
+GwangyeogSi, 743, 0, 수내3
+GwangyeogSi, 744, 0, 신천
+GwangyeogSi, 745, 0, 임석1
+GwangyeogSi, 746, 0, 임석2
+GwangyeogSi, 747, 0, 임석3
+GwangyeogSi, 748, 0, 조리1
+GwangyeogSi, 749, 0, 조리2
+GwangyeogSi, 750, 0, 두구죽전1
+GwangyeogSi, 751, 0, 두구죽전2
+GwangyeogSi, 752, 0, 조리3
+GwangyeogSi, 138, 0, 노포동
+GwangyeogSi, 753, 0, 노포사송
+GwangyeogSi, 754, 0, 범어사
+GwangyeogSi, 755, 0, 노포마을1
+GwangyeogSi, 756, 0, 노포마을2
+GwangyeogSi, 757, 0, 대룡1
+GwangyeogSi, 758, 0, 대룡2
+GwangyeogSi, 759, 0, 대룡3
+GwangyeogSi, 760, 0, 작장1
+GwangyeogSi, 761, 0, 작장2
+GwangyeogSi, 762, 0, 작장3
+GwangyeogSi, 139, 0, 청룡동
+GwangyeogSi, 763, 0, 놀이마당
+GwangyeogSi, 764, 0, 청룡
+GwangyeogSi, 765, 0, 청룡예전
+GwangyeogSi, 766, 0, 팔송
+GwangyeogSi, 767, 0, 남산냇
+GwangyeogSi, 768, 0, 상마1
+GwangyeogSi, 769, 0, 상마2
+GwangyeogSi, 770, 0, 하마1
+GwangyeogSi, 771, 0, 하마2
+GwangyeogSi, 140, 0, 남산동
+GwangyeogSi, 772, 0, 금단
+GwangyeogSi, 773, 0, 남산
+GwangyeogSi, 774, 0, 두실
+GwangyeogSi, 775, 0, 벅구산
+GwangyeogSi, 776, 0, 범어천
+GwangyeogSi, 777, 0, 학산
+GwangyeogSi, 141, 0, 선동
+GwangyeogSi, 778, 0, 상현
+GwangyeogSi, 779, 0, 하정
+GwangyeogSi, 142, 0, 오륜동
+GwangyeogSi, 780, 0, 오륜대
+GwangyeogSi, 143, 0, 구서동
+GwangyeogSi, 781, 0, 금정
+GwangyeogSi, 782, 0, 구서
+GwangyeogSi, 783, 0, 구서온천천
+GwangyeogSi, 784, 0, 구서중앙
+GwangyeogSi, 785, 0, 부곡온천천
+GwangyeogSi, 786, 0, 안뜰
+GwangyeogSi, 787, 0, 수림
+GwangyeogSi, 144, 0, 장전동
+GwangyeogSi, 788, 0, 부산대학
+GwangyeogSi, 789, 0, 소정
+GwangyeogSi, 790, 0, 식물원
+GwangyeogSi, 791, 0, 장전
+GwangyeogSi, 792, 0, 장전온천천
+GwangyeogSi, 145, 0, 부곡동
+GwangyeogSi, 793, 0, 가마실
+GwangyeogSi, 794, 0, 동부곡
+GwangyeogSi, 795, 0, 동현
+GwangyeogSi, 796, 0, 무학송
+GwangyeogSi, 797, 0, 삼차
+GwangyeogSi, 798, 0, 서동
+GwangyeogSi, 799, 0, 서부곡
+GwangyeogSi, 800, 0, 서부
+GwangyeogSi, 801, 0, 오시게
+GwangyeogSi, 802, 0, 윤산
+GwangyeogSi, 146, 0, 서동
+GwangyeogSi, 803, 0, 금사
+GwangyeogSi, 804, 0, 서곡
+GwangyeogSi, 805, 0, 서금
+GwangyeogSi, 806, 0, 서명
+GwangyeogSi, 807, 0, 중군진
+GwangyeogSi, 808, 0, 개좌
+GwangyeogSi, 809, 0, 서동시장
+GwangyeogSi, 810, 0, 서동시장뒷
+GwangyeogSi, 147, 0, 금사동
+GwangyeogSi, 811, 0, 공단동
+GwangyeogSi, 812, 0, 공단
+GwangyeogSi, 813, 0, 공단서
+GwangyeogSi, 814, 0, 사천
+GwangyeogSi, 815, 0, 회천
+GwangyeogSi, 148, 0, 회동동
+GwangyeogSi, 816, 0, 수원지
+GwangyeogSi, 817, 0, 정관산업
+GwangyeogSi, 149, 0, 금성동
+GwangyeogSi, 818, 0, 동문
+GwangyeogSi, 819, 0, 북문
+GwangyeogSi, 820, 0, 공해1
+GwangyeogSi, 821, 0, 공해2
+GwangyeogSi, 822, 0, 공해3
+GwangyeogSi, 823, 0, 공해5
+GwangyeogSi, 824, 0, 땅곡
+GwangyeogSi, 825, 0, 죽전1
+GwangyeogSi, 826, 0, 죽전2
+GwangyeogSi, 827, 0, 중리1
+GwangyeogSi, 828, 0, 중리2
+GwangyeogSi, 829, 0, 중리3
+GwangyeogSi, 150, 0, 대저1동
+GwangyeogSi, 830, 0, 경전철
+GwangyeogSi, 831, 0, 공항
+GwangyeogSi, 832, 0, 대저동서
+GwangyeogSi, 833, 0, 대저
+GwangyeogSi, 834, 0, 대저중앙
+GwangyeogSi, 835, 0, 평강
+GwangyeogSi, 836, 0, 강동신덕1
+GwangyeogSi, 837, 0, 강동신덕2
+GwangyeogSi, 838, 0, 대저들
+GwangyeogSi, 839, 0, 대저들길17번가
+GwangyeogSi, 840, 0, 대저들길17번
+GwangyeogSi, 841, 0, 신덕
+GwangyeogSi, 842, 0, 신덕길18번
+GwangyeogSi, 843, 0, 신덕길1번
+GwangyeogSi, 844, 0, 신덕길2번
+GwangyeogSi, 845, 0, 동남
+GwangyeogSi, 151, 0, 대저2동
+GwangyeogSi, 846, 0, 남해2지선고속도
+GwangyeogSi, 847, 0, 공항진입
+GwangyeogSi, 848, 0, 신노전
+GwangyeogSi, 849, 0, 울만
+GwangyeogSi, 850, 0, 제도
+GwangyeogSi, 851, 0, 테크센터
+GwangyeogSi, 852, 0, 유통단지1
+GwangyeogSi, 853, 0, 유통단지2
+GwangyeogSi, 854, 0, 공항앞
+GwangyeogSi, 855, 0, 공항앞길13번
+GwangyeogSi, 856, 0, 공항앞길163번
+GwangyeogSi, 857, 0, 공항앞길177번
+GwangyeogSi, 858, 0, 공항앞길187번
+GwangyeogSi, 859, 0, 공항앞길33번
+GwangyeogSi, 860, 0, 공항앞길51번
+GwangyeogSi, 861, 0, 공항앞길85번
+GwangyeogSi, 862, 0, 군라1
+GwangyeogSi, 863, 0, 군라2
+GwangyeogSi, 864, 0, 금호순서
+GwangyeogSi, 865, 0, 금호순서길281번
+GwangyeogSi, 866, 0, 금호순서길282번가
+GwangyeogSi, 867, 0, 금호순서길282번
+GwangyeogSi, 868, 0, 금호순서길282번나
+GwangyeogSi, 869, 0, 금호순서길7번
+GwangyeogSi, 870, 0, 금호순서길89번가
+GwangyeogSi, 871, 0, 금호순서길89번
+GwangyeogSi, 872, 0, 도도본리
+GwangyeogSi, 873, 0, 맥도강변
+GwangyeogSi, 874, 0, 맥도강변길171번
+GwangyeogSi, 875, 0, 맥도강변길835번
+GwangyeogSi, 876, 0, 맥도강변길90번
+GwangyeogSi, 877, 0, 맥도
+GwangyeogSi, 878, 0, 맥도길117번
+GwangyeogSi, 879, 0, 맥도길205번
+GwangyeogSi, 880, 0, 맥도길243번
+GwangyeogSi, 881, 0, 맥도길265번
+GwangyeogSi, 882, 0, 맥도길319번
+GwangyeogSi, 883, 0, 맥도길355번
+GwangyeogSi, 884, 0, 맥도길376번
+GwangyeogSi, 885, 0, 맥도길377번
+GwangyeogSi, 886, 0, 맥도길415번
+GwangyeogSi, 887, 0, 맥도길453번
+GwangyeogSi, 888, 0, 맥도길473번
+GwangyeogSi, 889, 0, 맥도길474번
+GwangyeogSi, 890, 0, 맥도길509번
+GwangyeogSi, 891, 0, 맥도길545번
+GwangyeogSi, 892, 0, 맥도길585번
+GwangyeogSi, 893, 0, 맥도길81번
+GwangyeogSi, 894, 0, 맥도길83번
+GwangyeogSi, 895, 0, 상납청
+GwangyeogSi, 896, 0, 설만
+GwangyeogSi, 897, 0, 설만신평
+GwangyeogSi, 898, 0, 송동
+GwangyeogSi, 899, 0, 신노전1
+GwangyeogSi, 900, 0, 신노전2
+GwangyeogSi, 901, 0, 신노전3
+GwangyeogSi, 902, 0, 신노전4
+GwangyeogSi, 903, 0, 신노전5
+GwangyeogSi, 904, 0, 입소
+GwangyeogSi, 905, 0, 입소신평
+GwangyeogSi, 906, 0, 입소정관
+GwangyeogSi, 907, 0, 정관
+GwangyeogSi, 908, 0, 중앙새싹1
+GwangyeogSi, 909, 0, 중앙새싹2
+GwangyeogSi, 910, 0, 월상
+GwangyeogSi, 911, 0, 공항앞길221번
+GwangyeogSi, 152, 0, 강동동
+GwangyeogSi, 912, 0, 남해고속도
+GwangyeogSi, 913, 0, 상덕
+GwangyeogSi, 914, 0, 강동송백1
+GwangyeogSi, 915, 0, 강동송백2
+GwangyeogSi, 916, 0, 강동송백3
+GwangyeogSi, 917, 0, 강동송백4
+GwangyeogSi, 918, 0, 강동송백5
+GwangyeogSi, 919, 0, 강동송백6
+GwangyeogSi, 920, 0, 강동신덕3
+GwangyeogSi, 921, 0, 강동중곡1
+GwangyeogSi, 922, 0, 강동중곡2
+GwangyeogSi, 923, 0, 강동중곡3
+GwangyeogSi, 924, 0, 공작
+GwangyeogSi, 925, 0, 기러기
+GwangyeogSi, 926, 0, 대부
+GwangyeogSi, 927, 0, 덕포
+GwangyeogSi, 928, 0, 득천1
+GwangyeogSi, 929, 0, 득천2
+GwangyeogSi, 930, 0, 메뚜기
+GwangyeogSi, 931, 0, 수봉1
+GwangyeogSi, 932, 0, 수봉2
+GwangyeogSi, 933, 0, 수봉3
+GwangyeogSi, 934, 0, 수봉4
+GwangyeogSi, 935, 0, 원앙
+GwangyeogSi, 936, 0, 전양1
+GwangyeogSi, 937, 0, 전양2
+GwangyeogSi, 938, 0, 전양3
+GwangyeogSi, 939, 0, 조정경기장
+GwangyeogSi, 940, 0, 천자1
+GwangyeogSi, 941, 0, 천자2
+GwangyeogSi, 942, 0, 천자3
+GwangyeogSi, 943, 0, 천자강변
+GwangyeogSi, 153, 0, 명지동
+GwangyeogSi, 944, 0, 르노삼성대
+GwangyeogSi, 945, 0, 명지오션시티10
+GwangyeogSi, 946, 0, 명지오션시티11
+GwangyeogSi, 947, 0, 명지오션시티13
+GwangyeogSi, 948, 0, 명지오션시티1
+GwangyeogSi, 949, 0, 명지오션시티2
+GwangyeogSi, 950, 0, 명지오션시티3
+GwangyeogSi, 951, 0, 명지오션시티4
+GwangyeogSi, 952, 0, 명지오션시티5
+GwangyeogSi, 953, 0, 명지오션시티6
+GwangyeogSi, 954, 0, 명지오션시티7
+GwangyeogSi, 955, 0, 명지오션시티8
+GwangyeogSi, 956, 0, 명지오션시티9
+GwangyeogSi, 957, 0, 명지오션시티12
+GwangyeogSi, 958, 0, 명지국제1
+GwangyeogSi, 959, 0, 명지국제2
+GwangyeogSi, 960, 0, 명지국제3
+GwangyeogSi, 961, 0, 명지국제4
+GwangyeogSi, 962, 0, 명지국제5
+GwangyeogSi, 963, 0, 명지국제6
+GwangyeogSi, 964, 0, 명지국제7
+GwangyeogSi, 965, 0, 명지국제8
+GwangyeogSi, 966, 0, 명지국제9
+GwangyeogSi, 967, 0, 명지국제11
+GwangyeogSi, 968, 0, 명지국제12
+GwangyeogSi, 969, 0, 명지국제13
+GwangyeogSi, 970, 0, 경등2
+GwangyeogSi, 971, 0, 경등중앙
+GwangyeogSi, 972, 0, 명지새동네
+GwangyeogSi, 973, 0, 명지새동네길13번
+GwangyeogSi, 974, 0, 명지새동네길14번
+GwangyeogSi, 975, 0, 명지새동네길19번
+GwangyeogSi, 976, 0, 명지새동네길1번
+GwangyeogSi, 977, 0, 명지새동네길20번
+GwangyeogSi, 978, 0, 명지새동네길2번
+GwangyeogSi, 979, 0, 명지새동네길7번
+GwangyeogSi, 980, 0, 명지새동네길8번
+GwangyeogSi, 981, 0, 사취등1
+GwangyeogSi, 982, 0, 사취등2
+GwangyeogSi, 983, 0, 사취등북
+GwangyeogSi, 984, 0, 새진목
+GwangyeogSi, 985, 0, 새진목길11번
+GwangyeogSi, 986, 0, 새진목길18번
+GwangyeogSi, 987, 0, 새진목길26번
+GwangyeogSi, 988, 0, 순아1구
+GwangyeogSi, 989, 0, 순아2구
+GwangyeogSi, 990, 0, 순아3구
+GwangyeogSi, 991, 0, 순아강변
+GwangyeogSi, 992, 0, 신포경등
+GwangyeogSi, 993, 0, 신포
+GwangyeogSi, 994, 0, 신포길17번
+GwangyeogSi, 995, 0, 신포길39번
+GwangyeogSi, 996, 0, 신포길83번
+GwangyeogSi, 997, 0, 영강
+GwangyeogSi, 998, 0, 영강길15번
+GwangyeogSi, 999, 0, 영강길172번
+GwangyeogSi, 1000, 0, 영강길17번가
+GwangyeogSi, 1001, 0, 영강길17번
+GwangyeogSi, 1002, 0, 영강길17번나
+GwangyeogSi, 1003, 0, 영강길19번
+GwangyeogSi, 1004, 0, 영강길81번
+GwangyeogSi, 1005, 0, 영강길91번
+GwangyeogSi, 1006, 0, 영강조동
+GwangyeogSi, 1007, 0, 처녀갯
+GwangyeogSi, 1008, 0, 평성
+GwangyeogSi, 1009, 0, 해척남북
+GwangyeogSi, 1010, 0, 해척동서
+GwangyeogSi, 154, 0, 죽림동
+GwangyeogSi, 1011, 0, 가락대
+GwangyeogSi, 1012, 0, 식만
+GwangyeogSi, 1013, 0, 호계
+GwangyeogSi, 155, 0, 식만동
+GwangyeogSi, 1014, 0, 서낙동
+GwangyeogSi, 156, 0, 죽동동
+GwangyeogSi, 1015, 0, 봉죽
+GwangyeogSi, 1016, 0, 봉죽길243번
+GwangyeogSi, 1017, 0, 봉죽길339번
+GwangyeogSi, 1018, 0, 봉죽길340번
+GwangyeogSi, 1019, 0, 봉죽길379번
+GwangyeogSi, 1020, 0, 봉죽길386번
+GwangyeogSi, 1021, 0, 봉죽길443번
+GwangyeogSi, 1022, 0, 봉죽길482번
+GwangyeogSi, 1023, 0, 죽동
+GwangyeogSi, 1024, 0, 죽동길106번
+GwangyeogSi, 1025, 0, 죽동길196번
+GwangyeogSi, 1026, 0, 죽동길3번
+GwangyeogSi, 1027, 0, 죽동길405번
+GwangyeogSi, 1028, 0, 죽동길424번
+GwangyeogSi, 1029, 0, 죽동길54번
+GwangyeogSi, 157, 0, 봉림동
+GwangyeogSi, 1030, 0, 둔치강변
+GwangyeogSi, 1031, 0, 둔치동서
+GwangyeogSi, 1032, 0, 둔치본리
+GwangyeogSi, 1033, 0, 둔치중앙
+GwangyeogSi, 1034, 0, 봉림
+GwangyeogSi, 1035, 0, 봉림길126번
+GwangyeogSi, 1036, 0, 봉림길203번가
+GwangyeogSi, 1037, 0, 봉림길203번
+GwangyeogSi, 1038, 0, 봉림길233번
+GwangyeogSi, 1039, 0, 봉림길234번
+GwangyeogSi, 1040, 0, 봉림길277번
+GwangyeogSi, 1041, 0, 봉림길278번
+GwangyeogSi, 1042, 0, 봉림길324번
+GwangyeogSi, 1043, 0, 봉림길93번
+GwangyeogSi, 1044, 0, 봉림길94번가
+GwangyeogSi, 1045, 0, 봉죽길151번
+GwangyeogSi, 1046, 0, 봉죽길193번
+GwangyeogSi, 1047, 0, 봉죽길235번
+GwangyeogSi, 1048, 0, 봉죽길238번
+GwangyeogSi, 1049, 0, 봉죽길243번나
+GwangyeogSi, 1050, 0, 봉죽길243번다
+GwangyeogSi, 1051, 0, 봉죽길91번
+GwangyeogSi, 1052, 0, 해포2
+GwangyeogSi, 1053, 0, 해포3
+GwangyeogSi, 1054, 0, 봉림길94번
+GwangyeogSi, 1055, 0, 봉죽길243번가
+GwangyeogSi, 1056, 0, 녹산산업대
+GwangyeogSi, 1057, 0, 녹산산단153
+GwangyeogSi, 1058, 0, 녹산산단165
+GwangyeogSi, 1059, 0, 녹산산단178
+GwangyeogSi, 1060, 0, 녹산산단17
+GwangyeogSi, 1061, 0, 녹산산단231
+GwangyeogSi, 1062, 0, 녹산산단232
+GwangyeogSi, 1063, 0, 녹산산단261
+GwangyeogSi, 1064, 0, 녹산산단262
+GwangyeogSi, 1065, 0, 녹산산단27
+GwangyeogSi, 1066, 0, 녹산산단289
+GwangyeogSi, 1067, 0, 녹산산단290
+GwangyeogSi, 1068, 0, 녹산산단321
+GwangyeogSi, 1069, 0, 녹산산단335
+GwangyeogSi, 1070, 0, 녹산산단361
+GwangyeogSi, 1071, 0, 녹산산단362
+GwangyeogSi, 1072, 0, 녹산산단381
+GwangyeogSi, 1073, 0, 녹산산단382
+GwangyeogSi, 1074, 0, 녹산산단407
+GwangyeogSi, 1075, 0, 녹산산단408
+GwangyeogSi, 1076, 0, 녹산산단442
+GwangyeogSi, 1077, 0, 녹산산단46
+GwangyeogSi, 1078, 0, 녹산산단484
+GwangyeogSi, 1079, 0, 녹산산단77
+GwangyeogSi, 1080, 0, 녹산산업북
+GwangyeogSi, 1081, 0, 녹산산업중
+GwangyeogSi, 1082, 0, 녹산화전
+GwangyeogSi, 1083, 0, 송정
+GwangyeogSi, 1084, 0, 송정길100번가
+GwangyeogSi, 1085, 0, 송정길100번
+GwangyeogSi, 1086, 0, 송정길100번나
+GwangyeogSi, 1087, 0, 송정길43번
+GwangyeogSi, 1088, 0, 신촌소류지
+GwangyeogSi, 158, 0, 화전동
+GwangyeogSi, 1089, 0, 화전산업대
+GwangyeogSi, 1090, 0, 화전산단1
+GwangyeogSi, 1091, 0, 화전산단2
+GwangyeogSi, 1092, 0, 화전산단3
+GwangyeogSi, 1093, 0, 화전산단4
+GwangyeogSi, 1094, 0, 화전산단5
+GwangyeogSi, 1095, 0, 화전산단6
+GwangyeogSi, 159, 0, 녹산동
+GwangyeogSi, 1096, 0, 생곡
+GwangyeogSi, 160, 0, 생곡동
+GwangyeogSi, 1097, 0, 생곡산단
+GwangyeogSi, 1098, 0, 생곡산단1
+GwangyeogSi, 1099, 0, 생곡산단2
+GwangyeogSi, 1100, 0, 가달2
+GwangyeogSi, 1101, 0, 가리새1
+GwangyeogSi, 1102, 0, 가리새2
+GwangyeogSi, 1103, 0, 가리새3
+GwangyeogSi, 1104, 0, 가달1
+GwangyeogSi, 1105, 0, 마음
+GwangyeogSi, 1106, 0, 장락
+GwangyeogSi, 1107, 0, 생곡길26번
+GwangyeogSi, 1108, 0, 생곡길10번
+GwangyeogSi, 161, 0, 구랑동
+GwangyeogSi, 1109, 0, 과학산단
+GwangyeogSi, 1110, 0, 미음산단
+GwangyeogSi, 1111, 0, 미음산단1
+GwangyeogSi, 1112, 0, 미음산단2
+GwangyeogSi, 162, 0, 지사동
+GwangyeogSi, 1113, 0, 남해안대
+GwangyeogSi, 1114, 0, 과학산단1
+GwangyeogSi, 1115, 0, 과학산단2
+GwangyeogSi, 1116, 0, 명동
+GwangyeogSi, 1117, 0, 허왕후
+GwangyeogSi, 163, 0, 미음동
+GwangyeogSi, 1118, 0, 미음산단3
+GwangyeogSi, 1119, 0, 미음산단4
+GwangyeogSi, 1120, 0, 미음산단5
+GwangyeogSi, 1121, 0, 미음산단6
+GwangyeogSi, 1122, 0, 미음국제7
+GwangyeogSi, 1123, 0, 미음국제6
+GwangyeogSi, 1124, 0, 미음국제5
+GwangyeogSi, 1125, 0, 미음국제4
+GwangyeogSi, 1126, 0, 미음국제3
+GwangyeogSi, 1127, 0, 미음국제2
+GwangyeogSi, 1128, 0, 미음국제1
+GwangyeogSi, 164, 0, 범방동
+GwangyeogSi, 1129, 0, 수가
+GwangyeogSi, 1130, 0, 범방3
+GwangyeogSi, 1131, 0, 범방2
+GwangyeogSi, 1132, 0, 범방4
+GwangyeogSi, 1133, 0, 범방1
+GwangyeogSi, 1134, 0, 범방5
+GwangyeogSi, 165, 0, 신호동
+GwangyeogSi, 1135, 0, 신호산단1
+GwangyeogSi, 1136, 0, 신호산단2
+GwangyeogSi, 1137, 0, 신호산단3
+GwangyeogSi, 1138, 0, 신호산단4
+GwangyeogSi, 1139, 0, 신호산단5
+GwangyeogSi, 1140, 0, 진우해안
+GwangyeogSi, 166, 0, 동선동
+GwangyeogSi, 1141, 0, 거가대
+GwangyeogSi, 1142, 0, 동선1
+GwangyeogSi, 1143, 0, 동선2
+GwangyeogSi, 1144, 0, 동선새바지
+GwangyeogSi, 1145, 0, 동선3
+GwangyeogSi, 1146, 0, 동선
+GwangyeogSi, 167, 0, 성북동
+GwangyeogSi, 1147, 0, 가덕해안
+GwangyeogSi, 1148, 0, 신항
+GwangyeogSi, 1149, 0, 신항남
+GwangyeogSi, 1150, 0, 신항북
+GwangyeogSi, 1151, 0, 선창1
+GwangyeogSi, 1152, 0, 성북2
+GwangyeogSi, 1153, 0, 성북3
+GwangyeogSi, 1154, 0, 동선3안
+GwangyeogSi, 1155, 0, 선창
+GwangyeogSi, 1156, 0, 성북1
+GwangyeogSi, 168, 0, 눌차동
+GwangyeogSi, 169, 0, 천성동
+GwangyeogSi, 1157, 0, 서천
+GwangyeogSi, 1158, 0, 천성
+GwangyeogSi, 170, 0, 대항동
+GwangyeogSi, 171, 0, 거제동
+GwangyeogSi, 1159, 0, 거제시장
+GwangyeogSi, 1160, 0, 거평
+GwangyeogSi, 1161, 0, 경기장
+GwangyeogSi, 1162, 0, 교대
+GwangyeogSi, 1163, 0, 금용
+GwangyeogSi, 1164, 0, 법원남
+GwangyeogSi, 1165, 0, 법원
+GwangyeogSi, 1166, 0, 세병
+GwangyeogSi, 1167, 0, 신촌
+GwangyeogSi, 1168, 0, 황새알
+GwangyeogSi, 1169, 0, 온천천공원
+GwangyeogSi, 172, 0, 연산동
+GwangyeogSi, 1170, 0, 과정
+GwangyeogSi, 1171, 0, 대리
+GwangyeogSi, 1172, 0, 마곡천
+GwangyeogSi, 1173, 0, 묘봉산
+GwangyeogSi, 1174, 0, 배산
+GwangyeogSi, 1175, 0, 배산북
+GwangyeogSi, 1176, 0, 시청
+GwangyeogSi, 1177, 0, 신금
+GwangyeogSi, 1178, 0, 쌍미천
+GwangyeogSi, 1179, 0, 연동
+GwangyeogSi, 1180, 0, 연미
+GwangyeogSi, 1181, 0, 중앙천
+GwangyeogSi, 1182, 0, 토곡
+GwangyeogSi, 1183, 0, 토현
+GwangyeogSi, 1184, 0, 금련
+GwangyeogSi, 1185, 0, 좌수영
+GwangyeogSi, 1186, 0, 토곡남
+GwangyeogSi, 1187, 0, 톳고개
+GwangyeogSi, 1188, 0, 망미번영
+GwangyeogSi, 1189, 0, 구락
+GwangyeogSi, 1190, 0, 물만
+GwangyeogSi, 173, 0, 망미동
+GwangyeogSi, 1191, 0, 망미배산
+GwangyeogSi, 1192, 0, 망미
+GwangyeogSi, 1193, 0, 수미
+GwangyeogSi, 174, 0, 수영동
+GwangyeogSi, 1194, 0, 수영성
+GwangyeogSi, 175, 0, 민락동
+GwangyeogSi, 1195, 0, 감포
+GwangyeogSi, 1196, 0, 광남
+GwangyeogSi, 1197, 0, 광안
+GwangyeogSi, 1198, 0, 광안해변
+GwangyeogSi, 1199, 0, 무학
+GwangyeogSi, 1200, 0, 민락
+GwangyeogSi, 1201, 0, 민락본동
+GwangyeogSi, 1202, 0, 민락수변
+GwangyeogSi, 176, 0, 광안동
+GwangyeogSi, 1203, 0, 광서
+GwangyeogSi, 1204, 0, 광일
+GwangyeogSi, 1205, 0, 남천바다
+GwangyeogSi, 1206, 0, 장대골
+GwangyeogSi, 1207, 0, 호암
+GwangyeogSi, 177, 0, 남천동
+GwangyeogSi, 1208, 0, 남천동
+GwangyeogSi, 1209, 0, 남천서
+GwangyeogSi, 178, 0, 삼락동
+GwangyeogSi, 1210, 0, 삼락천
+GwangyeogSi, 1211, 0, 모덕
+GwangyeogSi, 1212, 0, 모라
+GwangyeogSi, 1213, 0, 삼덕
+GwangyeogSi, 1214, 0, 운산
+GwangyeogSi, 179, 0, 모라동
+GwangyeogSi, 1215, 0, 덕상
+GwangyeogSi, 180, 0, 덕포동
+GwangyeogSi, 1216, 0, 강선
+GwangyeogSi, 181, 0, 괘법동
+GwangyeogSi, 1217, 0, 광장
+GwangyeogSi, 1218, 0, 괘감
+GwangyeogSi, 1219, 0, 새벽
+GwangyeogSi, 182, 0, 감전동
+GwangyeogSi, 1220, 0, 학감대
+GwangyeogSi, 1221, 0, 감전천
+GwangyeogSi, 1222, 0, 대동
+GwangyeogSi, 1223, 0, 장인
+GwangyeogSi, 183, 0, 주례동
+GwangyeogSi, 1224, 0, 동주
+GwangyeogSi, 1225, 0, 주례
+GwangyeogSi, 1226, 0, 학장
+GwangyeogSi, 184, 0, 학장동
+GwangyeogSi, 185, 0, 엄궁동
+GwangyeogSi, 1227, 0, 농산물시장
+GwangyeogSi, 1228, 0, 엄궁남
+GwangyeogSi, 1229, 0, 엄궁
+GwangyeogSi, 1230, 0, 엄궁북
+GwangyeogSi, 1231, 0, 엄궁중
+GwangyeogSi, 186, 0, 기장읍
+GwangyeogSi, 1, 186, 동부리
+GwangyeogSi, 1232, 1, 기장대
+GwangyeogSi, 1233, 1, 읍내
+GwangyeogSi, 1234, 1, 차성동
+GwangyeogSi, 1235, 1, 차성
+GwangyeogSi, 1236, 1, 차성서
+GwangyeogSi, 2, 186, 교리
+GwangyeogSi, 3, 186, 신천리
+GwangyeogSi, 1237, 3, 죽성
+GwangyeogSi, 1238, 3, 마장터
+GwangyeogSi, 4, 186, 죽성리
+GwangyeogSi, 1239, 4, 두메
+GwangyeogSi, 1240, 4, 기장해안
+GwangyeogSi, 1241, 4, 달밭
+GwangyeogSi, 1242, 4, 두호1
+GwangyeogSi, 1243, 4, 두호2
+GwangyeogSi, 1244, 4, 두호
+GwangyeogSi, 1245, 4, 원죽
+GwangyeogSi, 1246, 4, 월전1
+GwangyeogSi, 1247, 4, 월전해안
+GwangyeogSi, 5, 186, 서부리
+GwangyeogSi, 6, 186, 대라리
+GwangyeogSi, 1248, 6, 차성남
+GwangyeogSi, 1249, 6, 안평
+GwangyeogSi, 7, 186, 청강리
+GwangyeogSi, 1250, 7, 대변
+GwangyeogSi, 1251, 7, 청강
+GwangyeogSi, 1252, 7, 동뫼
+GwangyeogSi, 1253, 7, 무곡1
+GwangyeogSi, 1254, 7, 무곡2
+GwangyeogSi, 1255, 7, 무곡
+GwangyeogSi, 8, 186, 대변리
+GwangyeogSi, 1256, 8, 대변1
+GwangyeogSi, 1257, 8, 무양
+GwangyeogSi, 1258, 8, 대변2
+GwangyeogSi, 1259, 8, 대변3
+GwangyeogSi, 1260, 8, 무양2
+GwangyeogSi, 1261, 8, 연화
+GwangyeogSi, 9, 186, 연화리
+GwangyeogSi, 1262, 9, 연화1
+GwangyeogSi, 1263, 9, 연화2
+GwangyeogSi, 10, 186, 만화리
+GwangyeogSi, 1264, 10, 동서
+GwangyeogSi, 11, 186, 석산리
+GwangyeogSi, 1265, 11, 동부산관광6
+GwangyeogSi, 1266, 11, 석산1
+GwangyeogSi, 1267, 11, 석산
+GwangyeogSi, 12, 186, 당사리
+GwangyeogSi, 1268, 12, 동부산관광3
+GwangyeogSi, 1269, 12, 동부산관광5
+GwangyeogSi, 1270, 12, 당사
+GwangyeogSi, 13, 186, 시랑리
+GwangyeogSi, 1271, 13, 동부산관광9
+GwangyeogSi, 1272, 13, 동부산관광7
+GwangyeogSi, 1273, 13, 동부산관광8
+GwangyeogSi, 1274, 13, 공수1
+GwangyeogSi, 1275, 13, 공수2
+GwangyeogSi, 1276, 13, 공수3
+GwangyeogSi, 1277, 13, 공수해안
+GwangyeogSi, 1278, 13, 동암1
+GwangyeogSi, 1279, 13, 동암2
+GwangyeogSi, 1280, 13, 동암3
+GwangyeogSi, 1281, 13, 동암해안
+GwangyeogSi, 1282, 13, 용궁
+GwangyeogSi, 14, 186, 내리
+GwangyeogSi, 1283, 14, 내리1
+GwangyeogSi, 1284, 14, 내리
+GwangyeogSi, 1285, 14, 소정안
+GwangyeogSi, 187, 0, 장안읍
+GwangyeogSi, 15, 187, 좌천리
+GwangyeogSi, 1286, 15, 좌해
+GwangyeogSi, 1287, 15, 내덕
+GwangyeogSi, 1288, 15, 장곡
+GwangyeogSi, 1289, 15, 장안고
+GwangyeogSi, 1290, 15, 좌동2
+GwangyeogSi, 1291, 15, 좌방
+GwangyeogSi, 1292, 15, 좌천1
+GwangyeogSi, 1293, 15, 좌천2
+GwangyeogSi, 1294, 15, 좌천3
+GwangyeogSi, 1295, 15, 좌천4
+GwangyeogSi, 1296, 15, 좌천5
+GwangyeogSi, 1297, 15, 좌천시장1
+GwangyeogSi, 1298, 15, 창마을
+GwangyeogSi, 16, 187, 고리
+GwangyeogSi, 1299, 16, 길천
+GwangyeogSi, 17, 187, 좌동리
+GwangyeogSi, 1300, 17, 반룡산단
+GwangyeogSi, 1301, 17, 반룡산단진입
+GwangyeogSi, 1302, 17, 덕산1
+GwangyeogSi, 1303, 17, 덕산
+GwangyeogSi, 1304, 17, 좌동1
+GwangyeogSi, 18, 187, 장안리
+GwangyeogSi, 1305, 18, 동해고속도
+GwangyeogSi, 1306, 18, 장안
+GwangyeogSi, 1307, 18, 협동
+GwangyeogSi, 1308, 18, 명례산단4
+GwangyeogSi, 1309, 18, 명례산단5
+GwangyeogSi, 1310, 18, 명례산단6
+GwangyeogSi, 1311, 18, 불매등
+GwangyeogSi, 1312, 18, 상장안1
+GwangyeogSi, 1313, 18, 상장안2
+GwangyeogSi, 1314, 18, 상장안3
+GwangyeogSi, 1315, 18, 하장안1
+GwangyeogSi, 1316, 18, 하장안
+GwangyeogSi, 19, 187, 덕선리
+GwangyeogSi, 1317, 19, 내덕1
+GwangyeogSi, 1318, 19, 선암
+GwangyeogSi, 20, 187, 용소리
+GwangyeogSi, 1319, 20, 용소1
+GwangyeogSi, 1320, 20, 용소2
+GwangyeogSi, 21, 187, 기룡리
+GwangyeogSi, 1321, 21, 고무
+GwangyeogSi, 1322, 21, 반룡
+GwangyeogSi, 1323, 21, 명례산단1
+GwangyeogSi, 1324, 21, 명례산단7
+GwangyeogSi, 1325, 21, 에코산단
+GwangyeogSi, 1326, 21, 에코산단2
+GwangyeogSi, 1327, 21, 기룡1
+GwangyeogSi, 1328, 21, 기룡2
+GwangyeogSi, 1329, 21, 기룡
+GwangyeogSi, 1330, 21, 방모산2
+GwangyeogSi, 1331, 21, 하근1
+GwangyeogSi, 1332, 21, 하근2
+GwangyeogSi, 1333, 21, 한골
+GwangyeogSi, 1334, 21, 하근3
+GwangyeogSi, 1335, 21, 고무마을4
+GwangyeogSi, 22, 187, 명례리
+GwangyeogSi, 1336, 22, 명례산단2
+GwangyeogSi, 1337, 22, 명례산단3
+GwangyeogSi, 1338, 22, 구운달
+GwangyeogSi, 1339, 22, 도야
+GwangyeogSi, 1340, 22, 못안
+GwangyeogSi, 1341, 22, 신명1
+GwangyeogSi, 1342, 22, 신명
+GwangyeogSi, 1343, 22, 오리
+GwangyeogSi, 1344, 22, 이앙산
+GwangyeogSi, 23, 187, 월내리
+GwangyeogSi, 1345, 23, 장안산단
+GwangyeogSi, 1346, 23, 장안산단9
+GwangyeogSi, 1347, 23, 월내1
+GwangyeogSi, 1348, 23, 월내2
+GwangyeogSi, 1349, 23, 월내3
+GwangyeogSi, 1350, 23, 월내
+GwangyeogSi, 1351, 23, 월내해안1
+GwangyeogSi, 1352, 23, 월내해안2
+GwangyeogSi, 1353, 23, 월내해안3
+GwangyeogSi, 1354, 23, 월내해안4
+GwangyeogSi, 1355, 23, 월내해안
+GwangyeogSi, 1356, 23, 월내4
+GwangyeogSi, 24, 187, 반룡리
+GwangyeogSi, 1357, 24, 장안산단1
+GwangyeogSi, 1358, 24, 장안산단2
+GwangyeogSi, 1359, 24, 장안산단3
+GwangyeogSi, 1360, 24, 장안산단4
+GwangyeogSi, 1361, 24, 장안산단6
+GwangyeogSi, 1362, 24, 장안산단7
+GwangyeogSi, 1363, 24, 장안산단8
+GwangyeogSi, 1364, 24, 신소재산단1
+GwangyeogSi, 1365, 24, 반룡산단1
+GwangyeogSi, 1366, 24, 반룡산단2
+GwangyeogSi, 1367, 24, 반룡산단3
+GwangyeogSi, 1368, 24, 구기
+GwangyeogSi, 1369, 24, 반룡1
+GwangyeogSi, 1370, 24, 반룡2
+GwangyeogSi, 1371, 24, 방모산1
+GwangyeogSi, 1372, 24, 고무마을1
+GwangyeogSi, 1373, 24, 고무마을2
+GwangyeogSi, 1374, 24, 고무마을3
+GwangyeogSi, 1375, 24, 고무마을
+GwangyeogSi, 25, 187, 임랑리
+GwangyeogSi, 1376, 25, 갑골
+GwangyeogSi, 1377, 25, 부족골
+GwangyeogSi, 1378, 25, 임랑1
+GwangyeogSi, 1379, 25, 임랑2
+GwangyeogSi, 1380, 25, 임랑3
+GwangyeogSi, 1381, 25, 임랑해안
+GwangyeogSi, 1382, 25, 임랑효덕
+GwangyeogSi, 26, 187, 오리
+GwangyeogSi, 1383, 26, 오리산단
+GwangyeogSi, 1384, 26, 오리산단3
+GwangyeogSi, 1385, 26, 오리산단5
+GwangyeogSi, 1386, 26, 오리산단7
+GwangyeogSi, 1387, 26, 개천1
+GwangyeogSi, 1388, 26, 개천2
+GwangyeogSi, 1389, 26, 신리
+GwangyeogSi, 1390, 26, 중치밭
+GwangyeogSi, 1391, 26, 판곡
+GwangyeogSi, 1392, 26, 황새밭
+GwangyeogSi, 27, 187, 길천리
+GwangyeogSi, 1393, 27, 천산
+GwangyeogSi, 1394, 27, 길천1
+GwangyeogSi, 1395, 27, 길천2
+GwangyeogSi, 1396, 27, 길천3
+GwangyeogSi, 188, 0, 정관읍
+GwangyeogSi, 28, 188, 방곡리
+GwangyeogSi, 1397, 28, 구연방곡
+GwangyeogSi, 1398, 28, 방곡3
+GwangyeogSi, 1399, 28, 방곡4
+GwangyeogSi, 1400, 28, 방곡5
+GwangyeogSi, 1401, 28, 방곡
+GwangyeogSi, 1402, 28, 정관중앙
+GwangyeogSi, 1403, 28, 방곡1
+GwangyeogSi, 1404, 28, 방곡2
+GwangyeogSi, 1405, 28, 농공
+GwangyeogSi, 1406, 28, 정관덕산1
+GwangyeogSi, 1407, 28, 정관덕산2
+GwangyeogSi, 1408, 28, 정관덕산
+GwangyeogSi, 29, 188, 매학리
+GwangyeogSi, 1409, 29, 구연1
+GwangyeogSi, 1410, 29, 구연2
+GwangyeogSi, 1411, 29, 구연3
+GwangyeogSi, 1412, 29, 구연4
+GwangyeogSi, 1413, 29, 구연
+GwangyeogSi, 1414, 29, 산단1
+GwangyeogSi, 1415, 29, 산단2
+GwangyeogSi, 1416, 29, 정관5
+GwangyeogSi, 1417, 29, 정관6
+GwangyeogSi, 1418, 29, 정관7
+GwangyeogSi, 1419, 29, 정관8
+GwangyeogSi, 1420, 29, 매학용수
+GwangyeogSi, 1421, 29, 곰내
+GwangyeogSi, 1422, 29, 달산1
+GwangyeogSi, 1423, 29, 달산2
+GwangyeogSi, 1424, 29, 달산
+GwangyeogSi, 1425, 29, 매곡
+GwangyeogSi, 1426, 29, 정관상곡1
+GwangyeogSi, 1427, 29, 정관상곡2
+GwangyeogSi, 30, 188, 임곡리
+GwangyeogSi, 1428, 30, 웅상대
+GwangyeogSi, 1429, 30, 두명1
+GwangyeogSi, 1430, 30, 월평1
+GwangyeogSi, 1431, 30, 임곡1
+GwangyeogSi, 1432, 30, 임곡2
+GwangyeogSi, 31, 188, 월평리
+GwangyeogSi, 1433, 31, 부명
+GwangyeogSi, 1434, 31, 월평2
+GwangyeogSi, 32, 188, 달산리
+GwangyeogSi, 1435, 32, 산단3
+GwangyeogSi, 1436, 32, 산단4
+GwangyeogSi, 1437, 32, 산단5
+GwangyeogSi, 1438, 32, 산단6
+GwangyeogSi, 1439, 32, 산단7
+GwangyeogSi, 1440, 32, 산단
+GwangyeogSi, 1441, 32, 달산3
+GwangyeogSi, 1442, 32, 달산4
+GwangyeogSi, 1443, 32, 달음산
+GwangyeogSi, 33, 188, 병산리
+GwangyeogSi, 1444, 33, 병산2
+GwangyeogSi, 1445, 33, 병산
+GwangyeogSi, 1446, 33, 병산1
+GwangyeogSi, 34, 188, 모전리
+GwangyeogSi, 1447, 34, 모전
+GwangyeogSi, 1448, 34, 정관2
+GwangyeogSi, 1449, 34, 정관3
+GwangyeogSi, 1450, 34, 정관1
+GwangyeogSi, 1451, 34, 모전1
+GwangyeogSi, 1452, 34, 모전2
+GwangyeogSi, 1453, 34, 모전3
+GwangyeogSi, 1454, 34, 양수1
+GwangyeogSi, 1455, 34, 양수
+GwangyeogSi, 1456, 34, 제석골
+GwangyeogSi, 35, 188, 용수리
+GwangyeogSi, 1457, 35, 정관4
+GwangyeogSi, 1458, 35, 용수
+GwangyeogSi, 1459, 35, 신정관
+GwangyeogSi, 1460, 35, 가동3
+GwangyeogSi, 1461, 35, 가동1
+GwangyeogSi, 1462, 35, 가동2
+GwangyeogSi, 1463, 35, 가동
+GwangyeogSi, 1464, 35, 가동옛
+GwangyeogSi, 1465, 35, 산막1
+GwangyeogSi, 1466, 35, 산막
+GwangyeogSi, 1467, 35, 용수1
+GwangyeogSi, 1468, 35, 용수공단1
+GwangyeogSi, 1469, 35, 용수공단2
+GwangyeogSi, 36, 188, 두명리
+GwangyeogSi, 1470, 36, 두명2
+GwangyeogSi, 1471, 36, 부명1
+GwangyeogSi, 1472, 36, 부명2
+GwangyeogSi, 37, 188, 예림리
+GwangyeogSi, 1473, 37, 산단8
+GwangyeogSi, 1474, 37, 예림1
+GwangyeogSi, 1475, 37, 서편
+GwangyeogSi, 1476, 37, 예림2
+GwangyeogSi, 1477, 37, 예림
+GwangyeogSi, 189, 0, 일광면
+GwangyeogSi, 38, 189, 삼성리
+GwangyeogSi, 1478, 38, 일광
+GwangyeogSi, 1479, 38, 해빛
+GwangyeogSi, 1480, 38, 해빛2
+GwangyeogSi, 1481, 38, 해빛3
+GwangyeogSi, 1482, 38, 해빛4
+GwangyeogSi, 1483, 38, 해빛6
+GwangyeogSi, 1484, 38, 해송1
+GwangyeogSi, 1485, 38, 해송3
+GwangyeogSi, 1486, 38, 삼성1
+GwangyeogSi, 1487, 38, 삼성2
+GwangyeogSi, 1488, 38, 삼성3
+GwangyeogSi, 1489, 38, 삼성
+GwangyeogSi, 1490, 38, 일역
+GwangyeogSi, 1491, 38, 물방
+GwangyeogSi, 39, 189, 이천리
+GwangyeogSi, 1492, 39, 이화
+GwangyeogSi, 1493, 39, 이동1
+GwangyeogSi, 1494, 39, 이동
+GwangyeogSi, 1495, 39, 이천10
+GwangyeogSi, 1496, 39, 이천11
+GwangyeogSi, 1497, 39, 이천1
+GwangyeogSi, 1498, 39, 이천2
+GwangyeogSi, 1499, 39, 이천3
+GwangyeogSi, 1500, 39, 이천4
+GwangyeogSi, 1501, 39, 이천6
+GwangyeogSi, 1502, 39, 이천7
+GwangyeogSi, 1503, 39, 이천8
+GwangyeogSi, 1504, 39, 이천9
+GwangyeogSi, 1505, 39, 이천
+GwangyeogSi, 1506, 39, 차양
+GwangyeogSi, 40, 189, 학리
+GwangyeogSi, 1507, 40, 학리등대
+GwangyeogSi, 1508, 40, 학리1
+GwangyeogSi, 1509, 40, 학리2
+GwangyeogSi, 1510, 40, 학리3
+GwangyeogSi, 1511, 40, 학리4
+GwangyeogSi, 1512, 40, 학리5
+GwangyeogSi, 1513, 40, 학리
+GwangyeogSi, 41, 189, 동백리
+GwangyeogSi, 1514, 41, 체육공원1
+GwangyeogSi, 1515, 41, 체육공원2
+GwangyeogSi, 1516, 41, 문오성
+GwangyeogSi, 42, 189, 문중리
+GwangyeogSi, 1517, 42, 문중1
+GwangyeogSi, 1518, 42, 문중
+GwangyeogSi, 1519, 42, 박영준
+GwangyeogSi, 43, 189, 신평리
+GwangyeogSi, 1520, 43, 신평1
+GwangyeogSi, 1521, 43, 신평
+GwangyeogSi, 1522, 43, 칠암3
+GwangyeogSi, 44, 189, 칠암리
+GwangyeogSi, 1523, 44, 칠암1
+GwangyeogSi, 1524, 44, 칠암2
+GwangyeogSi, 1525, 44, 칠암
+GwangyeogSi, 45, 189, 문동리
+GwangyeogSi, 1526, 45, 문동1
+GwangyeogSi, 1527, 45, 문동
+GwangyeogSi, 46, 189, 청광리
+GwangyeogSi, 1528, 46, 청광
+GwangyeogSi, 1529, 46, 청원
+GwangyeogSi, 47, 189, 원리
+GwangyeogSi, 1530, 47, 달음
+GwangyeogSi, 1531, 47, 원당1
+GwangyeogSi, 1532, 47, 원당2
+GwangyeogSi, 1533, 47, 원당
+GwangyeogSi, 48, 189, 화전리
+GwangyeogSi, 1534, 48, 당곡
+GwangyeogSi, 1535, 48, 화용
+GwangyeogSi, 1536, 48, 화전1
+GwangyeogSi, 1537, 48, 화전2
+GwangyeogSi, 49, 189, 횡계리
+GwangyeogSi, 1538, 49, 횡계1
+GwangyeogSi, 1539, 49, 횡계2
+GwangyeogSi, 1540, 49, 횡계
+GwangyeogSi, 50, 189, 용천리
+GwangyeogSi, 1541, 50, 곡천
+GwangyeogSi, 1542, 50, 산수곡
+GwangyeogSi, 1543, 50, 상곡
+GwangyeogSi, 1544, 50, 회룡
+GwangyeogSi, 190, 0, 철마면
+GwangyeogSi, 51, 190, 와여리
+GwangyeogSi, 1545, 51, 와여1
+GwangyeogSi, 1546, 51, 와여
+GwangyeogSi, 1547, 51, 장전1
+GwangyeogSi, 52, 190, 장전리
+GwangyeogSi, 1548, 52, 철마천
+GwangyeogSi, 1549, 52, 대곡1
+GwangyeogSi, 1550, 52, 대곡2
+GwangyeogSi, 1551, 52, 장전2
+GwangyeogSi, 53, 190, 백길리
+GwangyeogSi, 1552, 53, 백길
+GwangyeogSi, 54, 190, 송정리
+GwangyeogSi, 1553, 54, 여락송정
+GwangyeogSi, 1554, 54, 철마삼동
+GwangyeogSi, 1555, 54, 강변
+GwangyeogSi, 1556, 54, 소산
+GwangyeogSi, 1557, 54, 입석
+GwangyeogSi, 55, 190, 웅천리
+GwangyeogSi, 1558, 55, 미동
+GwangyeogSi, 1559, 55, 석길
+GwangyeogSi, 1560, 55, 한들
+GwangyeogSi, 1561, 55, 홍류
+GwangyeogSi, 56, 190, 연구리
+GwangyeogSi, 1562, 56, 구노실
+GwangyeogSi, 1563, 56, 난들
+GwangyeogSi, 1564, 56, 마지1
+GwangyeogSi, 1565, 56, 마지2
+GwangyeogSi, 1566, 56, 마지
+GwangyeogSi, 1567, 56, 연구
+GwangyeogSi, 1568, 56, 이곡
+GwangyeogSi, 57, 190, 구칠리
+GwangyeogSi, 1569, 57, 갓안
+GwangyeogSi, 1570, 57, 구칠
+GwangyeogSi, 1571, 57, 사등
+GwangyeogSi, 1572, 57, 상신리
+GwangyeogSi, 1573, 57, 온당
+GwangyeogSi, 1574, 57, 점현
+GwangyeogSi, 1575, 57, 하신리
+GwangyeogSi, 58, 190, 이곡리
+GwangyeogSi, 1576, 58, 이곡1
+GwangyeogSi, 1577, 58, 곽암
+GwangyeogSi, 59, 190, 고촌리
+GwangyeogSi, 1578, 59, 고촌
+GwangyeogSi, 60, 190, 안평리
+GwangyeogSi, 1579, 60, 임밖
+GwangyeogSi, 61, 190, 임기리
+GwangyeogSi, 1580, 61, 백운산
+GwangyeogSi, 1581, 61, 임기1
+GwangyeogSi, 1582, 61, 임기2
+GwangyeogSi, 1583, 61, 임기3
+GwangyeogSi, 1584, 61, 탑골
+

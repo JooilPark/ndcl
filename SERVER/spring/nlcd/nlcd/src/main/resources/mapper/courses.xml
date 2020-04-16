@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.park.factory.ndlc.db.mappers.coursesMapper">
+
+	<insert id="insert">
+		INSERT INTO courses (coursename, courseteachername, trainingstartdate,
+		trainingEnddate, trainingstarttime, trainingendtime, content, edutarget,
+		edumthod, operatingday, trainingplace, maxstudents, fee, roaaddress,
+		opername, opernumber, receptionstart, receptionend, receptionmethod,
+		receptionselection, homepage, developmenttraining, bankingevaluation,
+		accountevaluation, databasedate, providerpode, providername)
+		
+		VALUES (
+		#{coursename},#{courseteachername},#{trainingstartdate},#{trainingEnddate},#{trainingstarttime},#{trainingendtime},#{content},#{edutarget},#{edumthod},
+		#{operatingday},#{trainingplace},#{maxstudents},#{fee},#{roaaddress},#{opername},#{opernumber},#{receptionstart},#{receptionend},#{receptionmethod},
+		#{receptionselection},#{homepage},#{developmenttraining},#{bankingevaluation},#{accountevaluation},#{databasedate},#{providerpode},#{providername})
+	</insert>
+	
+	<delete id="allclear">
+		delete from courses
+	</delete>
+	<select id="getListfind" resultType="map">
+		SELECT * FROM courses WHERE  ${query}  ORDER BY idcourses ASC LIMIT #{start} , #{size}
+	</select>
+	<select id="getList" resultType="map">
+		SELECT * FROM courses   ORDER BY idcourses ASC LIMIT #{start} , #{size}
+	</select>
+	
+	
+	
+</mapper>
