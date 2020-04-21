@@ -1,4 +1,4 @@
-package com.sundaypark.factory.ndcl.ui.dashboard
+package com.sundaypark.factory.ndcl.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData

@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "city")
 data class EntityCitys (
-    @PrimaryKey(autoGenerate = true) val index : Int,
+    @PrimaryKey(autoGenerate = true) val index : Int?,
     @ColumnInfo val id : Int,
     @ColumnInfo val cityname : String,
     @ColumnInfo val parentid : Int

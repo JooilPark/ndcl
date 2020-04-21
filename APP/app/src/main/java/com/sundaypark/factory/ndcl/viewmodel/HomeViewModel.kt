@@ -1,12 +1,12 @@
-package com.sundaypark.factory.ndcl.ui.home
+package com.sundaypark.factory.ndcl.viewmodel
 
-import android.app.Application
-import android.content.Context
+import android.provider.ContactsContract
 import android.util.Log
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.sundaypark.factory.ndcl.db.RoomDB
+import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
 import com.sundaypark.factory.ndcl.domain.CODE_FAILURE
 import com.sundaypark.factory.ndcl.domain.CODE_SERVERERROR
 import com.sundaypark.factory.ndcl.domain.NewError
@@ -16,7 +16,7 @@ import com.sundaypark.factory.ndcl.retrofit.pojo.Newversion
 import retrofit2.Call
 import retrofit2.Response
 
-class HomeViewModel : AndroidViewModel(Application()) {
+class HomeViewModel (private val mRoom : RoomDB) : ViewModel() {
 
     private val _citys = MutableLiveData<List<NewCitys>>().apply {
         RetrofitBuilder.getService.getCitys().enqueue(object : retrofit2.Callback<List<NewCitys>> {
@@ -28,9 +28,9 @@ class HomeViewModel : AndroidViewModel(Application()) {
                 if(response.isSuccessful){
                     value = response.body()
                     // 기존 정보 날림
+                    mRoom.daocitys().DeleteAll()
                     // db 저장
-
-
+                    response.body()?.forEach { newCitys: NewCitys -> mRoom.daocitys().insertAll(EntityCitys(null , newCitys.id , newCitys.cityname , newCitys.parentid)) }
                 }
             }
         })
@@ -48,6 +48,7 @@ class HomeViewModel : AndroidViewModel(Application()) {
         RetrofitBuilder.getService.getVersion().enqueue(object : retrofit2.Callback<Newversion> {
             override fun onFailure(call: Call<Newversion>, t: Throwable) {
                 _error.value = NewError(CODE_FAILURE , "onFailure")
+
             }
             override fun onResponse(call: Call<Newversion>, response: Response<Newversion>) {
                 if (response.isSuccessful) {

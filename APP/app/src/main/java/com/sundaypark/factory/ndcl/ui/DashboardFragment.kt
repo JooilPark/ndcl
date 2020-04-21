@@ -1,4 +1,4 @@
-package com.sundaypark.factory.ndcl.ui.dashboard
+package com.sundaypark.factory.ndcl.ui
 
 import android.os.Bundle
 import android.util.Log
@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.retrofit.pojo.NewCitys
+import com.sundaypark.factory.ndcl.viewmodel.DashboardViewModel
 
 class DashboardFragment : Fragment() {
 
