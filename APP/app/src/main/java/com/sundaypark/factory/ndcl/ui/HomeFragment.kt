@@ -13,6 +13,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.Navigation
 import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.FragmentHomeBinding
+import com.sundaypark.factory.ndcl.domain.CODE_DB_FAIL
 import com.sundaypark.factory.ndcl.domain.CODE_FAILURE
 import com.sundaypark.factory.ndcl.domain.CODE_SERVERERROR
 import com.sundaypark.factory.ndcl.utils.InjectorUtils
@@ -43,7 +44,7 @@ class HomeFragment : Fragment() {
         BindingView = DataBindingUtil.inflate<FragmentHomeBinding>(inflater , R.layout.fragment_home , container , false).apply {
 
             Viewmodel.Version.observe(viewLifecycleOwner, Observer {
-                if (SharedPreferencesManager.getVersionDate() != it.date.time) {
+                if (SharedPreferencesManager.getVersionDate() != it.date.time ) {
                     // 지역 업데이트 필요
                     Log.i(TAG, "주소 업데이트 필요 ")
                     BindingView.textHome.setText("주소 업데이트 중 ")
@@ -68,6 +69,10 @@ class HomeFragment : Fragment() {
                     }
                     CODE_SERVERERROR -> {
                         text = "서버에서 데이터가 안왔어 ?! "
+                        endDialog()
+                    }
+                    CODE_DB_FAIL ->{
+                        text = "디비 접속 오류 "
                         endDialog()
                     }
                 }

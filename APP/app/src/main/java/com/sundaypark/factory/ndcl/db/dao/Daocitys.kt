@@ -1,5 +1,6 @@
 package com.sundaypark.factory.ndcl.db.dao
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
@@ -15,6 +16,12 @@ interface Daocitys {
     fun DeleteAll()
     @Insert
     fun insertAll(vararg citys:EntityCitys)
-    @Query("SELECT COUNT(cityname) FROM city" )
-    fun getCitys() : Int
+    @Query("SELECT * FROM city" )
+    fun getCitys() : LiveData<List<EntityCitys>>
+
+    @Query("SELECT * FROM city WHERE parentid = 0" )
+    fun getMainCitys() : LiveData<List<EntityCitys>>
+
+    @Query("SELECT * FROM city WHERE parentid = :parentid" )
+    fun getSubcitys(parentid : Int) : LiveData<List<EntityCitys>>
 }

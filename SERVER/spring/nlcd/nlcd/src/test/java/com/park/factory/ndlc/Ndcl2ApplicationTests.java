@@ -53,32 +53,7 @@ class Ndcl2ApplicationTests {
 
 	@Test
 	public void startFirst() {
-		fileDownLoader();
 		
-		try {
-			
-				xlsToDB();
-				for(courses c : mExcelUtils.courses) {
-					mCMapper.insert(c);
-				}
-				
-				log.info("-------------------------------------------" );
-				Set<String> kesy = mExcelUtils.mCitys.keySet();
-				for(String k: kesy) {
-					mCityMapper.insert(mExcelUtils.mCitys.get(k));
-				}
-				
-				kesy = mExcelUtils.mCitySubs.keySet();
-				for(String k: kesy) {
-					mCityMapper.insert(mExcelUtils.mCitySubs.get(k));
-				}
-			
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			log.info("-------------------------------------------" + e.getMessage() );
-		}
 	}
 	private boolean fileDownLoader() {
 		Date now = new Date();

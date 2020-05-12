@@ -6,10 +6,10 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface RetrofitService {
-    @GET("/getCitys")
+    @GET("/api/getCitys")
     fun getCitys() : Call<List<NewCitys>>
 
-    @GET("/getVersion")
+    @GET("/api/getVersion")
     fun getVersion() : Call<Newversion>
 
 

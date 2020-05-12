@@ -6,16 +6,22 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import com.sundaypark.factory.ndcl.R
-import com.sundaypark.factory.ndcl.retrofit.pojo.NewCitys
-import com.sundaypark.factory.ndcl.viewmodel.DashboardViewModel
+import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
+import com.sundaypark.factory.ndcl.utils.InjectorUtils
+import com.sundaypark.factory.ndcl.viewmodel.CourseViewModel
 
 class DashboardFragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
-    private lateinit var mNewCitys : List<NewCitys>
+
+    private val Viewmodel: CourseViewModel by viewModels {
+        InjectorUtils.InJectCourseViewModelFactory(requireContext())
+    }
+
+
+    private lateinit var mNewCitys: List<EntityCitys>
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -23,15 +29,15 @@ class DashboardFragment : Fragment() {
     ): View? {
 
 
-        dashboardViewModel =
-            ViewModelProvider(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
-        dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
-            mNewCitys = it
-            for(city in mNewCitys){
-                Log.i("test" , city.cityname)
-            }
-        })
+        val root = inflater.inflate(R.layout.fragment_dashboard, container, false).apply {
+            Viewmodel.maincitys.observe(viewLifecycleOwner, Observer {
+                mNewCitys = it
+                for (city in mNewCitys) {
+                    Log.i("test", city.cityname)
+                }
+            })
+        }
+
 
         return root
     }

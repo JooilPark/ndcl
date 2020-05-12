@@ -30,7 +30,13 @@ class HomeViewModel (private val mRoom : RoomDB) : ViewModel() {
                     // 기존 정보 날림
                     mRoom.daocitys().DeleteAll()
                     // db 저장
-                    response.body()?.forEach { newCitys: NewCitys -> mRoom.daocitys().insertAll(EntityCitys(null , newCitys.id , newCitys.cityname , newCitys.parentid)) }
+                    if(response.body()?.size == 0){
+                        _error.value = NewError(CODE_FAILURE , "DB FAIL")
+                    }else{
+                        response.body()?.forEach { newCitys: NewCitys -> mRoom.daocitys().insertAll(EntityCitys(null , newCitys.id , newCitys.cityname , newCitys.parentid)) }
+                    }
+                }else{
+                    _error.value = NewError(CODE_FAILURE , "onFailure")
                 }
             }
         })
@@ -53,6 +59,7 @@ class HomeViewModel (private val mRoom : RoomDB) : ViewModel() {
             override fun onResponse(call: Call<Newversion>, response: Response<Newversion>) {
                 if (response.isSuccessful) {
                     value = response.body()
+
                 } else {
                     _error.value = NewError(CODE_SERVERERROR, "서버문제")
                 }

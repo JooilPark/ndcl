@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.park.factory.ndlc.db.DAOversions;
@@ -27,7 +28,11 @@ import com.park.factory.ndlc.db.mappers.coursesMapper;
 import com.park.factory.ndlc.db.mappers.versionMapper;
 import com.park.factory.ndlc.schrdule.autoFileDownLoad;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+
 @RestController
+@RequestMapping(value = "/api")
 public class ApiControllers {
 	
 	private Logger log = LoggerFactory.getLogger(ApiControllers.class); 
@@ -46,7 +51,7 @@ public class ApiControllers {
 		return LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME);
 	}
 
-
+	@ApiOperation(value = "/getVersion" , notes = "최신 버전 호출")
 	@GetMapping(path = "/getVersion")
 	public versions helloWorld() {
 		return  mDAOversions.selectversions();
@@ -67,43 +72,31 @@ public class ApiControllers {
 	public List<citys> getCitys() {
 		return mCityMapper.getAllCitys();
 	}
-
-	@PostMapping(path = "/getList", produces = MediaType.APPLICATION_JSON_VALUE)
-	public List<courses> getList(@RequestBody PageingParam body) {
 		
-	
+	@PostMapping(path = "/getList", produces = MediaType.APPLICATION_JSON_VALUE)
+	@ApiOperation(value = "리스트 쿼리" , notes = "쿼리를 직접 입력한다 ~! ㅋㅋ 다음에는 이렇게 하지말자 ㅋㅋㅋ")
+	public List<courses> getList( PageingParam body) {
 		if(body.Query != null) {
 			log.info("getList = " + body.Query);
 			return mcoursesMapper.getListfind(body.Query,body.page *20, 40);	
 		}else {
-			
-			
 			return mcoursesMapper.getList(body.page *20, 40);
 		}
-		
-		
-		
 	}
 	
+	@PostMapping(path = "/getSearch", produces = MediaType.APPLICATION_JSON_VALUE)
+	@ApiOperation(value = "검색  쿼리" , notes = "쿼리를 직접 입력한다 ~! ㅋㅋ 다음에는 이렇게 하지말자 ㅋㅋㅋ")	
+	public List<courses> getSearch(PageingParam body){
+		String Query  = String.format(" roaaddress LIKE '%%s%' OR  coursename LIKE '%%s%' OR courseteachername   LIKE '%%s%' OR content LIKE '%%s%' OR  trainingplace LIKE '%%s%' OR opername LIKE '%%s%' ", body,body,body,body,body,body);
+		return mcoursesMapper.getListfind(body.Query,body.page *20, 40);	
+	}
+	
+	
 	static class  PageingParam {
-		public String getQuery() {
-			return Query;
-		}
-
-		public void setQuery(String query) {
-			Query = query;
-		}
-
-		public int getPage() {
-			return page;
-		}
-
-		public void setPage(int page) {
-			this.page = page;
-		}
-
+		@ApiParam( value = "page" , required = true , example = "1")
 		public int page = 0;
-		public String Query = null;
+		@ApiParam( value = "Query" , required = true , example = "")
+		public String Query ;
 		
 	}
 
