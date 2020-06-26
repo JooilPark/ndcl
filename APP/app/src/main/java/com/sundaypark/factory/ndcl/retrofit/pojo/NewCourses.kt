@@ -1,0 +1,63 @@
+package com.sundaypark.factory.ndcl.retrofit.pojo
+
+import java.util.*
+
+/**
+ *
+"receptionmethod": "인터넷·방문접수",
+"trainingEnddate": "2017-12-03",
+"databasedate": "2018-02-22",
+"receptionstart": "2017-08-06",
+"fee": 0,
+"content": "미술로 알아보는 마음상태",
+"courseteachername": "이재란",
+"trainingendtime": "12:00:00",
+"developmenttraining": 0,
+"idcourses": 493953,
+"edumthod": "오프라인",
+"operatingday": "월요일",
+"receptionend": "2017-08-10",
+"providerpode": "4440000",
+"coursename": "미술심리상담",
+"maxstudents": 20,
+"accountevaluation": 0,
+"trainingstartdate": "2017-09-03",
+"opernumber": "043-740-3772",
+"edutarget": "지역주민",
+"bankingevaluation": 0,
+"providername": "충청북도 영동군",
+"trainingstarttime": "10:00:00",
+"receptionselection": "선착순",
+"opername": "영동군청 생활지원과",
+"roaaddress": "충청북도 영동군 영동읍 계산로 2길 25",
+"trainingplace": "레인보우영동도서관",
+"homepage": "https://www.rainbowlib.go.kr/"
+ */
+data class NewCourses(
+    val coursename: String?,
+    val courseteachername: String?,
+    val trainingstartdate: Date?,
+    val trainingEnddate: Date?,
+    val trainingstarttime: Date?,
+    val trainingendtime: Date?,
+    val content: String?,
+    val edutarget: String?,
+    val edumthod: String?,
+    val operatingday: String?,
+    val trainingplace: String?,
+    val maxstudents: String?,
+    val fee: Int?,
+    val roaaddress: String?,
+    val opernumber: String?,
+    val receptionstart: Date?,
+    val receptionend: Date?,
+    val receptionmethod: String?,
+    val receptionselection: String?,
+    val homepage: String?,
+    val developmenttraining: Boolean?,
+    val bankingevaluation: Boolean?,
+    val accountevaluation: Boolean?,
+    val databasedate: Date?,
+    val providerpode: String?,
+    val providername: String?
+)
