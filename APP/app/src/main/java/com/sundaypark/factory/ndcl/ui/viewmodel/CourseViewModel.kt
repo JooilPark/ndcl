@@ -7,6 +7,7 @@ import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
 import com.sundaypark.factory.ndcl.retrofit.RetrofitBuilder
 import com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.Call
@@ -15,14 +16,29 @@ import retrofit2.Response
 class CourseViewModel(private val db: RoomDB) : ViewModel() {
     val TAG = "[CourseViewModel]"
     var maincitys: LiveData<List<EntityCitys>> = db.daocitys().getMainCitys()
+    var subCitys  = MutableLiveData<List<EntityCitys>>()
+
+
+
+    fun getSubCitys(select : Int){
+            viewModelScope.launch {
+                withContext(Dispatchers.IO) {
+                    Log.i(TAG, "getSubCitys" + maincitys.value!!.get(select))
+                    subCitys.postValue(db.daocitys().getSubcitys(maincitys.value!!.get(select).cityid))
+                    getCourses(maincitys.value!!.get(select) , 0)
+                }
+            }
+
+    }
+
 
     val SelectCourses = MutableLiveData<List<NewCourses>>()
-    val SelectCourse = MutableLiveData<Int>()
 
-    fun getCourses(Selectindex: Int) {
+
+    fun getCourses(SubCity : EntityCitys , page : Int) {
         viewModelScope.launch {
             withContext(Dispatchers.Main) {
-                RetrofitBuilder.getService.getList()
+                RetrofitBuilder.getService.getList(String.format(" roaaddress LIKE \'%s%%\'" , SubCity.cityname )  , page)
                     .enqueue(object : retrofit2.Callback<List<NewCourses>> {
                         override fun onFailure(call: Call<List<NewCourses>>, t: Throwable) {
                             Log.i(TAG, "onFailure" + t.message)

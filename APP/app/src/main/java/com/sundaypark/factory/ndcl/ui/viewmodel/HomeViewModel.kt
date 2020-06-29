@@ -44,7 +44,7 @@ class HomeViewModel(private val mRoom: RoomDB) : ViewModel() {
                                     mRoom.daocitys().insertAll(
                                         EntityCitys(
                                             null,
-                                            newCitys.id,
+                                            newCitys.cityid,
                                             newCitys.cityname,
                                             newCitys.parentid
                                         )

@@ -6,6 +6,7 @@ import com.sundaypark.factory.ndcl.retrofit.pojo.Newversion
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.Query
 
 interface RetrofitService {
     @GET("/api/getCitys")
@@ -15,7 +16,7 @@ interface RetrofitService {
     fun getVersion(): Call<Newversion>
 
     @POST("/api/getList")
-    fun getList(): Call<List<NewCourses>>
+    fun getList(@Query("Query") Query : String ,@Query("page") page : Int): Call<List<NewCourses>>
 
 
 }

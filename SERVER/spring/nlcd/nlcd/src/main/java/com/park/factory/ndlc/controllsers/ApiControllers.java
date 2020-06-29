@@ -75,12 +75,13 @@ public class ApiControllers {
 		
 	@PostMapping(path = "/getList", produces = MediaType.APPLICATION_JSON_VALUE)
 	@ApiOperation(value = "리스트 쿼리" , notes = "쿼리를 직접 입력한다 ~! ㅋㅋ 다음에는 이렇게 하지말자 ㅋㅋㅋ")
-	public List<courses> getList( PageingParam body) {
-		if(body.Query != null) {
-			log.info("getList = " + body.Query);
-			return mcoursesMapper.getListfind(body.Query,body.page *20, 40);	
+	public List<courses> getList(@RequestParam String Query , @RequestParam int page) {
+		if(Query != null) {
+			log.info("getList = " + Query  + "]page[" + page);
+			return mcoursesMapper.getListfind(Query,page *20, 40);	
 		}else {
-			return mcoursesMapper.getList(body.page *20, 40);
+			log.info("getList = null");
+			return mcoursesMapper.getList(0, 40);
 		}
 	}
 	
@@ -93,7 +94,9 @@ public class ApiControllers {
 	
 	
 	static class  PageingParam {
-		@ApiParam( value = "page" , required = true , example = "1")
+		
+		@ApiParam( value = "page" , required = true , example = "1") 
+	
 		public int page = 0;
 		@ApiParam( value = "Query" , required = true , example = "")
 		public String Query ;

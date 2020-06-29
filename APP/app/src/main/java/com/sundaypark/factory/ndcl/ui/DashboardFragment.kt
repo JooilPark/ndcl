@@ -38,21 +38,23 @@ class DashboardFragment : Fragment() {
         ).apply {
             context ?: mDashboardBinding.root
             // 메인 도시
-            val adapterMainCitys =
-                AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
+            val adapterMainCitys = AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
             MainCitys.adapter = adapterMainCitys
             MainCitys.onItemSelectedListener = adapterMainCitys
             SubScriptMainCity(adapterMainCitys)
             adapterMainCitys.SelectItem.observe(viewLifecycleOwner, Observer {
                 Log.i(TAG, "SELECT ITEM " + it)
-                Viewmodel.getCourses(it)
+                Viewmodel.getSubCitys(it)
             })
-
-            //코스 선택
-            val adapterCourses = AdapterSpinnerCourses(requireContext(), R.layout.item_spinner_course)
+                
+            //서브 시티
+            val adapterCourses = AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
             Courses.adapter = adapterCourses
             Courses.onItemSelectedListener = adapterCourses
             subscriptCourses(_adapterCourse = adapterCourses)
+
+            // 목록 조회
+
 
         }
         mDashboardBinding.lifecycleOwner = viewLifecycleOwner
@@ -62,7 +64,7 @@ class DashboardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val RDB = RoomDB.getInstanc(requireContext())
+        
 
 
     }
@@ -78,16 +80,14 @@ class DashboardFragment : Fragment() {
             _adapterMainCitys.notifyDataSetChanged()
         })
     }
-    private fun subscriptCourses(_adapterCourse : AdapterSpinnerCourses){
-        _adapterCourse.SelectItem.observe(viewLifecycleOwner , Observer {
-
-        })
-        Viewmodel.SelectCourses.observe(viewLifecycleOwner , Observer {
-            Log.i("test", "subscriptCourses + " + it.size)
+    private fun subscriptCourses(_adapterCourse : AdapterSpinnerCitys){
+        Viewmodel.subCitys.observe(viewLifecycleOwner , Observer {
             _adapterCourse.clear();
             _adapterCourse.addAll(it)
             _adapterCourse.notifyDataSetChanged()
+
         })
+
     }
 
 
