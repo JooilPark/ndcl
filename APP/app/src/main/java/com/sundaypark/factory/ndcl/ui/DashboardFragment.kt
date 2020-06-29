@@ -79,6 +79,9 @@ class DashboardFragment : Fragment() {
         })
     }
     private fun subscriptCourses(_adapterCourse : AdapterSpinnerCourses){
+        _adapterCourse.SelectItem.observe(viewLifecycleOwner , Observer {
+
+        })
         Viewmodel.SelectCourses.observe(viewLifecycleOwner , Observer {
             Log.i("test", "subscriptCourses + " + it.size)
             _adapterCourse.clear();

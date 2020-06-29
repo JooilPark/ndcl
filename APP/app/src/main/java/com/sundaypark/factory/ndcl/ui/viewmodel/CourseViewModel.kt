@@ -25,7 +25,8 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
                 RetrofitBuilder.getService.getList()
                     .enqueue(object : retrofit2.Callback<List<NewCourses>> {
                         override fun onFailure(call: Call<List<NewCourses>>, t: Throwable) {
-                            Log.i(TAG, "onFailure")
+                            Log.i(TAG, "onFailure" + t.message)
+
                         }
 
                         override fun onResponse(
