@@ -18,15 +18,19 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
 
+
             android:layout_width="200dp"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/spinner_box"
+            android:popupBackground="@drawable/spinner_dropdown"
+            android:layout_height="30dp" />
         <Spinner
             android:id="@+id/Subcitys"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toRightOf="@id/MainCitys"
-
-            android:layout_width="200dp"
-            android:layout_height="wrap_content" />
+            android:background="@drawable/spinner_box"
+            android:popupBackground="@drawable/spinner_dropdown"
+            android:layout_height="30dp"
+            android:layout_width="200dp"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/Courses"

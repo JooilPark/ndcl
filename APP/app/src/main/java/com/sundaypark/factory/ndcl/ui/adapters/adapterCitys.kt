@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerCitysBinding
+import com.sundaypark.factory.ndcl.databinding.ItemSpinnerDropdownBinding
 import com.sundaypark.factory.ndcl.databinding.RecyclerCourseItemBinding
 import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
 import com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses
@@ -30,9 +31,11 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
     }
 
     override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val ContentView: ItemSpinnerCitysBinding =
-            ItemSpinnerCitysBinding.inflate(mLayoutInflater, null, false)
+        val ContentView: ItemSpinnerDropdownBinding =
+            ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false)
         ContentView.item = getItem(position)
+        Log.i("SELECT", "onItemSelected2 [" + position + "][" + SelectItem.value)
+        ContentView.root.isSelected = SelectItem.value == position
         return ContentView.root
 
 
@@ -48,6 +51,7 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
 
         Log.i("SELECT", "onItemSelected [" + position)
         SelectItem.value = position
+        notifyDataSetChanged()
     }
 }
 class AdapterSpinnersubCitys(context: Context, resource: Int) :
@@ -65,8 +69,8 @@ class AdapterSpinnersubCitys(context: Context, resource: Int) :
     }
 
     override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val ContentView: ItemSpinnerCitysBinding =
-            ItemSpinnerCitysBinding.inflate(mLayoutInflater, null, false)
+        val ContentView: ItemSpinnerDropdownBinding =
+            ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false)
         ContentView.item = getItem(position)
         return ContentView.root
 
