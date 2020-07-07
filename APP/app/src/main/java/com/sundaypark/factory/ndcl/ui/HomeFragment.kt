@@ -95,7 +95,7 @@ class HomeFragment : Fragment() {
         val endPopup = AlertDialog.Builder(requireContext())
         endPopup.setTitle("통신 오류 안내")
         endPopup.setMessage("서버에 문제가 발생 했습니다.\n조속히 해결하겠습니다.\n다음에 다시 접속해주세요.")
-        endPopup.setPositiveButton("종료") { dialog, which ->
+        endPopup.setPositiveButton("종료") { dialog, _ ->
             dialog.dismiss()
             activity?.finish()
         }

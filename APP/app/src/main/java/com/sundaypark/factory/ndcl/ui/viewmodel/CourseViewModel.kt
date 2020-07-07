@@ -7,7 +7,6 @@ import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
 import com.sundaypark.factory.ndcl.retrofit.RetrofitBuilder
 import com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.Call
@@ -16,18 +15,11 @@ import retrofit2.Response
 class CourseViewModel(private val db: RoomDB) : ViewModel() {
     val TAG = "[CourseViewModel]"
     var maincitys: LiveData<List<EntityCitys>> = db.daocitys().getMainCitys()
-    var subCitys  = MutableLiveData<List<EntityCitys>>()
+    var subCitys: MutableLiveData<List<EntityCitys>> = MutableLiveData()
 
-
-
-    fun getSubCitys(select : Int){
-            viewModelScope.launch {
-                withContext(Dispatchers.IO) {
-                    Log.i(TAG, "getSubCitys" + maincitys.value!!.get(select))
-                    subCitys.postValue(db.daocitys().getSubcitys(maincitys.value!!.get(select).cityid))
-                    getCourses(maincitys.value!!.get(select) , 0)
-                }
-            }
+    fun getSubCitys(select: Int): LiveData<List<EntityCitys>> {
+        Log.i(TAG, "getSubCitys  ${maincitys.value!!.get(select)}")
+        return db.daocitys().getSubcitys(maincitys.value!![select].cityid)
 
     }
 
@@ -35,14 +27,18 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
     val SelectCourses = MutableLiveData<List<NewCourses>>()
 
 
-    fun getCourses(SubCity : EntityCitys , page : Int) {
+    fun getCourses(select: EntityCitys, page: Int) {
         viewModelScope.launch {
             withContext(Dispatchers.Main) {
-                RetrofitBuilder.getService.getList(String.format(" roaaddress LIKE \'%s%%\'" , SubCity.cityname )  , page)
+                RetrofitBuilder.getService.getList(
+                    String.format(
+                        " roaaddress LIKE \'%%%s%%\' ",
+                        select.cityname
+                    ), page
+                )
                     .enqueue(object : retrofit2.Callback<List<NewCourses>> {
                         override fun onFailure(call: Call<List<NewCourses>>, t: Throwable) {
                             Log.i(TAG, "onFailure" + t.message)
-
                         }
 
                         override fun onResponse(
@@ -58,13 +54,14 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
                     })
             }
         }
-
     }
+
 
     class CourseVMFactory(private val DB: RoomDB) : ViewModelProvider.NewInstanceFactory() {
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {
             return CourseViewModel(DB) as T
         }
+
     }
 }
 

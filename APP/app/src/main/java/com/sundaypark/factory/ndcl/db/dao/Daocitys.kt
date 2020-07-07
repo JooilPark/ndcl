@@ -19,9 +19,9 @@ interface Daocitys {
     @Query("SELECT * FROM city" )
     fun getCitys() : LiveData<List<EntityCitys>>
 
-    @Query("SELECT * FROM city WHERE parentid = 0" )
+    @Query("SELECT * FROM city WHERE parentid = 0 ORDER BY cityid ASC" )
     fun getMainCitys() : LiveData<List<EntityCitys>>
 
     @Query("SELECT * FROM city WHERE parentid = :parentid" )
-    fun getSubcitys(parentid : Int) : List<EntityCitys>
+    fun getSubcitys(parentid : Int) : LiveData<List<EntityCitys>>
 }
