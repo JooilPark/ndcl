@@ -12,19 +12,17 @@
     </data>
 
     <LinearLayout
+        android:id="@+id/liner"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:background="@drawable/spinner_dropsown_color"
-        >
-
+        android:orientation="vertical">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/middle"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-           >
+            android:layout_height="40dp">
 
 
             <TextView

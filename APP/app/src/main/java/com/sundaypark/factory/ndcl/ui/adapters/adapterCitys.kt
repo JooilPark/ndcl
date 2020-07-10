@@ -9,11 +9,13 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
+import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerCitysBinding
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerDropdownBinding
 import com.sundaypark.factory.ndcl.databinding.RecyclerCourseItemBinding
 import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
 import com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses
+import kotlinx.android.synthetic.main.item_spinner_dropdown.view.*
 
 
 class AdapterSpinnerCitys(context: Context, resource: Int) :
@@ -24,19 +26,34 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
 
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val ContentView: ItemSpinnerCitysBinding =
-            ItemSpinnerCitysBinding.inflate(mLayoutInflater, parent, false)
-        ContentView.item = getItem(position)
-        return ContentView.root
+        if(convertView == null){
+            val ContentView =  ItemSpinnerCitysBinding.inflate(mLayoutInflater, parent, false).apply {
+                item = getItem(position)
+            }
+
+            return ContentView.root
+        }
+
+
+        return convertView
     }
 
     override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val ContentView: ItemSpinnerDropdownBinding =
-            ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false)
-        ContentView.item = getItem(position)
-        Log.i("SELECT", "onItemSelected2 [" + position + "][" + SelectItem.value)
-        ContentView.root.isSelected = SelectItem.value == position
-        return ContentView.root
+
+        if(convertView == null){
+
+            val ContentView =ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false).apply {
+                    item= getItem(position)
+                    root.liner.isSelected = true
+
+                }
+
+            Log.i("SELECT", "onItemSelected2 [" + position + "][" + SelectItem.value)
+            return ContentView.root
+        }
+        convertView.findViewById<View>(R.id.liner).isSelected = position == SelectItem.value
+
+        return convertView
 
 
     }
@@ -51,6 +68,7 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
 
         Log.i("SELECT", "onItemSelected [" + position)
         SelectItem.value = position
+        view!!.isSelected = true
         notifyDataSetChanged()
     }
 }
@@ -72,6 +90,7 @@ class AdapterSpinnersubCitys(context: Context, resource: Int) :
         val ContentView: ItemSpinnerDropdownBinding =
             ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false)
         ContentView.item = getItem(position)
+        ContentView.root.isSelected = SelectItem.value == position
         return ContentView.root
 
 

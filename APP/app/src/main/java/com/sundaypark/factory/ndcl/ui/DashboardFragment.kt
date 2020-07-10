@@ -49,13 +49,11 @@ class DashboardFragment : Fragment() {
             SubScriptMainCity(adapterMainCitys)
             adapterMainCitys.SelectItem.observe(viewLifecycleOwner, Observer {
                 Log.i(TAG, "SELECT ITEM " + it)
-                Viewmodel.getSubCitys(it).observe(viewLifecycleOwner , Observer {it2->
+                Viewmodel.getSubCitys(it)
 
-                    Log.i(TAG, "get SubCity ${Viewmodel.maincitys.value?.get(it)}")
-                    Log.i(TAG, "get SubCity ${it2}")
-                    Viewmodel.subCitys.value = it2
-                })
             })
+
+
 
             //서브 시티
             val adaptersubcitys = AdapterSpinnersubCitys(requireContext(), R.layout.item_spinner_citys)

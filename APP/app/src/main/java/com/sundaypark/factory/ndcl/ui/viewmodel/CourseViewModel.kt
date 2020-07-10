@@ -17,9 +17,12 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
     var maincitys: LiveData<List<EntityCitys>> = db.daocitys().getMainCitys()
     var subCitys: MutableLiveData<List<EntityCitys>> = MutableLiveData()
 
-    fun getSubCitys(select: Int): LiveData<List<EntityCitys>> {
+    fun getSubCitys(select: Int) {
         Log.i(TAG, "getSubCitys  ${maincitys.value!!.get(select)}")
-        return db.daocitys().getSubcitys(maincitys.value!![select].cityid)
+        viewModelScope.launch { withContext(Dispatchers.IO){
+            subCitys.postValue( db.daocitys().getSubcitys(maincitys.value!![select].cityid))
+        } }
+
 
     }
 

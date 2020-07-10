@@ -23,5 +23,5 @@ interface Daocitys {
     fun getMainCitys() : LiveData<List<EntityCitys>>
 
     @Query("SELECT * FROM city WHERE parentid = :parentid" )
-    fun getSubcitys(parentid : Int) : LiveData<List<EntityCitys>>
+    fun getSubcitys(parentid : Int) : List<EntityCitys>
 }
