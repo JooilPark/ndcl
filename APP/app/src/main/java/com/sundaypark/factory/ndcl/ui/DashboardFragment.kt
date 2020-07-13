@@ -9,7 +9,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.FragmentDashboardBinding
 import com.sundaypark.factory.ndcl.db.RoomDB
@@ -43,7 +42,8 @@ class DashboardFragment : Fragment() {
         ).apply {
             context ?: mDashboardBinding.root
             // 메인 도시
-            val adapterMainCitys = AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
+            val adapterMainCitys =
+                AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
             MainCitys.adapter = adapterMainCitys
             MainCitys.onItemSelectedListener = adapterMainCitys
             SubScriptMainCity(adapterMainCitys)
@@ -54,9 +54,9 @@ class DashboardFragment : Fragment() {
             })
 
 
-
             //서브 시티
-            val adaptersubcitys = AdapterSpinnersubCitys(requireContext(), R.layout.item_spinner_citys)
+            val adaptersubcitys =
+                AdapterSpinnersubCitys(requireContext(), R.layout.item_spinner_citys)
             Subcitys.adapter = adaptersubcitys
             Subcitys.onItemSelectedListener = adaptersubcitys
 
@@ -64,7 +64,7 @@ class DashboardFragment : Fragment() {
 
             // 목록 조회
             Courses.adapter = adapterCourses
-            Viewmodel.SelectCourses.observe(viewLifecycleOwner , Observer {
+            Viewmodel.SelectCourses.observe(viewLifecycleOwner, Observer {
                 adapterCourses.addClearAll(it)
                 adapterCourses.notifyDataSetChanged()
             })
@@ -75,13 +75,6 @@ class DashboardFragment : Fragment() {
         return mDashboardBinding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        
-
-
-    }
-
     private fun SubScriptMainCity(_adapterMainCitys: AdapterSpinnerCitys) {
         Viewmodel.maincitys.observe(viewLifecycleOwner, Observer {
             mNewCitys = it
@@ -90,37 +83,40 @@ class DashboardFragment : Fragment() {
             _adapterMainCitys.clear()
             _adapterMainCitys.addAll(mNewCitys)
             _adapterMainCitys.notifyDataSetChanged()
-            if(!it.isEmpty()){
+            if (!it.isEmpty()) {
                 _adapterMainCitys.SelectItem.value = 0
             }
 
         })
     }
-    private fun subscriptCourses(_adapterCourse : AdapterSpinnersubCitys){
+
+    private fun subscriptCourses(_adapterCourse: AdapterSpinnersubCitys) {
 
 
-
-        Viewmodel.subCitys.observe(viewLifecycleOwner , Observer {
-            if(it.isNullOrEmpty()){
-                Log.i(TAG , "subCitys = null")
-                _adapterCourse.clear();
+        Viewmodel.subCitys.observe(viewLifecycleOwner, Observer {
+            if (it.isNullOrEmpty()) {
+                Log.i(TAG, "subCitys = null")
+                _adapterCourse.clear()
                 _adapterCourse.notifyDataSetChanged()
 
-            }else{
+            } else {
 
-                Log.i(TAG , "subCitys = ${it.size}")
-                _adapterCourse.clear();
+                Log.i(TAG, "subCitys = ${it.size}")
+                _adapterCourse.clear()
                 _adapterCourse.addAll(it)
-                mDashboardBinding.Subcitys.setSelection(0)
+
                 _adapterCourse.notifyDataSetChanged()
-                Viewmodel.maincitys.value?.get(0)?.let { it1 -> Viewmodel.getCourses(it1, 0) }
+                Viewmodel.maincitys.value?.get(0)?.let { it1 ->
+                    Viewmodel.getCourses(it1, 0)
+                    //mDashboardBinding.Subcitys.setSelection(0)
+                }
 
             }
 
         })
-        _adapterCourse.SelectItem.observe(viewLifecycleOwner , Observer {
-            Log.i(TAG , "SelectSubCity = $it")
-            Viewmodel.maincitys.value?.get(it)?.let { it1 -> Viewmodel.getCourses(it1, 0) }
+        _adapterCourse.SelectItem.observe(viewLifecycleOwner, Observer {
+            Log.i(TAG, "SelectSubCity = $it")
+            Viewmodel.subCitys.value?.get(it)?.let { it1 -> Viewmodel.getCourses(it1, 0) }
         })
     }
 

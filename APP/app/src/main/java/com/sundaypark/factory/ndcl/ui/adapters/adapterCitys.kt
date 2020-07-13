@@ -9,7 +9,6 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
-import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerCitysBinding
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerDropdownBinding
 import com.sundaypark.factory.ndcl.databinding.RecyclerCourseItemBinding
@@ -26,34 +25,27 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
 
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        if(convertView == null){
-            val ContentView =  ItemSpinnerCitysBinding.inflate(mLayoutInflater, parent, false).apply {
-                item = getItem(position)
-            }
 
-            return ContentView.root
-        }
+            val contentView =
+                ItemSpinnerCitysBinding.inflate(mLayoutInflater, parent, false).apply {
+                    item = getItem(position)
+                }
 
+            return contentView.root
 
-        return convertView
     }
 
     override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
 
-        if(convertView == null){
 
-            val ContentView =ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false).apply {
-                    item= getItem(position)
-                    root.liner.isSelected = true
+        val contentView = ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false).apply {
+            item = getItem(position)
+            root.liner.isSelected = true
 
-                }
-
-            Log.i("SELECT", "onItemSelected2 [" + position + "][" + SelectItem.value)
-            return ContentView.root
         }
-        convertView.findViewById<View>(R.id.liner).isSelected = position == SelectItem.value
 
-        return convertView
+        Log.i("SELECT", "onItemSelected2 [" + position + "][" + SelectItem.value)
+        return contentView.root
 
 
     }
@@ -72,6 +64,7 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
         notifyDataSetChanged()
     }
 }
+
 class AdapterSpinnersubCitys(context: Context, resource: Int) :
     ArrayAdapter<EntityCitys>(context, resource), AdapterView.OnItemSelectedListener {
 
@@ -108,22 +101,27 @@ class AdapterSpinnersubCitys(context: Context, resource: Int) :
         SelectItem.value = position
     }
 }
+
 class adapterCoursesList : RecyclerView.Adapter<adapterCoursesList.ViewHolder>() {
     var mCourses: ArrayList<NewCourses> = ArrayList()
 
-    inner class ViewHolder(private val courseItem : RecyclerCourseItemBinding) : RecyclerView.ViewHolder(courseItem.root) {
+    inner class ViewHolder(private val courseItem: RecyclerCourseItemBinding) :
+        RecyclerView.ViewHolder(courseItem.root) {
         fun onBind(mcourse: NewCourses) {
             courseItem.item = mcourse
         }
     }
-    fun addClearAll(c : List<NewCourses>){
+
+    fun addClearAll(c: List<NewCourses>) {
         mCourses.clear()
         mCourses.addAll(c)
     }
-    fun ClearNoti(){
+
+    fun ClearNoti() {
         mCourses.clear()
         notifyDataSetChanged()
     }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val itemView = RecyclerCourseItemBinding.inflate(LayoutInflater.from(parent.context))
         return ViewHolder(itemView)
