@@ -12,5 +12,6 @@ public interface coursesMapper {
 	void allclear();
 	List<courses> getListfind(String query , int start , int size);
 	List<courses> getList( int start , int size);
+	List<courses> searchList(String query , int start , int size);
 	
 }

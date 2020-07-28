@@ -17,6 +17,7 @@ interface RetrofitService {
 
     @POST("/api/getList")
     fun getList(@Query("Query") Query : String ,@Query("page") page : Int): Call<List<NewCourses>>
-
+    @POST("/api/getSearch")
+    fun getSearch(@Query("Query") Query : String ,@Query("page") page : Int): Call<List<NewCourses>>
 
 }

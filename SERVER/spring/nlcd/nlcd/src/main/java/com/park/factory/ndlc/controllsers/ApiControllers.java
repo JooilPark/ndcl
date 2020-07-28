@@ -86,10 +86,10 @@ public class ApiControllers {
 	}
 	
 	@PostMapping(path = "/getSearch", produces = MediaType.APPLICATION_JSON_VALUE)
-	@ApiOperation(value = "검색  쿼리" , notes = "쿼리를 직접 입력한다 ~! ㅋㅋ 다음에는 이렇게 하지말자 ㅋㅋㅋ")	
-	public List<courses> getSearch(PageingParam body){
-		String Query  = String.format(" roaaddress LIKE '%%s%' OR  coursename LIKE '%%s%' OR courseteachername   LIKE '%%s%' OR content LIKE '%%s%' OR  trainingplace LIKE '%%s%' OR opername LIKE '%%s%' ", body,body,body,body,body,body);
-		return mcoursesMapper.getListfind(body.Query,body.page *20, 40);	
+	@ApiOperation(value = "검색  쿼리" , notes = "이름 전번 주소 등으로 검색")	
+	public List<courses> getSearch(@RequestBody PageingParam param){
+		log.info("getSearch = " + param.Query  + "]page[" + param.page);
+		return mcoursesMapper.searchList(param.Query,param.page *20, 40);	
 	}
 	
 	

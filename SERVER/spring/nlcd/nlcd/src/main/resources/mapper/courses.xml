@@ -21,10 +21,14 @@
 		delete from courses
 	</delete>
 	<select id="getListfind" resultType="map">
-		SELECT * FROM courses WHERE  ${query}  ORDER BY idcourses ASC LIMIT #{start} , #{size}
+		SELECT * FROM courses WHERE  ${query}  ORDER BY roaaddress ASC LIMIT #{start} , #{size}
 	</select>
 	<select id="getList" resultType="map">
-		SELECT * FROM courses   ORDER BY idcourses ASC LIMIT #{start} , #{size}
+		SELECT * FROM courses   ORDER BY roaaddress ASC LIMIT #{start} , #{size}
+	</select>
+	<select id="searchList" resultType="map">
+	SELECT * FROM courses WHERE 	roaaddress LIKE '%${query}%' OR  coursename LIKE '%${query}%' OR courseteachername   LIKE '%${query}%' OR content LIKE '%${query}%' OR  trainingplace LIKE '%${query}%' 
+	OR opername LIKE '%${query}%' OR opernumber LIKE '%${query}%' ORDER BY roaaddress ASC LIMIT #{start} , #{size}
 	</select>
 
 	

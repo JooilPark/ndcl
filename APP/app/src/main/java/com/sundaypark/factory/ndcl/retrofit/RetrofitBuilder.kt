@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitBuilder {
 //    val IP = "http://192.168.0.75:8080"
-    val IP = "http://192.168.0.19:8080"
+    val IP = "http://192.168.0.65:8080"
 
     var gson = GsonBuilder()
         .setDateFormat("yyyy-MM-dd'T'HH:mm:ss")

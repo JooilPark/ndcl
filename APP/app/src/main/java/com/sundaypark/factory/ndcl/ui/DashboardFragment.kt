@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -17,6 +18,7 @@ import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnerCitys
 import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnersubCitys
 import com.sundaypark.factory.ndcl.ui.adapters.adapterCoursesList
 import com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel
+import kotlinx.android.synthetic.main.fragment_dashboard.view.*
 
 class DashboardFragment : Fragment() {
     val TAG: String = "[DashboardFragment]"
@@ -42,21 +44,18 @@ class DashboardFragment : Fragment() {
         ).apply {
             context ?: mDashboardBinding.root
             // 메인 도시
-            val adapterMainCitys =
-                AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
+            val adapterMainCitys = AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
             MainCitys.adapter = adapterMainCitys
             MainCitys.onItemSelectedListener = adapterMainCitys
             SubScriptMainCity(adapterMainCitys)
             adapterMainCitys.SelectItem.observe(viewLifecycleOwner, Observer {
                 Log.i(TAG, "SELECT ITEM " + it)
                 Viewmodel.getSubCitys(it)
-
             })
 
 
             //서브 시티
-            val adaptersubcitys =
-                AdapterSpinnersubCitys(requireContext(), R.layout.item_spinner_citys)
+            val adaptersubcitys = AdapterSpinnersubCitys(requireContext(), R.layout.item_spinner_citys)
             Subcitys.adapter = adaptersubcitys
             Subcitys.onItemSelectedListener = adaptersubcitys
 
@@ -68,7 +67,22 @@ class DashboardFragment : Fragment() {
                 adapterCourses.addClearAll(it)
                 adapterCourses.notifyDataSetChanged()
             })
+            TopMenu.setTransitionListener(object : MotionLayout.TransitionListener {
+                override fun onTransitionTrigger(p0: MotionLayout?, p1: Int, p2: Boolean, p3: Float) {}
+                override fun onTransitionStarted(p0: MotionLayout?, p1: Int, p2: Int) {}
+                override fun onTransitionChange(p0: MotionLayout?, p1: Int, p2: Int, p3: Float) {}
+                override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
+                       Log.i(TAG , "onTransitionCompleted ${p1}");
+                        if(p1 == R.id.start){
+                            mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_search)
+                        }else{
+                            mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_revert)
+                        }
+                }
+            })
+            buttonSearch.setOnClickListener {
 
+            }
         }
         mDashboardBinding.lifecycleOwner = viewLifecycleOwner
         mDashboardBinding.data = Viewmodel
@@ -110,9 +124,7 @@ class DashboardFragment : Fragment() {
                     Viewmodel.getCourses(it1, 0)
                     //mDashboardBinding.Subcitys.setSelection(0)
                 }
-
             }
-
         })
         _adapterCourse.SelectItem.observe(viewLifecycleOwner, Observer {
             Log.i(TAG, "SelectSubCity = $it")
