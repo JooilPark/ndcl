@@ -19,13 +19,32 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
 
     fun getSubCitys(select: Int) {
         Log.i(TAG, "getSubCitys  ${maincitys.value!!.get(select)}")
-        viewModelScope.launch { withContext(Dispatchers.IO){
-            subCitys.postValue( db.daocitys().getSubcitys(maincitys.value!![select].cityid))
-        } }
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) {
+                subCitys.postValue(db.daocitys().getSubcitys(maincitys.value!![select].cityid))
+            }
+        }
 
 
     }
+    fun getSearch(query : String , page : Int){
+        viewModelScope.launch {
+            withContext(Dispatchers.IO){
+                RetrofitBuilder.getService.getSearch(query , page).enqueue(object : retrofit2.Callback<List<NewCourses>>{
+                    override fun onFailure(call: Call<List<NewCourses>>, t: Throwable) {
+                        TODO("Not yet implemented")
+                    }
 
+                    override fun onResponse(
+                        call: Call<List<NewCourses>>,
+                        response: Response<List<NewCourses>>
+                    ) {
+                        TODO("Not yet implemented")
+                    }
+                })
+            }
+        }
+    }
 
     val SelectCourses = MutableLiveData<List<NewCourses>>()
 
