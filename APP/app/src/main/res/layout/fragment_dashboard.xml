@@ -5,11 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <import type="androidx.lifecycle.MutableLiveData"/>
         <variable
             name="data"
             type="com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel" />
-
+        <variable
+            name="loading"
+            type="MutableLiveData&lt;Boolean>" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -114,8 +116,14 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/TopMenu"
             tools:itemCount="20"
+
             tools:listitem="@layout/recycler_course_item" />
 
+
+        <include
+            layout="@layout/custom_loadbar"
+            app:loading = "@{loading}"
+            />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

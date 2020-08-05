@@ -10,21 +10,33 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.FragmentDashboardBinding
 import com.sundaypark.factory.ndcl.db.RoomDB
 import com.sundaypark.factory.ndcl.db.entitny.EntityCitys
+import com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses
 import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnerCitys
 import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnersubCitys
 import com.sundaypark.factory.ndcl.ui.adapters.adapterCoursesList
 import com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel
-import kotlinx.android.synthetic.main.fragment_dashboard.view.*
 
 class DashboardFragment : Fragment() {
     val TAG: String = "[DashboardFragment]"
 
     lateinit var mDashboardBinding: FragmentDashboardBinding
-    val adapterCourses = adapterCoursesList()
+    val adapterCourses = adapterCoursesList(config = object : DiffUtil.ItemCallback<NewCourses>(){
+        override fun areContentsTheSame(oldItem: NewCourses, newItem: NewCourses): Boolean {
+            return oldItem.coursename == newItem.coursename
+        }
+
+        override fun areItemsTheSame(oldItem: NewCourses, newItem: NewCourses): Boolean {
+            return oldItem.operatingday == newItem.operatingday
+        }
+
+    } , itemClickCallback = {})
 
 
     private val Viewmodel: CourseViewModel by viewModels {
@@ -63,9 +75,10 @@ class DashboardFragment : Fragment() {
 
             // 목록 조회
             Courses.adapter = adapterCourses
+
+
             Viewmodel.SelectCourses.observe(viewLifecycleOwner, Observer {
-                adapterCourses.addClearAll(it)
-                adapterCourses.notifyDataSetChanged()
+                adapterCourses.submitList(it)
             })
             TopMenu.setTransitionListener(object : MotionLayout.TransitionListener {
                 override fun onTransitionTrigger(p0: MotionLayout?, p1: Int, p2: Boolean, p3: Float) {}
@@ -83,9 +96,14 @@ class DashboardFragment : Fragment() {
             buttonSearch.setOnClickListener {
 
             }
+
+            loading = Viewmodel.ShowLoading
+
+
         }
-        mDashboardBinding.lifecycleOwner = viewLifecycleOwner
+        mDashboardBinding.lifecycleOwner = this
         mDashboardBinding.data = Viewmodel
+        initCoursesList()
         return mDashboardBinding.root
     }
 
@@ -129,6 +147,18 @@ class DashboardFragment : Fragment() {
         _adapterCourse.SelectItem.observe(viewLifecycleOwner, Observer {
             Log.i(TAG, "SelectSubCity = $it")
             Viewmodel.subCitys.value?.get(it)?.let { it1 -> Viewmodel.getCourses(it1, 0) }
+        })
+
+    }
+    private fun initCoursesList(){
+        mDashboardBinding.Courses.addOnScrollListener(object : RecyclerView.OnScrollListener(){
+            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                val layoutManager = recyclerView.layoutManager as LinearLayoutManager
+                val lastPosition = layoutManager.findLastVisibleItemPosition()
+                if(lastPosition == adapterCourses.itemCount -1){
+                    // 로드 시작
+                }
+            }
         })
     }
 

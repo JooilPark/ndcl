@@ -27,19 +27,21 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
 
 
     }
+    val ShowLoading : MutableLiveData<Boolean> = MutableLiveData(false)
     fun getSearch(query : String , page : Int){
         viewModelScope.launch {
             withContext(Dispatchers.IO){
+                ShowLoading.value = true
                 RetrofitBuilder.getService.getSearch(query , page).enqueue(object : retrofit2.Callback<List<NewCourses>>{
                     override fun onFailure(call: Call<List<NewCourses>>, t: Throwable) {
-                        TODO("Not yet implemented")
+                        ShowLoading.value = false
                     }
 
                     override fun onResponse(
                         call: Call<List<NewCourses>>,
                         response: Response<List<NewCourses>>
                     ) {
-                        TODO("Not yet implemented")
+                        ShowLoading.value = false
                     }
                 })
             }
@@ -50,6 +52,7 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
 
 
     fun getCourses(select: EntityCitys, page: Int) {
+        ShowLoading.value = true
         viewModelScope.launch {
             withContext(Dispatchers.Main) {
                 RetrofitBuilder.getService.getList(
@@ -61,12 +64,14 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
                     .enqueue(object : retrofit2.Callback<List<NewCourses>> {
                         override fun onFailure(call: Call<List<NewCourses>>, t: Throwable) {
                             Log.i(TAG, "onFailure" + t.message)
+                            ShowLoading.postValue(false)
                         }
 
                         override fun onResponse(
                             call: Call<List<NewCourses>>,
                             response: Response<List<NewCourses>>
                         ) {
+                            ShowLoading.postValue(false)
                             Log.i(TAG, "onResponse[" + response.isSuccessful)
                             if (response.isSuccessful) {
                                 Log.i(TAG, "response.body()[" + response.body()?.size)

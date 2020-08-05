@@ -7,8 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.MutableLiveData
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerCitysBinding
 import com.sundaypark.factory.ndcl.databinding.ItemSpinnerDropdownBinding
 import com.sundaypark.factory.ndcl.databinding.RecyclerCourseItemBinding
@@ -102,36 +107,45 @@ class AdapterSpinnersubCitys(context: Context, resource: Int) :
     }
 }
 
-class adapterCoursesList : RecyclerView.Adapter<adapterCoursesList.ViewHolder>() {
-    var mCourses: ArrayList<NewCourses> = ArrayList()
-
-    inner class ViewHolder(private val courseItem: RecyclerCourseItemBinding) :
-        RecyclerView.ViewHolder(courseItem.root) {
-        fun onBind(mcourse: NewCourses) {
-            courseItem.item = mcourse
+class adapterCoursesList(
+    config: DiffUtil.ItemCallback<NewCourses>,
+    private val itemClickCallback: ((NewCourses) -> Unit)?
+) :
+    DataBindingListAdapter<NewCourses, RecyclerCourseItemBinding>(config) {
+    override fun onCreateBinding(VG: ViewGroup): RecyclerCourseItemBinding {
+        val binding =DataBindingUtil.inflate<RecyclerCourseItemBinding>(LayoutInflater.from(VG.context) , R.layout.recycler_course_item , VG , false )
+        binding.root.setOnClickListener {
+            binding.item?.let {
+                itemClickCallback?.invoke(it)
+            }
         }
+        return binding
     }
 
-    fun addClearAll(c: List<NewCourses>) {
-        mCourses.clear()
-        mCourses.addAll(c)
+    override fun bind(binding: RecyclerCourseItemBinding, item: NewCourses) {
+        binding.item = item
     }
 
-    fun ClearNoti() {
-        mCourses.clear()
-        notifyDataSetChanged()
+}
+
+abstract class DataBindingListAdapter<T , VDB : ViewDataBinding>(config: DiffUtil.ItemCallback<T>) :
+    ListAdapter<T, DataBindingListAdapter.DataBindingViewholde<VDB>>(config){
+
+    protected abstract fun onCreateBinding(VG : ViewGroup): VDB
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DataBindingViewholde<VDB> {
+        val binding  = onCreateBinding(parent)
+        return DataBindingViewholde(binding)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val itemView = RecyclerCourseItemBinding.inflate(LayoutInflater.from(parent.context))
-        return ViewHolder(itemView)
-    }
+    protected abstract fun bind(binding: VDB , item : T)
 
-    override fun getItemCount() = mCourses.size
-
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.onBind(mCourses[position])
+    override fun onBindViewHolder(holder: DataBindingViewholde<VDB>, position: Int) {
+        bind(holder.binding , getItem(position))
+        holder.binding.executePendingBindings()
     }
+    // ViewHolder 패턴
+    class DataBindingViewholde<out VDB : ViewDataBinding> constructor(val binding: VDB) : RecyclerView.ViewHolder( binding.root)
 }
 
 
