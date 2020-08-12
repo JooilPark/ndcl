@@ -22,7 +22,11 @@ import com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses
 import kotlinx.android.synthetic.main.item_spinner_dropdown.view.*
 
 
-class AdapterSpinnerCitys(context: Context, resource: Int) :
+class AdapterSpinnerCitys(
+    context: Context,
+    resource: Int,
+    private val OnItemClickListiner: ((Int) -> Unit?)
+) :
     ArrayAdapter<EntityCitys>(context, resource), AdapterView.OnItemSelectedListener {
 
     var mLayoutInflater: LayoutInflater =
@@ -31,12 +35,12 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
-            val contentView =
-                ItemSpinnerCitysBinding.inflate(mLayoutInflater, parent, false).apply {
-                    item = getItem(position)
-                }
+        val contentView =
+            ItemSpinnerCitysBinding.inflate(mLayoutInflater, parent, false).apply {
+                item = getItem(position)
+            }
 
-            return contentView.root
+        return contentView.root
 
     }
 
@@ -49,28 +53,25 @@ class AdapterSpinnerCitys(context: Context, resource: Int) :
 
         }
 
-        Log.i("SELECT", "onItemSelected2 [" + position + "][" + SelectItem.value)
+
         return contentView.root
 
 
     }
-
-    var SelectItem = MutableLiveData<Int>()
-
     override fun onNothingSelected(parent: AdapterView<*>?) {
         Log.i("SELECT", "onNothingSelected")
     }
-
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-
         Log.i("SELECT", "onItemSelected [" + position)
-        SelectItem.value = position
-        view!!.isSelected = true
-        notifyDataSetChanged()
+        OnItemClickListiner.invoke(position)
     }
 }
 
-class AdapterSpinnersubCitys(context: Context, resource: Int) :
+class AdapterSpinnersubCitys(
+    context: Context,
+    resource: Int,
+    private val OnItemClickListiner: ((Int) -> Unit?)
+) :
     ArrayAdapter<EntityCitys>(context, resource), AdapterView.OnItemSelectedListener {
 
     var mLayoutInflater: LayoutInflater =
@@ -88,22 +89,20 @@ class AdapterSpinnersubCitys(context: Context, resource: Int) :
         val ContentView: ItemSpinnerDropdownBinding =
             ItemSpinnerDropdownBinding.inflate(mLayoutInflater, null, false)
         ContentView.item = getItem(position)
-        ContentView.root.isSelected = SelectItem.value == position
         return ContentView.root
 
 
     }
 
-    var SelectItem = MutableLiveData<Int>()
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
         Log.i("SELECT", "onNothingSelected")
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-
+        OnItemClickListiner.invoke(position)
         Log.i("SELECT", "onItemSelected [" + position)
-        SelectItem.value = position
+
     }
 }
 
@@ -113,7 +112,12 @@ class adapterCoursesList(
 ) :
     DataBindingListAdapter<NewCourses, RecyclerCourseItemBinding>(config) {
     override fun onCreateBinding(VG: ViewGroup): RecyclerCourseItemBinding {
-        val binding =DataBindingUtil.inflate<RecyclerCourseItemBinding>(LayoutInflater.from(VG.context) , R.layout.recycler_course_item , VG , false )
+        val binding = DataBindingUtil.inflate<RecyclerCourseItemBinding>(
+            LayoutInflater.from(VG.context),
+            R.layout.recycler_course_item,
+            VG,
+            false
+        )
         binding.root.setOnClickListener {
             binding.item?.let {
                 itemClickCallback?.invoke(it)
@@ -128,24 +132,26 @@ class adapterCoursesList(
 
 }
 
-abstract class DataBindingListAdapter<T , VDB : ViewDataBinding>(config: DiffUtil.ItemCallback<T>) :
-    ListAdapter<T, DataBindingListAdapter.DataBindingViewholde<VDB>>(config){
+abstract class DataBindingListAdapter<T, VDB : ViewDataBinding>(config: DiffUtil.ItemCallback<T>) :
+    ListAdapter<T, DataBindingListAdapter.DataBindingViewholde<VDB>>(config) {
 
-    protected abstract fun onCreateBinding(VG : ViewGroup): VDB
+    protected abstract fun onCreateBinding(VG: ViewGroup): VDB
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DataBindingViewholde<VDB> {
-        val binding  = onCreateBinding(parent)
+        val binding = onCreateBinding(parent)
         return DataBindingViewholde(binding)
     }
 
-    protected abstract fun bind(binding: VDB , item : T)
+    protected abstract fun bind(binding: VDB, item: T)
 
     override fun onBindViewHolder(holder: DataBindingViewholde<VDB>, position: Int) {
-        bind(holder.binding , getItem(position))
+        bind(holder.binding, getItem(position))
         holder.binding.executePendingBindings()
     }
+
     // ViewHolder 패턴
-    class DataBindingViewholde<out VDB : ViewDataBinding> constructor(val binding: VDB) : RecyclerView.ViewHolder( binding.root)
+    class DataBindingViewholde<out VDB : ViewDataBinding> constructor(val binding: VDB) :
+        RecyclerView.ViewHolder(binding.root)
 }
 
 

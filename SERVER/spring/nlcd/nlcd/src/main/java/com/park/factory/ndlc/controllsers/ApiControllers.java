@@ -87,9 +87,9 @@ public class ApiControllers {
 	
 	@PostMapping(path = "/getSearch", produces = MediaType.APPLICATION_JSON_VALUE)
 	@ApiOperation(value = "검색  쿼리" , notes = "이름 전번 주소 등으로 검색")	
-	public List<courses> getSearch(@RequestBody PageingParam param){
-		log.info("getSearch = " + param.Query  + "]page[" + param.page);
-		return mcoursesMapper.searchList(param.Query,param.page *20, 40);	
+	public List<courses> getSearch(@RequestParam String Query , @RequestParam int page) {
+		log.info("getSearch = " + Query  + "]page[" + page);
+		return mcoursesMapper.searchList(Query,page *20, 40);	
 	}
 	
 	

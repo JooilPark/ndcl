@@ -22,22 +22,22 @@ import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnerCitys
 import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnersubCitys
 import com.sundaypark.factory.ndcl.ui.adapters.adapterCoursesList
 import com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel
+import com.sundaypark.factory.ndcl.vo.ListType
 
 class DashboardFragment : Fragment() {
     val TAG: String = "[DashboardFragment]"
 
     lateinit var mDashboardBinding: FragmentDashboardBinding
-    val adapterCourses = adapterCoursesList(config = object : DiffUtil.ItemCallback<NewCourses>(){
+    var adapterCourses = adapterCoursesList(config = object : DiffUtil.ItemCallback<NewCourses>() {
         override fun areContentsTheSame(oldItem: NewCourses, newItem: NewCourses): Boolean {
-            return oldItem.coursename == newItem.coursename
+            return oldItem == newItem
         }
 
         override fun areItemsTheSame(oldItem: NewCourses, newItem: NewCourses): Boolean {
-            return oldItem.operatingday == newItem.operatingday
+            return oldItem == newItem
         }
 
-    } , itemClickCallback = {})
-
+    }, itemClickCallback = {})
 
     private val Viewmodel: CourseViewModel by viewModels {
         CourseViewModel.CourseVMFactory(RoomDB.getInstanc(requireContext()))
@@ -56,18 +56,29 @@ class DashboardFragment : Fragment() {
         ).apply {
             context ?: mDashboardBinding.root
             // 메인 도시
-            val adapterMainCitys = AdapterSpinnerCitys(requireContext(), R.layout.item_spinner_citys)
+            val adapterMainCitys = AdapterSpinnerCitys(
+                requireContext(),
+                R.layout.item_spinner_citys,
+                OnItemClickListiner = {
+                    Viewmodel.Coursereset()
+
+                    Viewmodel.getSubCitys(it)
+                })
             MainCitys.adapter = adapterMainCitys
             MainCitys.onItemSelectedListener = adapterMainCitys
             SubScriptMainCity(adapterMainCitys)
-            adapterMainCitys.SelectItem.observe(viewLifecycleOwner, Observer {
-                Log.i(TAG, "SELECT ITEM " + it)
-                Viewmodel.getSubCitys(it)
-            })
 
 
             //서브 시티
-            val adaptersubcitys = AdapterSpinnersubCitys(requireContext(), R.layout.item_spinner_citys)
+            val adaptersubcitys = AdapterSpinnersubCitys(
+                requireContext(),
+                R.layout.item_spinner_citys,
+                OnItemClickListiner = {
+                    Log.i(TAG, "SelectSubCity = $it")
+                    Viewmodel.Coursereset()
+
+                    Viewmodel.subCitys.value?.get(it)?.let { it1 -> Viewmodel.CoursesGet(it1, 0) }
+                })
             Subcitys.adapter = adaptersubcitys
             Subcitys.onItemSelectedListener = adaptersubcitys
 
@@ -76,24 +87,30 @@ class DashboardFragment : Fragment() {
             // 목록 조회
             Courses.adapter = adapterCourses
 
-
             Viewmodel.SelectCourses.observe(viewLifecycleOwner, Observer {
                 adapterCourses.submitList(it)
+
             })
             TopMenu.setTransitionListener(object : MotionLayout.TransitionListener {
                 override fun onTransitionTrigger(p0: MotionLayout?, p1: Int, p2: Boolean, p3: Float) {}
                 override fun onTransitionStarted(p0: MotionLayout?, p1: Int, p2: Int) {}
                 override fun onTransitionChange(p0: MotionLayout?, p1: Int, p2: Int, p3: Float) {}
                 override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
-                       Log.i(TAG , "onTransitionCompleted ${p1}");
-                        if(p1 == R.id.start){
-                            mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_search)
-                        }else{
-                            mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_revert)
-                        }
+
+                    if (p1 == R.id.start) {
+                        Log.i(TAG, "onTransitionCompleted START")
+                        mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_search)
+                        Viewmodel.listType = ListType.COUSE
+                    } else {
+                        Log.i(TAG, "onTransitionCompleted END")
+                        mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_revert)
+                        Viewmodel.listType = ListType.SEARCH
+                    }
                 }
             })
             buttonSearch.setOnClickListener {
+                Viewmodel.Coursereset()
+                searchStart()
 
             }
 
@@ -104,6 +121,8 @@ class DashboardFragment : Fragment() {
         mDashboardBinding.lifecycleOwner = this
         mDashboardBinding.data = Viewmodel
         initCoursesList()
+
+
         return mDashboardBinding.root
     }
 
@@ -111,20 +130,14 @@ class DashboardFragment : Fragment() {
         Viewmodel.maincitys.observe(viewLifecycleOwner, Observer {
             mNewCitys = it
             Log.i("test", "${it}")
-
             _adapterMainCitys.clear()
             _adapterMainCitys.addAll(mNewCitys)
             _adapterMainCitys.notifyDataSetChanged()
-            if (!it.isEmpty()) {
-                _adapterMainCitys.SelectItem.value = 0
-            }
-
         })
     }
 
     private fun subscriptCourses(_adapterCourse: AdapterSpinnersubCitys) {
-
-
+        Viewmodel.Coursereset()
         Viewmodel.subCitys.observe(viewLifecycleOwner, Observer {
             if (it.isNullOrEmpty()) {
                 Log.i(TAG, "subCitys = null")
@@ -134,32 +147,44 @@ class DashboardFragment : Fragment() {
             } else {
 
                 Log.i(TAG, "subCitys = ${it.size}")
+
                 _adapterCourse.clear()
                 _adapterCourse.addAll(it)
-
                 _adapterCourse.notifyDataSetChanged()
-                Viewmodel.maincitys.value?.get(0)?.let { it1 ->
-                    Viewmodel.getCourses(it1, 0)
-                    //mDashboardBinding.Subcitys.setSelection(0)
-                }
+                Viewmodel.CoursesGet(it[0], 0)
             }
         })
-        _adapterCourse.SelectItem.observe(viewLifecycleOwner, Observer {
-            Log.i(TAG, "SelectSubCity = $it")
-            Viewmodel.subCitys.value?.get(it)?.let { it1 -> Viewmodel.getCourses(it1, 0) }
-        })
+
 
     }
-    private fun initCoursesList(){
-        mDashboardBinding.Courses.addOnScrollListener(object : RecyclerView.OnScrollListener(){
+
+    private fun initCoursesList() {
+        mDashboardBinding.Courses.addOnScrollListener(object : RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
                 val layoutManager = recyclerView.layoutManager as LinearLayoutManager
                 val lastPosition = layoutManager.findLastVisibleItemPosition()
-                if(lastPosition == adapterCourses.itemCount -1){
-                    // 로드 시작
+                if (lastPosition == adapterCourses.itemCount - 1) {
+                    // 로드 시작 리프래시 될때도  로드 된다 .
+                    Log.i(TAG, "onScrolled  ${Viewmodel.listType}  ")
+                    Viewmodel.lastCitys.value?.let {
+                        if (Viewmodel.listType == ListType.COUSE) {
+                            Viewmodel.CoursesGet(it, Viewmodel.listPageCount)
+                        } else {
+                            searchStart()
+                        }
+                    }
+
+
                 }
             }
         })
+    }
+
+    fun searchStart() {
+        mDashboardBinding.editTextTextSearch.text?.toString().let {
+
+            Viewmodel.getSearch(it, Viewmodel.listPageCount)
+        }
     }
 
 
