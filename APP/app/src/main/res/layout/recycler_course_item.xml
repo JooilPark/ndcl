@@ -29,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{item.roaaddress}"
+            style="@style/listitem_BottomText"
             tools:text="@tools:sample/lorem" />
     </LinearLayout>
 </layout>

@@ -62,7 +62,7 @@ class AdapterSpinnerCitys(
         Log.i("SELECT", "onNothingSelected")
     }
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        Log.i("SELECT", "onItemSelected [" + position)
+        Log.i("SELECT", "main onItemSelected [" + position)
         OnItemClickListiner.invoke(position)
     }
 }
@@ -101,7 +101,7 @@ class AdapterSpinnersubCitys(
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
         OnItemClickListiner.invoke(position)
-        Log.i("SELECT", "onItemSelected [" + position)
+        Log.i("SELECT", "sub onItemSelected [" + position)
 
     }
 }

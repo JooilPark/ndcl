@@ -23,6 +23,7 @@ import com.sundaypark.factory.ndcl.ui.adapters.AdapterSpinnersubCitys
 import com.sundaypark.factory.ndcl.ui.adapters.adapterCoursesList
 import com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel
 import com.sundaypark.factory.ndcl.vo.ListType
+import kotlinx.coroutines.*
 
 class DashboardFragment : Fragment() {
     val TAG: String = "[DashboardFragment]"
@@ -48,12 +49,19 @@ class DashboardFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        Viewmodel.selectCourses.observe(viewLifecycleOwner, Observer {
+            Log.i(TAG , "SelectCourses ${ it.size}")
+            adapterCourses.submitList(it)
+        })
         mDashboardBinding = DataBindingUtil.inflate<FragmentDashboardBinding>(
             inflater,
             R.layout.fragment_dashboard,
             container,
             false
         ).apply {
+            // 목록 조회
+            Courses.adapter = adapterCourses
+
             context ?: mDashboardBinding.root
             // 메인 도시
             val adapterMainCitys = AdapterSpinnerCitys(
@@ -74,41 +82,56 @@ class DashboardFragment : Fragment() {
                 requireContext(),
                 R.layout.item_spinner_citys,
                 OnItemClickListiner = {
-                    Log.i(TAG, "SelectSubCity = $it")
+
+                    Log.i(TAG, "SelectSubCity = ${Viewmodel.subCitys.value}")
                     Viewmodel.Coursereset()
 
                     Viewmodel.subCitys.value?.get(it)?.let { it1 -> Viewmodel.CoursesGet(it1, 0) }
+
                 })
             Subcitys.adapter = adaptersubcitys
             Subcitys.onItemSelectedListener = adaptersubcitys
 
             subscriptCourses(_adapterCourse = adaptersubcitys)
 
-            // 목록 조회
-            Courses.adapter = adapterCourses
 
-            Viewmodel.SelectCourses.observe(viewLifecycleOwner, Observer {
-                adapterCourses.submitList(it)
 
-            })
+
             TopMenu.setTransitionListener(object : MotionLayout.TransitionListener {
                 override fun onTransitionTrigger(p0: MotionLayout?, p1: Int, p2: Boolean, p3: Float) {}
                 override fun onTransitionStarted(p0: MotionLayout?, p1: Int, p2: Int) {}
                 override fun onTransitionChange(p0: MotionLayout?, p1: Int, p2: Int, p3: Float) {}
                 override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
-
                     if (p1 == R.id.start) {
-                        Log.i(TAG, "onTransitionCompleted START")
-                        mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_search)
-                        Viewmodel.listType = ListType.COUSE
+                        mDashboardBinding.ChangeButton.setImageResource(android.R.drawable.ic_menu_search)
+
+                        Viewmodel.Coursereset()
+                        if(ChangeButton.isSelected){
+                            ChangeButton.isSelected = false;
+                            Log.i(TAG, "onTransitionCompleted START")
+                            Viewmodel.listType = ListType.COUSE
+                            Viewmodel.CoursesGet(Viewmodel.lastCitys.value!!, 0)
+                        }
+
+
+
                     } else {
-                        Log.i(TAG, "onTransitionCompleted END")
-                        mDashboardBinding.ChangeLayout.setImageResource(android.R.drawable.ic_menu_revert)
-                        Viewmodel.listType = ListType.SEARCH
+
+                        mDashboardBinding.ChangeButton.setImageResource(android.R.drawable.ic_menu_revert)
+                        Viewmodel.Coursereset()
+                        if(!ChangeButton.isSelected){
+                            editTextTextSearch.setText("")
+                            ChangeButton.isSelected = true;
+                            Log.i(TAG, "onTransitionCompleted END")
+                            Viewmodel.listType = ListType.SEARCH
+                        }
+
+
                     }
                 }
             })
             buttonSearch.setOnClickListener {
+
                 Viewmodel.Coursereset()
                 searchStart()
 
@@ -118,6 +141,7 @@ class DashboardFragment : Fragment() {
 
 
         }
+
         mDashboardBinding.lifecycleOwner = this
         mDashboardBinding.data = Viewmodel
         initCoursesList()
@@ -146,12 +170,16 @@ class DashboardFragment : Fragment() {
 
             } else {
 
-                Log.i(TAG, "subCitys = ${it.size}")
-
+                Log.i(TAG, "subCitys = ${it}")
+                Viewmodel.Coursereset()
+                Viewmodel._lastcitys.value =  it[0]
                 _adapterCourse.clear()
                 _adapterCourse.addAll(it)
                 _adapterCourse.notifyDataSetChanged()
-                Viewmodel.CoursesGet(it[0], 0)
+
+                mDashboardBinding.Subcitys.setSelection(0)
+
+
             }
         })
 
@@ -182,8 +210,10 @@ class DashboardFragment : Fragment() {
 
     fun searchStart() {
         mDashboardBinding.editTextTextSearch.text?.toString().let {
+            if(!it.isNullOrEmpty()){
+                Viewmodel.getSearch(it, Viewmodel.listPageCount)
+            }
 
-            Viewmodel.getSearch(it, Viewmodel.listPageCount)
         }
     }
 

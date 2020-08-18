@@ -18,7 +18,7 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
     val TAG = "[CourseViewModel]"
     var maincitys: LiveData<List<EntityCitys>> = db.daocitys().getMainCitys()
     var subCitys: MutableLiveData<List<EntityCitys>> = MutableLiveData()
-    val SelectCourses = MutableLiveData<MutableList<NewCourses>>(mutableListOf())
+    val selectCourses = MutableLiveData<MutableList<NewCourses>>(mutableListOf())
     fun getSubCitys(select: Int) {
         Log.i(TAG, "getSubCitys  ${maincitys.value!!.get(select)}")
         viewModelScope.launch {
@@ -34,6 +34,7 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
         GlobalScope.launch {
             query?.let {
                 SearchWord = it
+                Log.i(TAG, "Load ${it} + ${page}")
                 if (!ShowLoading.value!!) {
                     ShowLoading.postValue(true)
                     RetrofitBuilder.getService.getSearch(query, page)
@@ -52,7 +53,7 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
                                     if (response.body()?.size != 0) {
                                         listPageCount++
                                         response.body()?.let {
-                                            SelectCourses.value!!.addAll(it)
+                                            selectCourses.value!!.addAll(it)
                                         }
 
                                     }
@@ -77,11 +78,11 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
     var listType: ListType = ListType.COUSE
     var listPageCount = 0
     var SearchPageCount = 0
-    private val _lastcitys: MutableLiveData<EntityCitys> = MutableLiveData()
+    val _lastcitys: MutableLiveData<EntityCitys> = MutableLiveData()
     val lastCitys: LiveData<EntityCitys> = _lastcitys
     val Coursereset = {
         listPageCount = 0
-        SelectCourses.value?.clear()
+        selectCourses.value = mutableListOf()
 
     }
 
@@ -115,7 +116,7 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
                                     if (response.body()?.size != 0) {
                                         listPageCount++
                                         response.body()?.let {
-                                            SelectCourses.value!!.addAll(it)
+                                            selectCourses.value!!.addAll(it)
                                         }
 
                                     }

@@ -5,10 +5,10 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
-        motion:duration="1000">
+        motion:duration="500">
         <OnClick
             motion:clickAction="toggle"
-            motion:targetId="@+id/ChangeLayout" />
+            motion:targetId="@+id/ChangeButton" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
@@ -20,24 +20,24 @@
             android:layout_height="wrap_content"
             android:visibility="gone" />
         <Constraint
-            android:id="@+id/ChangeLayout"
+            android:id="@+id/ChangeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_search"
-            motion:layout_constraintBottom_toBottomOf="parent"
-           motion:layout_constraintStart_toEndOf="@id/spinnerGroup"
+            motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintEnd_toEndOf="parent" />
+            motion:layout_constraintBottom_toBottomOf="parent"
+          />
         <Constraint
             android:id="@+id/spinnerGroup"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:visibility="visible"
-            motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintEnd_toStartOf="@id/ChangeLayout"
-            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintEnd_toStartOf="@id/ChangeButton"
+            motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            android:layout_marginRight="0dp" />
+            motion:layout_constraintBottom_toBottomOf="parent"
+            />
 
     </ConstraintSet>
 
@@ -50,22 +50,21 @@
             android:layout_height="wrap_content"
             android:visibility="visible" />
         <Constraint
-            android:id="@+id/ChangeLayout"
+            android:id="@+id/ChangeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_revert"
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintStart_toEndOf="@+id/SearchLayout"
-            android:visibility="gone"
             motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
             android:id="@+id/spinnerGroup"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="0dp"
             android:visibility="gone"
             motion:layout_constraintBottom_toBottomOf="parent"
-            motion:layout_constraintEnd_toStartOf="@id/button_search"
+
             motion:layout_constraintLeft_toLeftOf="parent"
             motion:layout_constraintTop_toTopOf="parent" />
 

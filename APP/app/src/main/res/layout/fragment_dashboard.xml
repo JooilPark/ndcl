@@ -5,10 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="androidx.lifecycle.MutableLiveData"/>
+
+        <import type="androidx.lifecycle.MutableLiveData" />
+
         <variable
             name="data"
             type="com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel" />
+
         <variable
             name="loading"
             type="MutableLiveData&lt;Boolean>" />
@@ -32,40 +35,45 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/spinnerGroup"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="50dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-
-                app:layout_constraintEnd_toStartOf="@id/button_search"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                android:layout_marginEnd="50dp">
 
                 <Spinner
                     android:id="@+id/MainCitys"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
 
                     android:layout_height="30dp"
-                    android:layout_weight="1"
                     android:background="@drawable/spinner_box"
                     android:dropDownVerticalOffset="30dp"
                     android:popupBackground="@drawable/spinner_dropdown"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/Subcitys"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    />
 
                 <Spinner
                     android:id="@+id/Subcitys"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_marginLeft="5dp"
-                    android:layout_weight="1"
                     android:background="@drawable/spinner_box"
                     android:dropDownVerticalOffset="30dp"
                     android:popupBackground="@drawable/spinner_dropdown"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    app:layout_constraintLeft_toRightOf="@id/MainCitys"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
 
-            </LinearLayout>
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
                 android:id="@+id/SearchLayout"
@@ -78,8 +86,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Name" />
+                    android:hint="검색어를 입력해주세요 ."
+                    android:inputType="textPersonName" />
 
                 <ImageButton
                     android:id="@+id/button_search"
@@ -96,16 +104,12 @@
 
 
             <ImageButton
-                android:id="@+id/ChangeLayout"
+                android:id="@+id/ChangeButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:nestedScrollingEnabled="false"
-                android:src="@android:drawable/ic_menu_search"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/spinnerGroup"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:src="@android:drawable/ic_menu_search" />
 
 
         </androidx.constraintlayout.motion.widget.MotionLayout>
@@ -126,8 +130,7 @@
 
         <include
             layout="@layout/custom_loadbar"
-            app:loading = "@{loading}"
-            />
+            app:loading="@{loading}" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
