@@ -114,4 +114,6 @@ class HomeFragment : Fragment() {
         Log.i(TAG, "화면으로 이동 ")
         Navigation.findNavController(BindingView.root).navigate(R.id.navigation_dashboard)
     }
+
+
 }

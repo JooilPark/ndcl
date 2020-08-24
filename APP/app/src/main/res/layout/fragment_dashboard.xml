@@ -2,6 +2,7 @@
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -121,13 +122,25 @@
             android:layout_height="0dp"
 
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/adView"
             app:layout_constraintTop_toBottomOf="@id/TopMenu"
-            tools:itemCount="20"
+            tools:itemCount="40"
 
             tools:listitem="@layout/recycler_course_item" />
 
-
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-9999663550966576~7567990567"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
         <include
             layout="@layout/custom_loadbar"
             app:loading="@{loading}" />

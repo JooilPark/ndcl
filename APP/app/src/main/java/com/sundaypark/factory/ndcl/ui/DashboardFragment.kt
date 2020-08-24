@@ -1,11 +1,13 @@
 package com.sundaypark.factory.ndcl.ui
 
 import android.os.Bundle
+import android.util.DisplayMetrics
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.constraintlayout.motion.widget.MotionLayout
+import androidx.core.view.size
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -13,6 +15,10 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import com.sundaypark.factory.ndcl.R
 import com.sundaypark.factory.ndcl.databinding.FragmentDashboardBinding
 import com.sundaypark.factory.ndcl.db.RoomDB
@@ -25,13 +31,36 @@ import com.sundaypark.factory.ndcl.ui.viewmodel.CourseViewModel
 import com.sundaypark.factory.ndcl.vo.ListType
 import kotlinx.coroutines.*
 
+/**
+ * 해야할일
+ * 검색 화면에서 백키 선택시 리스트로 돌아오기 (종료하면 안됨)
+ * 목록 선택시 팝업으로  상세 정보 보여주기
+ * 검색화면에서 키보드검색으로 검색 시작하기
+ * 
+ */
 class DashboardFragment : Fragment() {
     val TAG: String = "[DashboardFragment]"
+    private val adSize: AdSize
+        get() {
+            val display = requireActivity().windowManager.defaultDisplay
+            val outMetrics = DisplayMetrics()
+            display.getMetrics(outMetrics)
 
+            val density = outMetrics.density
+
+            var adWidthPixels = mDashboardBinding.adView.width.toFloat()
+            if (adWidthPixels == 0f) {
+                adWidthPixels = outMetrics.widthPixels.toFloat()
+            }
+
+            val adWidth = (adWidthPixels / density).toInt()
+            return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(requireActivity(), adWidth)
+        }
     lateinit var mDashboardBinding: FragmentDashboardBinding
     var adapterCourses = adapterCoursesList(config = object : DiffUtil.ItemCallback<NewCourses>() {
         override fun areContentsTheSame(oldItem: NewCourses, newItem: NewCourses): Boolean {
             return oldItem == newItem
+
         }
 
         override fun areItemsTheSame(oldItem: NewCourses, newItem: NewCourses): Boolean {
@@ -49,6 +78,11 @@ class DashboardFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+
+
+
+
         Viewmodel.selectCourses.observe(viewLifecycleOwner, Observer {
             Log.i(TAG , "SelectCourses ${ it.size}")
             adapterCourses.submitList(it)
@@ -59,6 +93,8 @@ class DashboardFragment : Fragment() {
             container,
             false
         ).apply {
+
+
             // 목록 조회
             Courses.adapter = adapterCourses
 
@@ -105,11 +141,12 @@ class DashboardFragment : Fragment() {
                     if (p1 == R.id.start) {
                         mDashboardBinding.ChangeButton.setImageResource(android.R.drawable.ic_menu_search)
 
-                        Viewmodel.Coursereset()
+
                         if(ChangeButton.isSelected){
                             ChangeButton.isSelected = false;
                             Log.i(TAG, "onTransitionCompleted START")
                             Viewmodel.listType = ListType.COUSE
+                            Viewmodel.Coursereset()
                             Viewmodel.CoursesGet(Viewmodel.lastCitys.value!!, 0)
                         }
 
@@ -118,12 +155,14 @@ class DashboardFragment : Fragment() {
                     } else {
 
                         mDashboardBinding.ChangeButton.setImageResource(android.R.drawable.ic_menu_revert)
-                        Viewmodel.Coursereset()
+
                         if(!ChangeButton.isSelected){
+                            Viewmodel.SearchWord = "";
                             editTextTextSearch.setText("")
                             ChangeButton.isSelected = true;
                             Log.i(TAG, "onTransitionCompleted END")
                             Viewmodel.listType = ListType.SEARCH
+                            Viewmodel.Coursereset()
                         }
 
 
@@ -150,6 +189,14 @@ class DashboardFragment : Fragment() {
         return mDashboardBinding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        // 광거
+        MobileAds.initialize(requireActivity()){}
+       // mDashboardBinding.adView.adUnitId = "ca-app-pub-9999663550966576~7567990567"
+       // mDashboardBinding.adView.adSize = adSize
+        mDashboardBinding.adView.loadAd(AdRequest.Builder().build())
+    }
     private fun SubScriptMainCity(_adapterMainCitys: AdapterSpinnerCitys) {
         Viewmodel.maincitys.observe(viewLifecycleOwner, Observer {
             mNewCitys = it

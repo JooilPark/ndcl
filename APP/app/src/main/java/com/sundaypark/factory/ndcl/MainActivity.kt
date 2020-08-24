@@ -19,4 +19,11 @@ class MainActivity : AppCompatActivity() {
         SharedPreferencesManager.init(this)
         DataBindingUtil.setContentView<ActivityMainBinding>(this , R.layout.activity_main)
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        moveTaskToBack(true);
+        finish()
+        android.os.Process.killProcess(android.os.Process.myPid());
+    }
 }
