@@ -87,6 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:ems="10"
+                    android:imeOptions="actionSearch"
                     android:hint="검색어를 입력해주세요 ."
                     android:inputType="textPersonName" />
 

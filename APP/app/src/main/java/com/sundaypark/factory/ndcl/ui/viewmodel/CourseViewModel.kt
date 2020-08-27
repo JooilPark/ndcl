@@ -75,7 +75,7 @@ class CourseViewModel(private val db: RoomDB) : ViewModel() {
     }
 
 
-    var listType: ListType = ListType.COUSE
+
     var listPageCount = 0
     var SearchPageCount = 0
     val _lastcitys: MutableLiveData<EntityCitys> = MutableLiveData()

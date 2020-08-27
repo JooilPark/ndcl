@@ -1,6 +1,8 @@
 package com.sundaypark.factory.ndcl
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -18,12 +20,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         SharedPreferencesManager.init(this)
         DataBindingUtil.setContentView<ActivityMainBinding>(this , R.layout.activity_main)
+
     }
+
 
     override fun onBackPressed() {
         super.onBackPressed()
-        moveTaskToBack(true);
-        finish()
-        android.os.Process.killProcess(android.os.Process.myPid());
+
     }
 }
