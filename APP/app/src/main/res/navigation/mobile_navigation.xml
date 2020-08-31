@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -21,6 +22,15 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.sundaypark.factory.ndcl.ui.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_fragDetailInfo"
+            app:destination="@id/fragDetailInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragDetailInfo"
+        android:name="com.sundaypark.factory.ndcl.ui.FragDetailInfo"
+        android:label="fragment_frag_detail_info"
+        tools:layout="@layout/fragment_frag_detail_info" />
 
 </navigation>
