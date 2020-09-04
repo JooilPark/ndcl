@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -8,8 +10,7 @@
             type="com.sundaypark.factory.ndcl.retrofit.pojo.NewCourses" />
     </data>
 
-    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.FragDetailInfo">
@@ -31,17 +32,16 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="230dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="강좌명" />
+                        android:text="강좌명" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
                         android:gravity="center_vertical"
-                        >
+                        android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -49,6 +49,7 @@
                             android:gravity="center_vertical"
                             android:text="@{info.coursename}"
                             tools:text="강좌명" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -66,14 +67,14 @@
 
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="강사명" />
+                        android:text="강사명" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.courseteachername}"
                         tools:text="강사명" />
@@ -85,14 +86,14 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="교육대상" />
+                        android:text="교육대상" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.edutarget}"
                         tools:text="강사명" />
@@ -105,13 +106,13 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
                         android:text="접수방법구분 " />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.receptionmethod}"
                         tools:text="인터넷·방문접수" />
@@ -122,75 +123,82 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="접수 기간 " />
+                        android:text="접수 기간 " />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.receptionstart + '~' + info.receptionend}"
                         tools:text="2017-08-06  ~ 2017-08-06" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="수강료" />
+                        android:text="수강료" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
-                        android:text="@{info.fee}"
+
+                        app:toPayString="@{info.fee}"
                         tools:text="2000" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="강좌정원수" />
+                        android:text="강좌정원수" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.maxstudents}"
                         tools:text="20" />
 
                 </TableRow>
+
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
                         android:gravity="center"
-                        tools:text="교육 기간 " />
+                        android:text="교육 기간 " />
+
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center_vertical">
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
                             android:text="@{info.trainingstartString + '~' + info.trainingEndString}"
                             tools:text="2017-08-06  ~ 2017-08-06" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -207,52 +215,35 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="교육방법구분" />
+                        android:text="교육방법구분" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.edumthod }"
                         tools:text="오프라인" />
 
                 </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
 
-                    <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        tools:text="교육 기간 " />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="50dp"
-                        android:gravity="center_vertical"
-                        android:text="@{info.trainingstartString + '~' + info.trainingEndString}"
-                        tools:text="강사명" />
-
-                </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="50dp"
                         android:gravity="center"
-                        tools:text="교육 장소 " />
+                        android:text="교육 장소 " />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.trainingplace}"
                         tools:text="레인보우영동도서관" />
@@ -264,14 +255,14 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        tools:text="교육장도로명주소" />
+                        android:text="교육장도로명주소" />
 
                     <TextView
-                        android:layout_width="120dp"
-                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
 
                         android:text="@{info.roaaddress}"
@@ -281,19 +272,20 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:gravity="center"
-                        android:text="학점은행제평가(학점)인정여부 " />
+                    android:layout_height="@dimen/table_heigth">
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="학점은행제평가(학점)\n인정여부 " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
-                        android:text="@{info.bankingevaluation == 0 ? 'N':'Y'}"
+                        app:toTextYesNo="@{info.bankingevaluation}"
+
                         tools:text="Y" />
 
 
@@ -305,15 +297,15 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="직업능력개발훈련비지원강좌여부 " />
+                        android:text="직업능력개발훈련비지원\n강좌여부 " />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
-                        android:text="@{info.developmenttraining == 0 ? 'N':'Y'}"
+                        app:toTextYesNo="@{info.developmenttraining}"
                         tools:text="Y" />
 
                 </TableRow>
@@ -324,15 +316,17 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="평생학습계좌제평가인정여부 " />
+                        android:text="평생학습계좌제평가\n인정여부 " />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
-                        android:text="@{info.accountevaluation == 0 ? 'N':'Y'}"
+                        app:toTextYesNo="@{info.accountevaluation}"
+
+
                         tools:text="Y" />
                 </TableRow>
 
@@ -342,13 +336,13 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
                         android:text="선정방법구분 " />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.receptionselection}"
                         tools:text="선착순" />
@@ -360,27 +354,25 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        android:text="운영기관명 " />
+                        android:text="운영기관" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/table_heigth"
+                     android:gravity="center_vertical"
                         android:orientation="vertical">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center_vertical"
                             android:text="@{info.providername}"
                             tools:text="충청북도 영동군" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center_vertical"
                             android:text="@{info.opername}"
                             tools:text="영동군청 생활지원과" />
 
@@ -395,45 +387,46 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
                         android:text="운영기관전화번호 " />
 
                     <TextView
                         android:id="@+id/Phone"
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.opernumber}"
                         tools:text="043-740-3772" />
                 </TableRow>
+
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="50dp"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
                         android:text="운영기관전화번호 " />
 
                     <TextView
 
                         android:layout_width="120dp"
-                        android:layout_height="match_parent"
+                        android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
                         android:text="@{info.homepage}"
                         tools:text="https://www.rainbowlib.go.kr/" />
                 </TableRow>
 
             </TableLayout>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintRight_toRightOf="parent"
                 android:text="Next"
-                app:layout_constraintTop_toBottomOf="@id/table"
-                />
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/table" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </layout>
