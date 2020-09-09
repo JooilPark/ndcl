@@ -132,7 +132,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
-                        android:text="@{info.receptionstart + '~' + info.receptionend}"
+
+
+                        app:StartDay="@{info.receptionstart}"
+                        app:EndDay="@{info.receptionend}"
+
                         tools:text="2017-08-06  ~ 2017-08-06" />
 
                 </TableRow>
@@ -196,7 +200,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
-                            android:text="@{info.trainingstartString + '~' + info.trainingEndString}"
+
+                            app:StartDay="@{info.trainingstartString}"
+                            app:EndDay="@{info.trainingEndString}"
                             tools:text="2017-08-06  ~ 2017-08-06" />
 
                         <TextView
@@ -242,6 +248,7 @@
                         android:text="교육 장소 " />
 
                     <TextView
+                        android:id="@+id/pleace"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
@@ -261,10 +268,12 @@
                         android:text="교육장도로명주소" />
 
                     <TextView
+
+                        android:id="@+id/addr"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/table_heigth"
-                        android:gravity="center_vertical"
 
+                        android:gravity="center_vertical"
                         android:text="@{info.roaaddress}"
                         tools:text="충청북도 영동군 영동읍 계산로 2길 25" />
 
@@ -408,10 +417,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/table_heigth"
                         android:gravity="center"
-                        android:text="운영기관전화번호 " />
+                        android:text="운영기관홈페이지 " />
 
                     <TextView
-
+                        android:id="@+id/HomePage"
                         android:layout_width="120dp"
                         android:layout_height="@dimen/table_heigth"
                         android:gravity="center_vertical"
@@ -422,9 +431,10 @@
             </TableLayout>
 
             <Button
+                android:id="@+id/buttonback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Next"
+                android:text="close"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/table" />
         </androidx.constraintlayout.widget.ConstraintLayout>

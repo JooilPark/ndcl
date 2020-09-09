@@ -18,6 +18,4 @@ public class Ndcl2Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Ndcl2Application.class, args);
 	}
-	
-
 }

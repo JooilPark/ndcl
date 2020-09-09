@@ -23,6 +23,29 @@ object BindingAdapters {
     fun toPayString(view: TextView, fee: Int) {
         view.text = "${fee} 원"
     }
+    @JvmStatic
+    @BindingAdapter("app:StartDay","app:EndDay")
+    fun toStartEndDay(view: TextView, start: String? , end : String?) {
+
+        if(start.isNullOrBlank().and(end.isNullOrBlank())){
+            view.text = "기간 정보 없음"
+            return
+        }
+        if(!start.isNullOrBlank()){
+            view.text = " ${start}  ~  ?"
+            return
+        }
+        if(!end.isNullOrBlank()){
+            view.text = " ?  ~ ${end}"
+            return
+        }
+
+
+
+
+
+    }
+
 
 
 }

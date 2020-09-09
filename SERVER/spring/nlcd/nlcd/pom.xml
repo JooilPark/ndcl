@@ -101,7 +101,12 @@
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.9.2</version>
 		</dependency>
-
+		<!-- 크롤링용 -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.3.1</version>
+</dependency>
 
 	</dependencies>
 
